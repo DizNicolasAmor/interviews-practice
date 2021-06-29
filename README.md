@@ -5,6 +5,14 @@
 ### Javascript
 
 **What does "data type" mean and how many data types are in JS?**
+Data type in programming is a classification that is used for specifying with kind of operation can be done with a given value.
+In Javascript we have 6 different primitive data types:
+1. string
+2. boolean
+3. number
+4. null
+5. Symbol
+6. undefined
 
 Complete
 
@@ -13,10 +21,20 @@ Complete
 Complete
 
 **What is Scope?**
+It's a policy that manages the availability of variables.
+In javascript we have different scopes:
+1. Block scope - Using let and const.
+2. Function scope - Using let, const and var.
+3. Module scope - For variables, functions and classes.
+4. Global scope - Is accessible from everywhere, examples: `window` object in browser and `process` object in nodejs.
+5. Lexical scope - Is determined statically by the position of the variables within the nested function scopes.
+
 
 Complete
 
 **What is the Event loop?**
+It's the process of dispatching events and executing instructions in a javascript program.
+
 
 Complete
 
@@ -25,8 +43,8 @@ Complete
 Complete
 
 **What is Closure?**
-
-Complete
+It's a combination of a function bundled together with references to its surrounding state.
+Basically it's a function that is created inside another one.
 
 **What is Immutability?**
 
