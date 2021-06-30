@@ -17,8 +17,8 @@ In Javascript we have 6 different primitive data types:
 Complete
 
 **What is hoisting?**
+Is a javascript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
-Complete
 
 **What is Scope?**
 It's a policy that manages the availability of variables.
