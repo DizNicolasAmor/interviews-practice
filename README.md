@@ -56,6 +56,10 @@ Immutability is an attribute that forbids a data type mutation.
 Complete
 
 **How to copy an object?**
+We can use a mix of `JSON.parse` and `JSON.stringify` methods to copy an object with any level of deepness. However this is a naive solution.
+We also have the method `assign` from the global object `Object` with it we can copy objects with 1 level of deepness in a very performant way.
+For object with greeter than 1 level of deepness we have to use another solution as a recursive `Object.assign` call.
+Speaking about third-party solutions we could use `lodash.merge` method to achieve that too.
 
 Complete
 
