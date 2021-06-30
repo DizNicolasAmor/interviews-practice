@@ -60,6 +60,7 @@ Complete
 Complete
 
 **What is a HOF (high order function)?**
+A high order function is a function that takes at least one function as an argument or returns a function.
 
 Complete
 
