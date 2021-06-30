@@ -51,6 +51,7 @@ It's a combination of a function bundled together with references to its surroun
 Basically it's a function that is created inside another one.
 
 **What is Immutability?**
+Immutability is an attribute that forbids a data type mutation.
 
 Complete
 
