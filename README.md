@@ -39,6 +39,10 @@ It's the process of dispatching events and executing instructions in a javascrip
 Complete
 
 **Explain Apply, Bind and Call functions**
+1. Bind: Creates a new function with a new context assigned by the first argument on `bind` invocation.
+2. Call: Call a function with a new context assigned by the first argument.
+3. Apply: It's the same as `call` but `apply` taskes an array as a unique argument where the first position is the new context and the rest of them are the arguments.
+
 
 Complete
 
