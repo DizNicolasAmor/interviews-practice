@@ -5,40 +5,53 @@
 ### Javascript
 
 **What does "data type" mean and how many data types are in JS?**
-
-Complete
+Data type in programming is a classification that is used for specifying with kind of operation can be done with a given value.
+In Javascript we have 6 different primitive data types:
+1. string
+2. boolean
+3. number
+4. null
+5. Symbol
+6. undefined
 
 **What is hoisting?**
+Is a javascript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
-Complete
 
 **What is Scope?**
-
-Complete
+It's a policy that manages the availability of variables.
+In javascript we have different scopes:
+1. Block scope - Using let and const.
+2. Function scope - Using let, const and var.
+3. Module scope - For variables, functions and classes.
+4. Global scope - Is accessible from everywhere, examples: `window` object in browser and `process` object in nodejs.
+5. Lexical scope - Is determined statically by the position of the variables within the nested function scopes.
 
 **What is the Event loop?**
-
-Complete
+It's the process of dispatching events and executing instructions in a javascript program.
 
 **Explain Apply, Bind and Call functions**
+1. Bind: Creates a new function with a new context assigned by the first argument on `bind` invocation.
+2. Call: Call a function with a new context assigned by the first argument.
+3. Apply: It's the same as `call` but `apply` taskes an array as a unique argument where the first position is the new context and the rest of them are the arguments.
 
-Complete
+
 
 **What is Closure?**
-
-Complete
+It's a combination of a function bundled together with references to its surrounding state.
+Basically it's a function that is created inside another one.
 
 **What is Immutability?**
-
-Complete
+Immutability is an attribute that forbids a data type mutation.
 
 **How to copy an object?**
-
-Complete
+We can use a mix of `JSON.parse` and `JSON.stringify` methods to copy an object with any level of deepness. However this is a naive solution.
+We also have the method `assign` from the global object `Object` with it we can copy objects with 1 level of deepness in a very performant way.
+For object with greeter than 1 level of deepness we have to use another solution as a recursive `Object.assign` call.
+Speaking about third-party solutions we could use `lodash.merge` method to achieve that too.
 
 **What is a HOF (high order function)?**
-
-Complete
+A high order function is a function that takes at least one function as an argument or returns a function.
 
 **What is the difference between map, reduce and forEach functions?**
 
@@ -57,8 +70,12 @@ Complete
 Complete
 
 **What are the differences between var, let and const?**
-
-Complete
+1. `var` declarations are globally scoped or function scoped while `let` and `const` are block scoped.
+2. `var` variables can be updated and re-declared within its scope, `let` variables can be updated but not re-declared
+    and `const` variables can neither be updated nor re-declared.
+3. All of them are hoisted to the top of their scope. But while `var` v ariables are initialized with `undefined`, `let` and `const` variables
+    are not initialized.
+4. While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
 
 **What are the difference between an arrow function and a traditional function?**
 
