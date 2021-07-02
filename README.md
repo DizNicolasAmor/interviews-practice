@@ -5,22 +5,35 @@
 ### Javascript
 
 **What does "data type" mean and how many data types are in JS?**
-Data type in programming is a classification that is used for specifying with kind of operation can be done with a given value.
+
+Data type in programming is a **classification** that is used for specifying with kind of operation can be done with a given value.
+
 In Javascript we have 6 different primitive data types:
+
 1. string
 2. boolean
 3. number
-4. null
+4. bigint
 5. Symbol
 6. undefined
 
+and 3 structural types:
+
+7. object
+8. function
+9. null
+
+Javascript has **dynamic types**. This means the same variable can be used to hold different data types.
+
 **What is hoisting?**
+
 Is a javascript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
 
 **What is Scope?**
-It's a policy that manages the availability of variables.
-In javascript we have different scopes:
+
+It's a policy that manages the availability of variables. In javascript we have different scopes:
+
 1. Block scope - Using let and const.
 2. Function scope - Using let, const and var.
 3. Module scope - For variables, functions and classes.
