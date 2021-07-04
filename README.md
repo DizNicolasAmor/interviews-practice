@@ -37,20 +37,23 @@ It's a policy that manages the availability of variables. That means, it is the 
 4. Global scope - Is accessible from everywhere, examples: `window` object in browser and `process` object in nodejs.
 5. Lexical scope - Is determined statically by the position of the variables within the nested function scopes.
 
+- **What is Closure?**
+
+It's a combination of a function bundled together with references to its surrounding state. Basically it's a function that is created inside another one. The outer function is said to "enclose" the scope of the inner function.
+
 - **What is the Event loop?**
 
 It's the process of dispatching events and executing instructions in a javascript program.
+
+- **How does the Event loop work in Javascript?**
+
+Answer.
 
 - **Explain Apply, Bind and Call functions**
 
 1. Bind: Creates a new function with a new context assigned by the first argument on `bind` invocation.
 2. Call: Call a function with a new context assigned by the first argument.
 3. Apply: It's the same as `call` but `apply` taskes an array as a unique argument where the first position is the new context and the rest of them are the arguments.
-
-- **What is Closure?**
-
-It's a combination of a function bundled together with references to its surrounding state.
-Basically it's a function that is created inside another one.
 
 - **What is Immutability?**
 
@@ -65,7 +68,7 @@ Speaking about third-party solutions we could use `lodash.merge` method to achie
 
 - **What is a HOF (high order function)?**
 
-A high order function is a function that takes at least one function as an argument or returns a function.
+A High Order Function is a function that either takes a function as an argument or returns a function.
 
 - **What is the difference between map, reduce and forEach functions?**
 
