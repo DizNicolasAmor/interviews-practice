@@ -1,6 +1,24 @@
 # INTERVIEW QUESTIONS
 
+## TABLE OF CONTENTS
+
+- [FRONTEND](#frontend)
+  - [Javascript](#javascript)
+  - [React](#react)
+- [METHODOLOGIES](#methodologies)
+- [BACKEND](#backend)
+  - [Node](#node)
+  - [Python](#python)
+- [DATA STRUCTURES](#data-structures)
+- [SOFT SKILLS](#soft-skills)
+
+
+<a name="frontend"/>
+
 ## FRONTEND
+
+
+<a name="javascript"/>
 
 ### Javascript
 
@@ -111,6 +129,8 @@ Complete
 Complete
 
 
+<a name="react"/>
+
 ### React
 
 **What is React?**
@@ -162,6 +182,9 @@ Complete
 Complete
 
 
+
+<a name="methodologies"/>
+
 ## METHODOLOGIES
 
 **Question**
@@ -169,13 +192,21 @@ Complete
 Answer
 
 
+<a name="backend"/>
+
 ## BACKEND
+
+
+<a name="node"/>
 
 ### Node
 
 **Question**
 
 Answer
+
+
+<a name="python"/>
 
 ### Python
 
@@ -184,12 +215,16 @@ Answer
 Answer
 
 
+<a name="data-structures"/>
+
 ## DATA STRUCTURES
 
 **Question**
 
 Answer
 
+
+<a name="soft-skills"/>
 
 ## SOFT SKILLS
 
