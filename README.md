@@ -122,11 +122,13 @@ Complete
 
 - **What is a Promise?**
 
-Complete
+A promise is a function that will return data in some future.
 
 - **How a Promise can be consumed?**
 
-Complete
+- Using `then / catch`: you can call the `then` method and pass a callback as a param. The callback will be executed when the promise resolves. After that you can use the`catch` method. Same criteria, but the catch callback will be executed if the promise rejects.
+- Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
+- Using a generator: you can declare a generator function and consume the promise inside of it, with the yield keyword.
 
 
 <a name="react"/>
