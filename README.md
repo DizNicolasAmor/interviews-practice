@@ -1,6 +1,24 @@
 # INTERVIEW QUESTIONS
 
+## TABLE OF CONTENTS
+
+- [FRONTEND](#frontend)
+  - [Javascript](#javascript)
+  - [React](#react)
+- [METHODOLOGIES](#methodologies)
+- [BACKEND](#backend)
+  - [Node](#node)
+  - [Python](#python)
+- [DATA STRUCTURES](#data-structures)
+- [SOFT SKILLS](#soft-skills)
+
+
+<a name="frontend"/>
+
 ## FRONTEND
+
+
+<a name="javascript"/>
 
 ### Javascript
 
@@ -114,13 +132,17 @@ They have the following differences:
 
 
 - **What is a Promise?**
-It's an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
+
+A promise is a function that will return data in some future.
 
 - **How a Promise can be consumed?**
-1. Calling `then` or `catch` method from a promise instance. We have to call `then` method if we want to get the promise resolved result, if we want to
-get the promise rejected value we have to call the `catch` method, or both of them at the same time.
-2. Using the keyword `await` inside an `async` function. This approach is more polish because we can use it together with a `try-catch` block as if it were synchronous code.
 
+- Using `then / catch`: you can call the `then` method and pass a callback as a param. The callback will be executed when the promise resolves. After that you can use the`catch` method. Same criteria, but the catch callback will be executed if the promise rejects.
+- Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
+- Using a generator: you can declare a generator function and consume the promise inside of it, with the yield keyword.
+
+
+<a name="react"/>
 
 ### React
 
@@ -173,6 +195,9 @@ Complete
 Complete
 
 
+
+<a name="methodologies"/>
+
 ## METHODOLOGIES
 
 **Question**
@@ -180,13 +205,21 @@ Complete
 Answer
 
 
+<a name="backend"/>
+
 ## BACKEND
+
+
+<a name="node"/>
 
 ### Node
 
 **Question**
 
 Answer
+
+
+<a name="python"/>
 
 ### Python
 
@@ -195,12 +228,16 @@ Answer
 Answer
 
 
+<a name="data-structures"/>
+
 ## DATA STRUCTURES
 
 **Question**
 
 Answer
 
+
+<a name="soft-skills"/>
 
 ## SOFT SKILLS
 
