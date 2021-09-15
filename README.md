@@ -4,7 +4,37 @@
 
 - [FRONTEND](#frontend)
   - [Javascript](#javascript)
+    - What does "data type" mean and how many data types are in JS?
+    - What is hoisting?
+    - What is Scope?
+    - What is Closure?
+    - What is the Event loop?
+    - How does the Event loop work in Javascript?
+    - Explain Apply, Bind and Call functions
+    - What is Immutability?
+    - How to copy an object?
+    - What is a HOF (high order function)?
+    - What is the difference between map, reduce and forEach functions?
+    - What is ECMAScript?
+    - Mention some of the new features in ES6
+    - Mention some of the new features in ES11 (ES 2020)
+    - What are the differences between var, let and const?
+    - What are the difference between an arrow function and a regular function?
+    - What is a Promise?
+    - How a Promise can be consumed?
   - [React](#react)
+    - What is React?
+    - What is COP (component oriented programming)?
+    - What is Immutability and why it is important in React?
+    - What is the Virtual DOM?
+    - What is the Reconciliation in React?
+    - What is Redux?
+    - What is a HOC (High order component)?
+    - What is a middleware?
+    - What is redux-saga?
+    - What is redux-thunk?
+    - What is react-native?
+    - What is different in react-native from react?
 - [METHODOLOGIES](#methodologies)
 - [BACKEND](#backend)
   - [Node](#node)
@@ -146,51 +176,51 @@ A promise is a function that will return data in some future.
 
 ### React
 
-**What is React?**
+#### What is React?
 
 Complete
 
-**What is COP (component oriented programming)?**
+#### What is COP (component oriented programming)?
 
 Complete
 
-**What is Immutability and why it is important in React?**
+#### What is Immutability and why it is important in React?
 
 Complete
 
-**What is the Virtual DOM?**
+#### What is the Virtual DOM?
 
 Complete
 
-**What is the Reconciliation in React?**
+#### What is the Reconciliation in React?
 
 Complete
 
-**What is Redux?**
+#### What is Redux?
 
 Complete
 
-**What is a HOC (High order component)?**
+#### What is a HOC (High order component)?
 
 Complete
 
-**What is a middleware?**
+#### What is a middleware?
 
 Complete
 
-**What is redux-saga?**
+#### What is redux-saga?
 
 Complete
 
-**What is redux-thunk?**
+#### What is redux-thunk?
 
 Complete
 
-**What is react-native?**
+#### What is react-native?
 
 Complete
 
-**What is different in react-native from react?**
+#### What is different in react-native from react?
 
 Complete
 
