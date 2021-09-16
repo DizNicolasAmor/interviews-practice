@@ -190,7 +190,7 @@ Complete
 
 #### What is the Virtual DOM?
 
-Complete
+The VirtualDom, like the DOM, is a node tree that list the webpage elements as objects. reactJS uses the VirtualDOM to compare the changes in the state and props and determinate which updates send to the real DOM for repainting or re-rendering the UI.
 
 #### What is the Reconciliation in React?
 
