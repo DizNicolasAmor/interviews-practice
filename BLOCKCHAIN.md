@@ -14,3 +14,20 @@ It depends on the implementation. A blockchain could be:
 What are the characteristics of the Bitcoin blockchain?
 
 The goal of the Bitcoin blockchain is to be an open and censorship-resistant protocol (communication system). Therefore, it has the following characteristics: it is a decentralized open and public blockchain that uses cryptography and PoW consensus method to aim immutability.
+
+What is a Smart Contract?
+
+- It is a contract in the sense that it is an agreement between the parties that interact with it.
+- It is "smart" in the sense that it is a program stored in a blockchain. The transactions that happen in it are processed by the blockchain, which means they can be sent automattically without a third party.
+
+What does turing complete mean?
+
+Complete.
+
+What is the Oracle problem?
+
+Some SC applications need real world data (for example, the price of an asset, the identity of a person or an educational certificate). In order to fulfill that requirement, they use Oracles. The Oracle problem consist on how to achieve descentralization in an oracle.
+
+What is an Oracle?
+
+An Oracle is a device that bring world data into a blockchain or execute some computation process outside the blockchain.
