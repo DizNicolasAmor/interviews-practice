@@ -26,14 +26,43 @@ It depends on the implementation. A blockchain could be:
 
 The goal of the Bitcoin blockchain is to be an open and censorship-resistant protocol (communication system). Therefore, it has the following characteristics: it is a decentralized open and public blockchain that uses cryptography and PoW consensus method to aim immutability.
 
+### What is Bitcoin?
+
+- It is a protocol (see previous answer), a communication system that aims to be decentralized and allow p2p transactions.
+- It is an application. It is the first app buildt with this protocol.
+- It is also the monetary unity that is used in the app.
+
+## SMART CONTRACTS
+
 ### What is a Smart Contract?
 
 - It is a contract in the sense that it is an agreement between the parties that interact with it.
-- It is "smart" in the sense that it is a program stored in a blockchain. The transactions that happen in it are processed by the blockchain, which means they can be sent automattically without a third party.
+- It is "smart" in the sense that it is a program stored in a blockchain. The transactions that happen in it are processed by the blockchain, which means that, in a decentralized and open blockchain, they can be executed automattically without a centralized authority.
 
-### What does turing complete mean?
+### What does turing completeness mean?
 
-Complete.
+Turing completeness refers to any device, system or program (such as a Smart Contract) which in theory can (for the most part) solve any reasonable computational problem, given enoght physical resources.
+
+### Is Bitcoin turing complete?
+
+- It is said that the Bitcoin scripting language is not turing complete because it does not have loops, branching and stuff. But there is a debate among this concept.
+
+### What about Ethereum and other blockchains, are they turing complete?
+
+- Some people say for example, that Ethereum is turing complete or, in other words, that the Ethereum blockchain is a distributed turing machine. It is because Solidity language can perform **looping** and **branching** statements as well as **local state** storage. This functionality is important to have in order to implement most non-trivial computer programs.
+- However, some people say Ethereum is not turing complete, because a programm cannot run forever, due to gas limits.
+
+### Blockchains with or without Smart Contracts
+
+From the above considerations, blockchains could be classified according to whether they are "turing complete" or not, or in other words, whether they have SC or not. This feature is important since SCs are programs that have many implementations. For example, generating another type of cryptocurrency called Tokens.
+
+- Without SC: the network processes and stores transaction data in its native currency.
+  - Examples:BTC, BCH, LTC, XRP.
+- With SC: the network, besides that, also stores and execute programs called Smart Contracts. With SC, a different type of cryptocurrencies could be created: the tokens.
+  - SC blockchain examples: ethereum, bsc, polkadot, kusama, polygon, avalanche, cosmos, terra, cardano.
+  - Token examples: DAI, USDC, USDT, UNI, CAKE, AAVE, MANA, COMP, WBTC.
+
+## ORACLES
 
 ### What is the Oracle problem?
 
