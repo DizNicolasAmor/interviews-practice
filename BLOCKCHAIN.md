@@ -4,6 +4,19 @@
 
 - [BASICS](#basics)
   - What is a blockchain?
+  - What are the characteristics of a blockchain?
+  - What are the characteristics of the Bitcoin blockchain?
+  - What is Bitcoin?
+- [SMART CONTRACTS](#smart-contracts)
+  - What is a Smart Contract?
+  - What does turing completeness mean?
+  - Is Bitcoin turing complete?
+  - What about Ethereum and other blockchains, are they turing complete?
+  - Blockchains with or without Smart Contracts
+- [ORACLES](#oracles)
+  - What is the Oracle problem?
+  - What is an Oracle?
+  - What is a Hybrid Smart Contract?
 
 <a name="basics"/>
 
@@ -31,6 +44,8 @@ The goal of the Bitcoin blockchain is to be an open and censorship-resistant pro
 - It is a protocol (see previous answer), a communication system that aims to be decentralized and allow p2p transactions.
 - It is an application. It is the first app buildt with this protocol.
 - It is also the monetary unity that is used in the app.
+
+<a name="smart-contracts"/>
 
 ## SMART CONTRACTS
 
@@ -61,6 +76,8 @@ From the above considerations, blockchains could be classified according to whet
 - With SC: the network, besides that, also stores and execute programs called Smart Contracts. With SC, a different type of cryptocurrencies could be created: the tokens.
   - SC blockchain examples: ethereum, bsc, polkadot, kusama, polygon, avalanche, cosmos, terra, cardano.
   - Token examples: DAI, USDC, USDT, UNI, CAKE, AAVE, MANA, COMP, WBTC.
+
+<a name="oracles"/>
 
 ## ORACLES
 
