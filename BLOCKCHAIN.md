@@ -88,3 +88,11 @@ Some SC applications need real world data (for example, the price of an asset, t
 ### What is an Oracle?
 
 An Oracle is a device that bring world data into a blockchain or execute some computation process outside the blockchain.
+
+### What is a Hybrid Smart Contract?
+
+It is a Smart Contract that includes offchain elements. The Oracles, of course, use Hybrid SC among other programs.
+
+### Example of Oracles
+
+complet
