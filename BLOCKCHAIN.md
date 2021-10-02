@@ -17,7 +17,10 @@
   - What is the Oracle problem?
   - What is an Oracle?
   - What is a Hybrid Smart Contract?
-  - Example of Oracles
+  - Examples of Oracles
+- [DAO](#dao)
+  - What is a DAO?
+  - Examples of DAOs
 
 <a name="basics"/>
 
@@ -94,8 +97,23 @@ An Oracle is a device that bring world data into a blockchain or execute some co
 
 It is a Smart Contract that includes offchain elements. The Oracles, of course, use Hybrid SC among other programs.
 
-### Example of Oracles
+### Examples of Oracles
 
 - **Chainlink (LINK)**: Chainlink allows blockchains to securely interact with external data feeds, events and payment methods, providing the critical off-chain information such as financial markets, cryptocurrenciy prices, weather, sport results, IoT sensor readers.
 - **UMA (UMA)**: Universal Market Access, is a protocol for the creation of synthetic assets based on the Ethereum (ETH) blockchain.
 - **Augur (REP)**: Augur (REP) is meant to harness the wisdom of the crowd through prediction markets on a protocol owned and operated by holders of the Ethereum-based Reputation token. In these markets users are said to be able to bet on the outcomes of events such as company performance, election results or even natural phenomena by purchasing shares that would either support or refute the proposed outcomes of such specified events.
+
+<a name="dao"/>
+
+## DAO
+
+### What is a DAO?
+
+A Decentralized Autonomous Organization (DAO) is an organization whose governance system is built on a decentralized blockchain. That means, the governance rules (token generation, token distribution, voting, decision making in general) are encoded in a Smart Contract.
+
+### Examples of DAOs
+
+- **Dash** is a blockchain, a cryptocurrency and a DAO because of its Governance and fund allocation system. It was created on May 2015 and it is still operational.
+- **The DAO (organization)** was a Venture capital organization built in Ethereum in April 2016. It defunct in late 2016 due to hack.
+- **Augur** is Prediction market dApp (Sports betting, finance, Insurance) built in Ethereum in July 2018 and still operational.
+- **Steem** Data distribution, Social media, Name services, Industrial Steem March 2016 and still operational.
