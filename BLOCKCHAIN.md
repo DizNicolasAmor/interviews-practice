@@ -21,6 +21,9 @@
 - [DAO](#dao)
   - What is a DAO?
   - Examples of DAOs
+- [GAS](#gas)
+  - What is Gas a blockchain like Ethereum?
+  - Concepts related to Gas
 
 <a name="basics"/>
 
@@ -117,3 +120,19 @@ A Decentralized Autonomous Organization (DAO) is an organization whose governanc
 - **The DAO (organization)** was a Venture capital organization built in Ethereum in April 2016. It defunct in late 2016 due to hack.
 - **Augur** is Prediction market dApp (Sports betting, finance, Insurance) built in Ethereum in July 2018 and still operational.
 - **Steem** Data distribution, Social media, Name services, Industrial Steem March 2016 and still operational.
+
+<a name="gas"/>
+
+## GAS
+
+### What is Gas a blockchain like Ethereum?
+
+In Ethereum and other blockchains, in order to avoid spam and some hack attacks, every transaction pays a "gas fee" to node operators. Gas is a unit of computational measure. The more computation a transaction uses the more gas you have to pay for. The Gas could be payed in ether or other native token.
+
+### Concepts related to Gas
+
+- Gas: measure of computation use.
+- Gas price: how much it costs per unit of gas. It changes all the time depending on the traffic: the higher the traffic, the higher the gas price. This is because users compete with each other with the fees they pay to miners.
+- Gas limit: max amount of gas in a transaction.
+- Transaction fee: Gas Used x Gas Price. For example: `21,000 gas x 1 GWEI (per gas) = 21,000 GWEI`
+- GWEI: is the most commonly used unit of ether because "gas" prices are easily specified in it. For example, instead of saying that your gas costs 0.000000001 ETH, you can say your gas costs 1 GWEI.
