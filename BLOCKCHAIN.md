@@ -17,6 +17,7 @@
   - What is the Oracle problem?
   - What is an Oracle?
   - What is a Hybrid Smart Contract?
+  - Example of Oracles
 
 <a name="basics"/>
 
@@ -95,4 +96,6 @@ It is a Smart Contract that includes offchain elements. The Oracles, of course, 
 
 ### Example of Oracles
 
-complet
+- **Chainlink (LINK)**: Chainlink allows blockchains to securely interact with external data feeds, events and payment methods, providing the critical off-chain information such as financial markets, cryptocurrenciy prices, weather, sport results, IoT sensor readers.
+- **UMA (UMA)**: Universal Market Access, is a protocol for the creation of synthetic assets based on the Ethereum (ETH) blockchain.
+- **Augur (REP)**: Augur (REP) is meant to harness the wisdom of the crowd through prediction markets on a protocol owned and operated by holders of the Ethereum-based Reputation token. In these markets users are said to be able to bet on the outcomes of events such as company performance, election results or even natural phenomena by purchasing shares that would either support or refute the proposed outcomes of such specified events.
