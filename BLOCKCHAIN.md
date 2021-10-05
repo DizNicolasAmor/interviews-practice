@@ -7,6 +7,12 @@
   - What are the characteristics of a blockchain?
   - What are the characteristics of the Bitcoin blockchain?
   - What is Bitcoin?
+- [STRUCTURE](#structure)
+  - What is a block in a blockchain?
+  - What information does a block contain?
+  - What is the Genesis block?
+  - How a block is created?
+  - Why the nodes (miners) process the transactions in open blockchains?
 - [SMART CONTRACTS](#smart-contracts)
   - What is a Smart Contract?
   - What does turing completeness mean?
@@ -51,6 +57,38 @@ The goal of the Bitcoin blockchain is to be an open and censorship-resistant pro
 - It is a protocol (see previous answer), a communication system that aims to be decentralized and allow p2p transactions.
 - It is an application. It is the first app buildt with this protocol.
 - It is also the monetary unity that is used in the app.
+
+<a name="structure"/>
+
+## STRUCTURE
+
+### What is a block in a blockchain?
+
+In a blockchain, each block is the unit where the information is stored.
+
+### What information does a block contain?
+
+It contains list of records (called transaction data), and metadata: a timestamp (UNIX time), a cryptographic hash of previous block (hash converts the previous block data into a fixed length of random data) and its current hash. It can contain more information, such as metadata.
+
+- **Transaction data (or block body)**: it is basically a list of recordsor transactions. Toward efficiency, data inside a block is stored in the form of a Merkle tree.
+- **Block header**: it contains metadata: data that describes other data, serving as an informative label. The header contains the following information.
+  - Timestamp (UNIX time): it is a date and time value that tells at which time the block was created.
+  - Nonce: it is an arbitrary number used only once in a cryptographic communication.
+  - Previous hash (or Hash to the previous block). A hash is a unique fixed length string meant to identify a piece of data. They are created by placing said data into a hash function. Bitcoin uses SHA 256 while Ethereum uses Keccak-256 algorithms respectively.
+  - Merkle Root (it will be the hash that the next block will set as "Previous hash").
+  - Version: describes the structure of the data inside the block. This is used so that computers can read the contents of each block correctly.
+
+### What is the Genesis block?
+
+It is the first block in a blockchain. Its value is always hard coded. Since no previous block existed before it, hence the previous hash remains ‘0’ in this case.
+
+### How a block is created?
+
+The "miners" (nodes in the network) create the blocks. In each block, they include the transactions they want plus one coinbase (generation) transaction to their address. It is to note that for a block to be accepted by the network it needs to contain only valid transactions: inputs that are not yet spent, inputs that have the valid ammount, signature that verifies ok, etc..
+
+### Why the nodes (miners) process the transactions in open blockchains?
+
+They get paid for mining blocks in the blockchain native token.
 
 <a name="smart-contracts"/>
 
