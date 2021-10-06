@@ -13,6 +13,10 @@
   - What is the Genesis block?
   - How a block is created?
   - Why the nodes (miners) process the transactions in open blockchains?
+- [KEYS](#keys)
+  - What is the Private key?
+  - What is the Public key?
+  - What is a transaction signature?
 - [SMART CONTRACTS](#smart-contracts)
   - What is a Smart Contract?
   - What does turing completeness mean?
@@ -89,6 +93,28 @@ The "miners" (nodes in the network) create the blocks. In each block, they inclu
 ### Why the nodes (miners) process the transactions in open blockchains?
 
 They get paid for mining blocks in the blockchain native token.
+
+<a name="keys"/>
+
+## KEYS
+
+### What is the Private key?
+
+- The Private key, also known as "secret key" is like a password —a string of letters and numbers— that allows you to access and manage your crypto funds.
+- The Private key is needed to make the transactions. Whoever has the Private key of a wallet, has access to its funds. That is why it is so important that the Private key is secure.
+- **Not you keys, not your coins**: is a famous expression in the crypto ecosystem. It means that only if you have the Private key, then you really own the coins. On the other hand, if you have coins in a custodial service that does not give you the Private key, then you don't really own those coins because you could be censored by that custodial third party.
+
+### What is the Public key?
+
+- It is derived from your Private key, which makes them a matched pair.
+- It is also a string of letters and numbers. This string is the direction where you receive the transactions.
+- The Public key is also used to verify that a transaction came from you.
+
+### What is a transaction signature?
+
+The user that makes a transaction signs that transaction by their private key being hashed with their transaction data. With that signature, anyone can then verify this transaction hash with the user's public key.
+
+In some blockchains like Bitcoin and Ethereum, that information is open: all public key and transaction information is available for anyone to see.
 
 <a name="smart-contracts"/>
 
