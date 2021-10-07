@@ -8,6 +8,11 @@
   - What are the characteristics of the Bitcoin blockchain?
   - What is Bitcoin?
 - [STRUCTURE](#structure)
+  - What is a node in a blockchain?
+  - How do the nodes interact in a decentralized blockchain?
+  - What happens to the blockchain if a node goes down?
+  - What happens if a node acts maliciously when processing the transactions?
+  - Why should nodes act benevolent?
   - What is a block in a blockchain?
   - What information does a block contain?
   - What is the Genesis block?
@@ -65,6 +70,28 @@ The goal of the Bitcoin blockchain is to be an open and censorship-resistant pro
 <a name="structure"/>
 
 ## STRUCTURE
+
+### What is a node in a blockchain?
+
+It is a single instance in a decentralized system. It is one of the servers that runs the blockchain software.
+
+### How do the nodes interact in a decentralized blockchain?
+
+In a decentralized blockchain, the nodes participate generating the blocks that contain the transactions. They also validate the blocks that other nodes generate. In order to add a block to the blockchain, more than the half of the nodes must agree that the block information is valid.
+
+### What happens to the blockchain if a node goes down?
+
+If the blockchain contains several nodes and one of them goes down, it does not affect the blockchain. The blockchain will persist so long as there is at least one node always running.
+
+On the contrary, if there is only one node in a blockchain and it goes down, in consequence the blockchain wont persist.
+
+### What happens if a node acts maliciously when processing the transactions?
+
+It depends on the blockchain. In general, the other nodes will ignore it, kick it out or maybe punish it.
+
+### Why should nodes act benevolent?
+
+In Bitcoin and other blockchains there are economic incentives for the nodes to act benevolent instead of maliciously.
 
 ### What is a block in a blockchain?
 
