@@ -18,6 +18,7 @@
   - What is the Genesis block?
   - How a block is created?
   - Why the nodes (miners) process the transactions in open blockchains?
+  - What is Consensus?
 - [KEYS](#keys)
   - What is the Private key?
   - What is the Public key?
@@ -119,7 +120,22 @@ The "miners" (nodes in the network) create the blocks. In each block, they inclu
 
 ### Why the nodes (miners) process the transactions in open blockchains?
 
-They get paid for mining blocks in the blockchain native token.
+They get paid for mining blocks in the blockchain native token: this is the called "Block reward". Sometimes they also get paid with the fees that every transaction includes.
+
+### What is the Bitcoin halving?
+
+It is an event established in the Bitcoin protocol that cuts the block reward in half. In monetary terms, it means this event cuts in half the new Bitcoins emition. It happens every 4 (four) years on average, specifically, every 210k blocks.
+
+### What is Consensus?
+
+It is the mechanism used to agree on the state of a blockchain. There are two main aspects:
+
+1. **Chain selection**. It is refered to how to select a chain when different nodes are generating new blocks.
+2. **Sybil resistance**. It is refered to how to resist a Sybil attack, that means, when the attacker subverts the reputation system of a network service by creating a large number of pseudonymous identities. The mainly Sybil resistance mechanisms are:
+   - Proof of work (PoW): each node, called Miner, has to make a very computational expensive process called Mining. The time that process takes is related to the time it takes to mining a block.
+   - Proof of Stake (PoS): each node, called Validator, has to put up collateral as a sybil resistance mechanism. That is the Stake. If they missbehave in the network, they are gonna be penaliced on their stake.
+
+Currently, in Bitcoin and Ethereum (ETH 1.0) blockchains, the Nakamoto consensus is used, that consist on `longest chain rule + PoW`.
 
 <a name="keys"/>
 
