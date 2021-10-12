@@ -40,6 +40,7 @@
 - [GAS](#gas)
   - What is Gas a blockchain like Ethereum?
   - Concepts related to Gas
+- [MATERIAL](#material)
 
 <a name="basics"/>
 
@@ -243,3 +244,9 @@ In Ethereum and other blockchains, in order to avoid spam and some hack attacks,
 - Gas limit: max amount of gas in a transaction.
 - Transaction fee: Gas Used x Gas Price. For example: `21,000 gas x 1 GWEI (per gas) = 21,000 GWEI`
 - GWEI: is the most commonly used unit of ether because "gas" prices are easily specified in it. For example, instead of saying that your gas costs 0.000000001 ETH, you can say your gas costs 1 GWEI.
+
+<a name="material"/>
+
+## MATERIAL
+
+- "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial" from FreeCodeCamp: https://www.youtube.com/watch?v=M576WGiDBdQ
