@@ -249,4 +249,6 @@ In Ethereum and other blockchains, in order to avoid spam and some hack attacks,
 
 ## MATERIAL
 
-- "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial" from FreeCodeCamp: https://www.youtube.com/watch?v=M576WGiDBdQ
+- "Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial" from FreeCodeCamp.
+  - Youtube video: https://www.youtube.com/watch?v=M576WGiDBdQ
+  - Repository: https://github.com/smartcontractkit/full-blockchain-solidity-course-py
