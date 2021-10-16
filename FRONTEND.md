@@ -207,8 +207,11 @@ Complete
 
 ### What is react-native?
 
-Complete
+It is a JS framework for writing mobile apps for iOS and Android. It uses reactJS principes and syntax.
 
 ### What is different in react-native from react?
 
-Complete
+- In react-native there is no DOM. Instead, react-native uses a native API to render components.
+- react-native does not use HTML or CSS. Instead, there are native views.
+- The navigation: in react-native there is a stack of views and the user navigates throw those views.
+- All stuff related to hardware usage: camera, microphone, GPS, etc.
