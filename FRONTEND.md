@@ -199,7 +199,7 @@ Complete
 
 ### What is redux-saga?
 
-Complete
+It is a redux middleware. It is a javascript library that aims to make app side effects easier to manage, to test, to handle and more efficient. The mental model is like each saga is a separated thread only responsible for side effects. It uses ES6 generators.
 
 ### What is redux-thunk?
 
