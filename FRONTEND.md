@@ -171,7 +171,7 @@ Complete
 
 ### What is COP (component oriented programming)?
 
-Complete
+Component Oriented Programming (COP) is a technique for software development that consist on combining independent entitied, called components, in order to build an app.
 
 ### What is Immutability and why it is important in React?
 
