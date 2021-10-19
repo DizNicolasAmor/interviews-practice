@@ -167,7 +167,9 @@ A promise is a function that will return data in some future.
 
 ### What is React?
 
-Complete
+React is a javascript library for the frontend. It is based on the Component Oriented Programming paradigm. It is very useful for building interactive user interfaces.
+
+In React, you have a state with important data in your app that can change dynamically, and you can show different views depending on each state. Another important topic is that it uses a virtual DOM.
 
 ### What is COP (component oriented programming)?
 
