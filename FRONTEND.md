@@ -193,7 +193,7 @@ Complete
 
 ### What is a HOC (High order component)?
 
-Complete
+A High Order Component (HOC) is a function that takes a component as parameter and returns another component. For example, the `connect` function in `Redux` is a HOC.
 
 ### What is a middleware?
 
