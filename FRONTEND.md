@@ -189,7 +189,12 @@ Complete
 
 ### What is Redux?
 
-Complete
+- Redux is a store manager in reactJS applications. It is a structure that helps to clarify the code when your app scalates. In this structure, there is a `store` where all state variables of all the components can be stored. Then, the components can `connect` to that store and access to them. That way, when a component needs to access a state variable, there is no need to pass it as a prop from parent to child (sometimes in multiple levels) or refactor DOM structure. The component just access to the store and access to the variable.
+- Redux is also an architecture that is related to the data flow direction. The data flow is unidirectional. In a Redux app, the data flow is:
+  - Initial situation: the `state` describes the condition of the app at a specific point and the `UI` is rendered based on that state.
+  - When something happens in the app, such as a user clicking a button, an action is created by an `actionCreator`. Then, that action is `dispatched` to the Redux store, like `dispatch({type: 'SAY_HELLO'})`.
+  - The store runs the `reducer` function again with the previous state and the current action, and saves the return value as the new state.
+  - The UI renders the changes based on the new `state`. So we go back to the beginning of the cycle.
 
 ### What is a HOC (High order component)?
 
