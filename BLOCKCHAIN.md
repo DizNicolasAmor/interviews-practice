@@ -9,6 +9,7 @@
   - What is Bitcoin?
 - [STRUCTURE](#structure)
   - What is a node in a blockchain?
+  - What is a Blockchain RPC Node?
   - How do the nodes interact in a decentralized blockchain?
   - What happens to the blockchain if a node goes down?
   - What happens if a node acts maliciously when processing the transactions?
@@ -76,6 +77,12 @@ The goal of the Bitcoin blockchain is to be an open and censorship-resistant pro
 ### What is a node in a blockchain?
 
 It is a single instance in a decentralized system. It is one of the servers that runs the blockchain software.
+
+### What is a Blockchain RPC Node?
+
+Remote Procedure Call (RPC) is a form of inter-process communication (IPC). In distributed computing, an RPC refers to the process where a program executes a subroutine in a separate location. These locations are also often referred to as address spaces.
+
+To the simple final user, the RPC is a node direction. The user has to connect to an RPC to operate in the blockchain.
 
 ### How do the nodes interact in a decentralized blockchain?
 
