@@ -30,6 +30,9 @@
   - Is Bitcoin turing complete?
   - What about Ethereum and other blockchains, are they turing complete?
   - Blockchains with or without Smart Contracts
+- [TOKENS](#tokens)
+  - What is a Token?
+  - What is a NFT?
 - [ORACLES](#oracles)
   - What is the Oracle problem?
   - What is an Oracle?
@@ -198,6 +201,24 @@ From the above considerations, blockchains could be classified according to whet
 - With SC: the network, besides that, also stores and execute programs called Smart Contracts. With SC, a different type of cryptocurrencies could be created: the tokens.
   - SC blockchain examples: ethereum, bsc, polkadot, kusama, polygon, avalanche, cosmos, terra, cardano.
   - Token examples: DAI, USDC, USDT, UNI, CAKE, AAVE, MANA, COMP, WBTC.
+
+<a name="tokens"/>
+
+## TOKENS
+
+### What is a Token?
+
+### What is a NFT?
+
+`NFT` stands for a non-fungible token, which means it is a token that can neither be replaced nor interchanged because it has unique properties.
+
+Features:
+
+- **Digital Asset**: NFT is a digital asset that represents internet collectibles like art, music, and games with an authentic certificate created by blockchain technology that underlies Cryptocurrency.
+- **Unique**: it cannot be forged or otherwise manipulated.
+- **Exchange**: NFT exchanges take place in cryptocurrencies such as Bitcoin on specialist sites.
+
+`Cryptopunks` is a remarkable example of NFT. It enables you to buy, sell and store 10,000 collectibles with proof-of-ownership.
 
 <a name="oracles"/>
 
