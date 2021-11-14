@@ -208,6 +208,12 @@ From the above considerations, blockchains could be classified according to whet
 
 ### What is a Token?
 
+In a blockchain, a token is a representation of a particular asset or utility.
+
+**Why would someone want to represent an asset on the blockchain?**
+
+In order to benefit from the characteristics of that blockchain such as decentralization, censorship resistance, automated smart contracts, auditability, among others.
+
 ### What is a NFT?
 
 `NFT` stands for a non-fungible token, which means it is a token that can neither be replaced nor interchanged because it has unique properties.
