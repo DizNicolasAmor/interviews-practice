@@ -32,6 +32,7 @@
   - Blockchains with or without Smart Contracts
 - [TOKENS](#tokens)
   - What is a Token?
+  - How are tokens created?
   - What is a NFT?
 - [ORACLES](#oracles)
   - What is the Oracle problem?
@@ -213,6 +214,10 @@ In a blockchain, a token is a representation of a particular asset or utility.
 **Why would someone want to represent an asset on the blockchain?**
 
 In order to benefit from the characteristics of that blockchain such as decentralization, censorship resistance, automated smart contracts, auditability, among others.
+
+### How are tokens created?
+
+The tokens are created (this process is also called "minting") from a Smart Contract.
 
 ### What is a NFT?
 
