@@ -33,6 +33,7 @@
 - [TOKENS](#tokens)
   - What is a Token?
   - How are tokens created?
+  - Types of tokens
   - What is a NFT?
 - [ORACLES](#oracles)
   - What is the Oracle problem?
@@ -218,6 +219,16 @@ In order to benefit from the characteristics of that blockchain such as decentra
 ### How are tokens created?
 
 The tokens are created (this process is also called "minting") from a Smart Contract.
+
+### Types of tokens
+
+Crypto tokens can take many forms, and can be programmed with unique characteristics that expand their use cases. Security tokens, utility tokens, synthetix assets, NFT.
+
+Examples:
+
+- Tokens can be used in decentralized apps(Dapps) to access a feature or service in a Dapp, such as voting, playing a video, pay for less trade fees, earn more interest rates in DeFi.
+- Tokens are also being used to represent an entity on the blockchain. This entity could be an asset such as gold, electricity, stocks, fiat currencies, art, houses, among others.
+- Tokens are widely used by businesses and startups looking to use blockchain technology to get funds for their projects. This is a part of their initial coin offering (ICO).
 
 ### What is a NFT?
 
