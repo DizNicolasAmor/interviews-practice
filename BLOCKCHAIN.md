@@ -34,6 +34,7 @@
   - What is a Token?
   - How are tokens created?
   - Types of tokens
+  - What are Native tokens?
   - What is a NFT?
 - [ORACLES](#oracles)
   - What is the Oracle problem?
@@ -229,6 +230,12 @@ Examples:
 - Tokens can be used in decentralized apps(Dapps) to access a feature or service in a Dapp, such as voting, playing a video, pay for less trade fees, earn more interest rates in DeFi.
 - Tokens are also being used to represent an entity on the blockchain. This entity could be an asset such as gold, electricity, stocks, fiat currencies, art, houses, among others.
 - Tokens are widely used by businesses and startups looking to use blockchain technology to get funds for their projects. This is a part of their initial coin offering (ICO).
+
+### What are Native tokens?
+
+Some people call blockchain platform cryptocurrency as "Native tokens". Examples: BTC, ETH, ADA, ATOM. Both cryptocurrencies and tokens represent value.Cryptocurrencies represent a certain amount of fiat money and there are some tokens that do as well.
+
+The ** difference ** between tokens and cryptocurrencies lies in their structure: tokens are programmed on a blockchain that has been created to host tokens (like the Ethereum blockchain), while cryptocurrencies (like ether) have their own blockchain and its own mining process.
 
 ### What is a NFT?
 
