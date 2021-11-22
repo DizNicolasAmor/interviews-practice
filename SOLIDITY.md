@@ -4,6 +4,7 @@
 
 - [BASICS](#basics)
   - What is a Solidity?
+  - What does Contract-Oriented mean?
 
 <a name="basics"/>
 
@@ -18,6 +19,12 @@ Solidity is similar to JavaScript. It also shares similar characteristics to the
 Solidity is statically typed, with support for inheritance, libraries, and complex user-defined types.
 
 Solidity is the First Contract-Oriented Language.
+
+### What does Contract-Oriented mean?
+
+As the native language of Ethereum, Solidity has built-in commands, to access a part of the blockchain. For example, a timestamp or address of a particular block.
+
+A contract-oriented language differs from largely object-oriented languages like Java and C++ in that its emphasis is on contracts and functions. Solidity is typed statically. It also supports libraries, inheritance, and other user-defined features which tend to be more complex. The language compiles all the instructions into a sandbox of bytecode so that these instructions can be read and interpreted in the Ethereum network.
 
 ### What is the EVM?
 
