@@ -11,7 +11,13 @@
 
 ### What is Solidity?
 
-Complete
+Solidity is high-level programming language used to create Smart Contracts that automate transactions on the blockchain. After being proposed in 2014, the language was developed by contributors to the Ethereum project. The language is primarily used to create smart contracts on the Ethereum blockchain and create smart contracts on other blockchains.
+
+Solidity is similar to JavaScript. It also shares similar characteristics to the programming languages C++ and Python.
+
+Solidity is statically typed, with support for inheritance, libraries, and complex user-defined types.
+
+Solidity is the First Contract-Oriented Language.
 
 ### What is the EVM?
 
@@ -55,3 +61,6 @@ TODO
 - ERC20
 - infura
 - moralis
+- truffle
+- hardhat
+- truffle vs hardhat
