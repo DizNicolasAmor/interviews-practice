@@ -3,12 +3,43 @@
 ## TABLE OF CONTENTS
 
 - [BASICS](#basics)
+  - What is the EVM?
+  - What is an ABI?
+- [SOLIDITY](#solidity)
   - What is a Solidity?
   - What does Contract-Oriented mean?
+  - ERC standards
+- [FRAMEWORKS](#frameworks)
+  - Brownie
+  - Truffle
+  - Hardhat
+  - Truffle vs Hardhat
+- [INFRASTRUCTURE](#infrastructures)
+  - Infura
+  - Moralis
 
 <a name="basics"/>
 
 ## BASICS
+
+### What is the EVM?
+
+The Ethereum Virtual Machine (EVM) is a powerful, sandboxed virtual stack embedded within each full Ethereum node, responsible for executing contract bytecode. Contracts are typically written in higher level languages, like Solidity, then compiled to EVM bytecode.
+
+This means that the machine code is completely isolated from the network, filesystem or any processes of the host computer. Every node in the Ethereum network runs an EVM instance which allows them to agree on executing the same instructions.
+
+In other words, it's the environment in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one 'canonical' state, and the EVM is what defines the rules for computing a new valid state from block to block
+
+### What is an ABI?
+
+ABI (Application Binary Interface) is an interface between two program modules, often between operating systems and user programs. In the ethereum blockchain, the ABI is an interface that allows humans to interact with the bytecode of deployed smar contracts.
+
+Smart contracts written in high-level languages like Solidity or Vyper need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. For Ethereum and EVM, a smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments.
+
+ABI defines the methods and structures used to interact with the binary contract, just like API does but on a lower-level.
+<a name="solidity"/>
+
+## SOLIDITY
 
 ### What is Solidity?
 
@@ -26,48 +57,38 @@ As the native language of Ethereum, Solidity has built-in commands, to access a 
 
 A contract-oriented language differs from largely object-oriented languages like Java and C++ in that its emphasis is on contracts and functions. Solidity is typed statically. It also supports libraries, inheritance, and other user-defined features which tend to be more complex. The language compiles all the instructions into a sandbox of bytecode so that these instructions can be read and interpreted in the Ethereum network.
 
-### What is the EVM?
+### ERC standards
 
-The Ethereum Virtual Machine (EVM) is a powerful, sandboxed virtual stack embedded within each full Ethereum node, responsible for executing contract bytecode. Contracts are typically written in higher level languages, like Solidity, then compiled to EVM bytecode.
+complete
 
-This means that the machine code is completely isolated from the network, filesystem or any processes of the host computer. Every node in the Ethereum network runs an EVM instance which allows them to agree on executing the same instructions.
+<a name="frameworks"/>
 
-In other words, it's the environment in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one 'canonical' state, and the EVM is what defines the rules for computing a new valid state from block to block
+## FRAMEWORKS
 
-### What is an ABI?
+### Brownie
 
-ABI (Application Binary Interface) is an interface between two program modules, often between operating systems and user programs. In the ethereum blockchain, the ABI is an interface that allows humans to interact with the bytecode of deployed smar contracts.
+complete
 
-Smart contracts written in high-level languages like Solidity or Vyper need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. For Ethereum and EVM, a smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments.
+### Truffle
 
-ABI defines the methods and structures used to interact with the binary contract, just like API does but on a lower-level.
+complete
 
-### What is web3?
+### Hardhat
 
-Complete
+complete
 
-### What is brownie?
+### Truffle vs Hardhat
 
-Complete
+complete
 
-### What is an truffle?
+<a name="infrastructures"/>
 
-Complete
+## INFRASTRUCTURES
 
-### What is SafeMaths and why to use it?
+### Infura
 
-Complete
+complete
 
-TODO
+### Moralis
 
-- global variables
-- modifiers
-- testnet
-- faucets
-- keeccack 256
-- ERC20
-- infura
-- moralis
-- truffle
-- hardhat
-- truffle vs hardhat
+complete
