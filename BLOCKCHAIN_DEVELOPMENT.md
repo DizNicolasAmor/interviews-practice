@@ -63,7 +63,7 @@ ERC (Ethereum Request for Comments) means the protocol proposal submitted by Eth
 
 - **ERC-20**: it is currently the most widely known standard. It was born in 2015 and was officially standardized in September 2017. The agreement specifies a set of basic interfaces for **fungible tokens**: it stipulates that an ERC-20 Token needs to have its name, symbol, total supply, and other functions including transfer and remittance.
 - **ERC-165**:
-- **ERC-721**:
+- **ERC-721**: it is also a well known standard since it is related to NFT. The ERC-721 standard stipulates that all tokens that meet the standard must have a unique Token ID. Based on that, each Token is unique.
 - **ERC-223**:
 - **ERC-621**:
 - **ERC-777**:
