@@ -59,7 +59,18 @@ A contract-oriented language differs from largely object-oriented languages like
 
 ### ERC standards
 
-complete
+ERC (Ethereum Request for Comments) means the protocol proposal submitted by Ethereum developers. The ERC contains technical and organizational precautions and standards. The number after ERC is the number of the proposal. The most common ERC standards are ERC-20 and ERC-721.
+
+- **ERC-20**: it is currently the most widely known standard. It was born in 2015 and was officially standardized in September 2017. The agreement specifies a set of basic interfaces for **fungible tokens**: it stipulates that an ERC-20 Token needs to have its name, symbol, total supply, and other functions including transfer and remittance.
+- **ERC-165**:
+- **ERC-721**:
+- **ERC-223**:
+- **ERC-621**:
+- **ERC-777**:
+- **ERC-827**:
+- **ERC-884**:
+- **ERC-865**:
+- **ERC-1155**:
 
 <a name="frameworks"/>
 
