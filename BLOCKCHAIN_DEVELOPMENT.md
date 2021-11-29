@@ -119,7 +119,15 @@ complete
 
 ### Hardhat
 
-complete
+- Web: https://hardhat.org/
+
+**Hardhat** is a development environment to compile, deploy, test, and debug your Ethereum software.
+
+Hardhat comes built-in with **Hardhat Network**, a local Ethereum network designed for development. Its functionality focuses around Solidity debugging, featuring stack traces, console.log() and explicit error messages when transactions fail.
+
+**Hardhat Runner**, the CLI command to interact with Hardhat, is an extensible task runner. It's designed around the concepts of tasks and plugins. Every time you're running Hardhat from the CLI you're running a task. E.g. `npx hardhat compile` is running the built-in compile task.
+
+A lot of Hardhat's functionality comes from plugins, and, as a developer, you're free to choose which ones you want to use.
 
 ### Truffle vs Hardhat
 
