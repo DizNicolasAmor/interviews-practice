@@ -111,7 +111,19 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 ### Brownie
 
-complete
+- Github: https://github.com/eth-brownie
+- Docs: https://eth-brownie.readthedocs.io/en/stable/
+
+**Brownie** is a Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.
+
+Features
+
+- Full support for Solidity and Vyper.
+- Contract testing via pytest, including trace-based coverage evaluation.
+- Property-based and stateful testing via hypothesis.
+- Powerful debugging tools, including python-style tracebacks and custom error strings.
+- Built-in console for quick project interaction.
+- Support for ethPM packages.
 
 ### Truffle
 
