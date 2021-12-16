@@ -166,4 +166,6 @@ complete
 
 ### Moralis
 
-complete
+- Web: https://moralis.io/
+
+Moralis is a Web3 Development Platform. It provides managed backend for blockchain projects. Automatically syncing the balances of your users into the database, allowing you to set up on-chain alerts, watch smart contract events, build indexes, and so much more.
