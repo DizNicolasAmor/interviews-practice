@@ -37,6 +37,7 @@ ABI (Application Binary Interface) is an interface between two program modules, 
 Smart contracts written in high-level languages like Solidity or Vyper need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. For Ethereum and EVM, a smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments.
 
 ABI defines the methods and structures used to interact with the binary contract, just like API does but on a lower-level.
+
 <a name="solidity"/>
 
 ## SOLIDITY
@@ -154,7 +155,12 @@ A lot of Hardhat's functionality comes from plugins, and, as a developer, you're
 
 ### Truffle vs Hardhat
 
-complete
+| TRUFFLE              | HARDHAT                                           |
+| -------------------- | ------------------------------------------------- |
+| more rigid structure | more flexible (run custom scripts, using plugins) |
+| default web.js       | default ethers.js                                 |
+| no console.log       | console.log inside solidity                       |
+| no stack traces      | stack traces                                      |
 
 <a name="infrastructures"/>
 
