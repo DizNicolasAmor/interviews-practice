@@ -168,7 +168,9 @@ A lot of Hardhat's functionality comes from plugins, and, as a developer, you're
 
 ### Infura
 
-complete
+- Web: https://infura.io/
+
+Infura is a Web3 Development Platform. It provides the tools and infrastructure that allow developers to easily take their blockchain application from testing to scaled deployment. Mainly, it offers an Ethereum API and IPFS API.
 
 ### Moralis
 
