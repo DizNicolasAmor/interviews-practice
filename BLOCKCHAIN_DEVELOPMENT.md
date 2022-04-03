@@ -9,6 +9,11 @@
   - What is a Solidity?
   - What does Contract-Oriented mean?
   - ERC standards
+    - ERC-20 Ethereum fungible tokens
+    - ERC-721 non-fungible tokens
+    - ERC-1155 Multi Token Standard
+- [DESIGN PATTERNS](#design-patterns)
+  - Withdrawal pattern
 - [FRAMEWORKS](#frameworks)
   - Brownie
   - Truffle
@@ -105,6 +110,18 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 - Source: https://info.etherscan.com/what-is-erc1155-token/
 - EIP: https://eips.ethereum.org/EIPS/eip-1155
+
+<a name="design-patterns"/>
+
+## DESIGN PATTERNS
+
+### Withdrawal pattern
+
+This pattern fixes the bug where an owner distributes all the dividends to the beneficiaries. This action is risky because if there are many beneficiaries, the transaction can become very expensive and not be processed.
+
+The solution is that each befeficiary claim their own reward (and pay for the transaction gas).
+
+The good practice here is to avoid loops (the "for" keywork) whenever possible, especially if the number of loops is dynamic. It is also good practice to simplify the logic as much as possible.
 
 <a name="frameworks"/>
 
