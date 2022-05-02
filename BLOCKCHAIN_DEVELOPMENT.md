@@ -13,7 +13,8 @@
     - ERC-721 non-fungible tokens
     - ERC-1155 Multi Token Standard
 - [DESIGN PATTERNS](#design-patterns)
-  - Withdrawal pattern
+  - Withdrawal
+  - State Machine
 - [FRAMEWORKS](#frameworks)
   - Brownie
   - Truffle
@@ -115,13 +116,72 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 ## DESIGN PATTERNS
 
-### Withdrawal pattern
+### Withdrawal
 
 This pattern fixes the bug where an owner distributes all the dividends to the beneficiaries. This action is risky because if there are many beneficiaries, the transaction can become very expensive and not be processed.
 
 The solution is that each befeficiary claim their own reward (and pay for the transaction gas).
 
 The good practice here is to avoid loops (the "for" keywork) whenever possible, especially if the number of loops is dynamic. It is also good practice to simplify the logic as much as possible.
+
+### State Machine
+
+**Motivation**
+
+A contract that has to transition several states during its life cycle. At each of the states the contract has to behave in a different way and provide different functionality to its users.
+
+**Use cases**
+
+Auctions, crowdfunding, loans, gambling, and many more. Even the Solidity documentation acknowledges its conventionality by listing it as one of the common patterns.
+
+**Implementation**
+
+There are different ways one state can transition into another. Sometimes a state ends with the end of a function, another time the state is supposed to transition after a specified amount of time.
+
+1. Representation of the stages: an enum variable called Stages is used to model the different stages.
+2. Interaction control for the functions: a function modifier is used to restrict functions in the contract (it checks if the contract stage is equal to the required stage before executing the called function).
+3. Stage transitions. There are several ways to manage transitions: sometimes it is related to specific business logic, and sometimes it is related to automatic timed transitions. Generally a `transitionAfter()` modifier is used to trigger the transition after certain functions.
+
+**Code example**
+
+```
+contract Pool {
+  enum Stages {
+        Initialize,
+        Contribute,
+        Collect,
+  }
+
+  Stages public stage = Stages.Initialize;
+
+  modifier atStage(Stages _stage) {
+        require(
+            stage == _stage,
+            "Wrong pooling stage. Action not allowed."
+        );
+        _;
+   }
+
+  function init(...) external atStage(Stages.Initialize) {
+        ...
+        currentStage = Stages.Contribute;
+  }
+
+  function contribute(...) external atStage(Stages.Contribute) {
+        ...
+        if (hasContributionThresholdReached) {
+            currentStage = Stages.Collect;
+        }
+  }
+
+  function collect(...) external atStage(Stages.Collect) { }
+}
+```
+
+**Helpful links**
+
+- https://soliditydeveloper.com/design-pattern-solidity-stages
+- https://fravoll.github.io/solidity-patterns/state_machine.html
 
 <a name="frameworks"/>
 
