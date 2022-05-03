@@ -13,8 +13,9 @@
     - ERC-721 non-fungible tokens
     - ERC-1155 Multi Token Standard
 - [DESIGN PATTERNS](#design-patterns)
-  - Withdrawal
+  - Emergency Stop
   - State Machine
+  - Withdrawal
 - [FRAMEWORKS](#frameworks)
   - Brownie
   - Truffle
@@ -116,13 +117,63 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 ## DESIGN PATTERNS
 
-### Withdrawal
+### Emergency Stop
 
-This pattern fixes the bug where an owner distributes all the dividends to the beneficiaries. This action is risky because if there are many beneficiaries, the transaction can become very expensive and not be processed.
+**Motivation**
 
-The solution is that each befeficiary claim their own reward (and pay for the transaction gas).
+A specific user (owner) will have the option to disable critical contract functionality in case of an emergency.
 
-The good practice here is to avoid loops (the "for" keywork) whenever possible, especially if the number of loops is dynamic. It is also good practice to simplify the logic as much as possible.
+**Use cases**
+
+`Pausable contract` from the _OpenZeppelin_ library.
+
+**Implementation**
+
+1. An `isStopped` or `isPaused` boolean state variable represents if the contract is stopped or not.
+2. With `stopContract` or `resumeContract` functions, authorized entities could change that boolean's value.
+3. Modifiers such as `onlyWhenStopped` and `stoppedInEmergency` could be used in critical functions.
+
+**Code example**
+
+```
+contract ExampleEmergencyStop {
+  bool paused = false;
+
+  constructor(){ }
+
+  modifier onlyOwner {
+    require(msg.sender == owner);
+    _;
+  }
+
+  modifier isPaused {
+   require(paused);
+   _;
+  }
+
+  modifier notPaused {
+   require(! paused);
+   _;
+  }
+
+  function pauseContract() public onlyOwner notPaused {
+     paused = true;
+  }
+
+  function unpauseContract() public onlyOwner isPaused {
+     paused = false;
+  }
+
+  function depositEther() public notPaused { }
+
+ function emergencyWithdrawal() public isPaused { }
+}
+```
+
+**Helpful links**
+
+- https://fravoll.github.io/solidity-patterns/emergency_stop.html
+- https://dev.to/jamiescript/design-patterns-in-solidity-1i28#emergency
 
 ### State Machine
 
@@ -182,6 +233,14 @@ contract Pool {
 
 - https://soliditydeveloper.com/design-pattern-solidity-stages
 - https://fravoll.github.io/solidity-patterns/state_machine.html
+
+### Withdrawal
+
+This pattern fixes the bug where an owner distributes all the dividends to the beneficiaries. This action is risky because if there are many beneficiaries, the transaction can become very expensive and not be processed.
+
+The solution is that each befeficiary claim their own reward (and pay for the transaction gas).
+
+The good practice here is to avoid loops (the "for" keywork) whenever possible, especially if the number of loops is dynamic. It is also good practice to simplify the logic as much as possible.
 
 <a name="frameworks"/>
 
