@@ -203,6 +203,8 @@ contract Pool {
         Collect,
   }
 
+  constructor(){ }
+
   Stages public stage = Stages.Initialize;
 
   modifier atStage(Stages _stage) {
@@ -236,11 +238,47 @@ contract Pool {
 
 ### Withdrawal
 
-This pattern fixes the bug where an owner distributes all the dividends to the beneficiaries. This action is risky because if there are many beneficiaries, the transaction can become very expensive and not be processed.
+**Motivation**
 
-The solution is that each befeficiary claim their own reward (and pay for the transaction gas).
+A safe way to withdraw funds.
 
-The good practice here is to avoid loops (the "for" keywork) whenever possible, especially if the number of loops is dynamic. It is also good practice to simplify the logic as much as possible.
+**Use cases**
+
+Any situation where funds need to be distributed to more than one account. It could be an air drop, a dividend, a crowdfunding that refunds some tokens or something else.
+
+**Implementation**
+
+The `withdrawFunds` function talks with one untrusted address at a time. That means each befeficiary claims their own reward. This is a good practice because:
+
+- we avoid `for` loops. If there are many beneficiaries, the transaction could become very expensive and not be processed.
+- we avoid `onlyOwner`. If something happens to that single point of failure, the withdrawal function wont be able to execute.
+- the befeficiary pays the gas for their own transaction.
+
+**Code example**
+
+```
+contract WithdrawalPattern {
+
+  mapping(address => uint) public balances;
+
+  constructor(){ }
+
+  function sendFunds(){
+    balances[msg.sender] += msg.value;
+  }
+
+  function withdrawFunds(uint amount) public returns(bool success) {
+    require(balances[msg.sender] >= amount);// guards up front
+    balances[msg.sender] -= amount;         // optimistic accounting
+    msg.sender.transfer(amount);            // transfer
+    return true;
+  }
+}
+```
+
+**Helpful links**
+
+- https://blog.b9lab.com/the-solidity-withdrawal-pattern-1602cb32f1a5
 
 <a name="frameworks"/>
 
