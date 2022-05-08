@@ -13,6 +13,7 @@
     - ERC-721 non-fungible tokens
     - ERC-1155 Multi Token Standard
 - [DESIGN PATTERNS](#design-patterns)
+  - Access Restriction
   - Emergency Stop
   - State Machine
   - Withdrawal
@@ -116,6 +117,64 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 <a name="design-patterns"/>
 
 ## DESIGN PATTERNS
+
+### Access Restriction
+
+**Motivation**
+
+Restrict the access to certain contract functionalities.
+
+**Use cases**
+
+- your contract functions should only be callable under certain circumstances.
+- you want to apply similar restrictions to several functions.
+- you want to increase security of your smart contract against unauthorized access.
+
+**Implementation**
+
+1. Create a modifier with the condition to the access restriction. For example, `onlyOwner` or `onlyBy(address _account)` and use the **Guard Check pattern** (check for the required circumstances and throws an exception, in case they are not me).
+2. Use that modifier in the target functions.
+
+**Code example**
+
+```
+contract ExampleAccessRestriction {
+    address public owner = msg.sender;
+    uint public lastOwnerChange = now;
+
+    modifier onlyBy(address _account) {
+        require(msg.sender == _account, "Access denied");
+        _;
+    }
+
+    modifier onlyAfter(uint _time) {
+        require(now >= _time, "Access denied due to time condition");
+        _;
+    }
+
+    modifier costs(uint _amount) {
+        require(msg.value >= _amount, , "Incorrect amount parameter");
+        _;
+        if (msg.value > _amount) {
+            msg.sender.transfer(msg.value - _amount);
+        }
+    }
+
+    function changeOwner(address _newOwner) public onlyBy(owner) {
+        owner = _newOwner;
+    }
+
+    function buyContract() public payable onlyAfter(lastOwnerChange + 4 weeks) costs(1 ether) {
+        owner = msg.sender;
+        lastOwnerChange = now;
+    }
+}
+```
+
+**Helpful links**
+
+- `Ownable.sol` contract from OpenZeppelin: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
+- https://fravoll.github.io/solidity-patterns/access_restriction.html
 
 ### Emergency Stop
 
