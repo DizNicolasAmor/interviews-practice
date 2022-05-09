@@ -13,10 +13,24 @@
     - ERC-721 non-fungible tokens
     - ERC-1155 Multi Token Standard
 - [DESIGN PATTERNS](#design-patterns)
-  - Access Restriction
-  - Emergency Stop
-  - State Machine
-  - Withdrawal
+  - [Behavioural Patterns](#behavioural-patterns)
+    - Guard Check
+    - State Machine
+    - Oracle
+    - Randomness
+    - Withdrawal
+  - [Economic Patterns](#economic-patterns)
+    - String Equality Comparison
+    - Tight Variable Packing
+    - Memory Array Building
+  - [Security Patterns](#security-patterns)
+    - Access Restriction
+    - Secure Ether Transfer
+    - Pull over Push
+    - Emergency Stop
+  - [Upgradeability Patterns](#upgradeability-patterns)
+    - Proxy Delegate
+    - Eternal Storage
 - [FRAMEWORKS](#frameworks)
   - Brownie
   - Truffle
@@ -118,123 +132,13 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 ## DESIGN PATTERNS
 
-### Access Restriction
+<a name="behavioural-patterns"/>
 
-**Motivation**
+### Behavioural Patterns
 
-Restrict the access to certain contract functionalities.
+#### Guard Check
 
-**Use cases**
-
-- your contract functions should only be callable under certain circumstances.
-- you want to apply similar restrictions to several functions.
-- you want to increase security of your smart contract against unauthorized access.
-
-**Implementation**
-
-1. Create a modifier with the condition to the access restriction. For example, `onlyOwner` or `onlyBy(address _account)` and use the **Guard Check pattern** (check for the required circumstances and throws an exception, in case they are not me).
-2. Use that modifier in the target functions.
-
-**Code example**
-
-```
-contract ExampleAccessRestriction {
-    address public owner = msg.sender;
-    uint public lastOwnerChange = now;
-
-    modifier onlyBy(address _account) {
-        require(msg.sender == _account, "Access denied");
-        _;
-    }
-
-    modifier onlyAfter(uint _time) {
-        require(now >= _time, "Access denied due to time condition");
-        _;
-    }
-
-    modifier costs(uint _amount) {
-        require(msg.value >= _amount, , "Incorrect amount parameter");
-        _;
-        if (msg.value > _amount) {
-            msg.sender.transfer(msg.value - _amount);
-        }
-    }
-
-    function changeOwner(address _newOwner) public onlyBy(owner) {
-        owner = _newOwner;
-    }
-
-    function buyContract() public payable onlyAfter(lastOwnerChange + 4 weeks) costs(1 ether) {
-        owner = msg.sender;
-        lastOwnerChange = now;
-    }
-}
-```
-
-**Helpful links**
-
-- `Ownable.sol` contract from OpenZeppelin: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
-- https://fravoll.github.io/solidity-patterns/access_restriction.html
-
-### Emergency Stop
-
-**Motivation**
-
-A specific user (owner) will have the option to disable critical contract functionality in case of an emergency.
-
-**Use cases**
-
-`Pausable contract` from the _OpenZeppelin_ library.
-
-**Implementation**
-
-1. An `isStopped` or `isPaused` boolean state variable represents if the contract is stopped or not.
-2. With `stopContract` or `resumeContract` functions, authorized entities could change that boolean's value.
-3. Modifiers such as `onlyWhenStopped` and `stoppedInEmergency` could be used in critical functions.
-
-**Code example**
-
-```
-contract ExampleEmergencyStop {
-  bool paused = false;
-
-  constructor(){ }
-
-  modifier onlyOwner {
-    require(msg.sender == owner);
-    _;
-  }
-
-  modifier isPaused {
-   require(paused);
-   _;
-  }
-
-  modifier notPaused {
-   require(! paused);
-   _;
-  }
-
-  function pauseContract() public onlyOwner notPaused {
-     paused = true;
-  }
-
-  function unpauseContract() public onlyOwner isPaused {
-     paused = false;
-  }
-
-  function depositEther() public notPaused { }
-
- function emergencyWithdrawal() public isPaused { }
-}
-```
-
-**Helpful links**
-
-- https://fravoll.github.io/solidity-patterns/emergency_stop.html
-- https://dev.to/jamiescript/design-patterns-in-solidity-1i28#emergency
-
-### State Machine
+#### State Machine
 
 **Motivation**
 
@@ -295,7 +199,11 @@ contract Pool {
 - https://soliditydeveloper.com/design-pattern-solidity-stages
 - https://fravoll.github.io/solidity-patterns/state_machine.html
 
-### Withdrawal
+#### Oracle
+
+#### Randomness
+
+#### Withdrawal
 
 **Motivation**
 
@@ -338,6 +246,148 @@ contract WithdrawalPattern {
 **Helpful links**
 
 - https://blog.b9lab.com/the-solidity-withdrawal-pattern-1602cb32f1a5
+
+<a name="economic-patterns"/>
+
+### Economic Patterns
+
+#### String Equality Comparison
+
+#### Tight Variable Packing
+
+#### Memory Array Building
+
+<a name="secutiry-patterns"/>
+
+### Security Patterns
+
+#### Access Restriction
+
+**Motivation**
+
+Restrict the access to certain contract functionalities.
+
+**Use cases**
+
+- your contract functions should only be callable under certain circumstances.
+- you want to apply similar restrictions to several functions.
+- you want to increase security of your smart contract against unauthorized access.
+
+**Implementation**
+
+1. Create a modifier with the condition to the access restriction. For example, `onlyOwner` or `onlyBy(address _account)` and use the **Guard Check pattern** (check for the required circumstances and throws an exception, in case they are not me).
+2. Use that modifier in the target functions.
+
+**Code example**
+
+```
+contract ExampleAccessRestriction {
+    address public owner = msg.sender;
+    uint public lastOwnerChange = now;
+
+    modifier onlyBy(address _account) {
+        require(msg.sender == _account, "Access denied");
+        _;
+    }
+
+    modifier onlyAfter(uint _time) {
+        require(now >= _time, "Access denied due to time condition");
+        _;
+    }
+
+    modifier costs(uint _amount) {
+        require(msg.value >= _amount, , "Incorrect amount parameter");
+        _;
+        if (msg.value > _amount) {
+            msg.sender.transfer(msg.value - _amount);
+        }
+    }
+
+    function changeOwner(address _newOwner) public onlyBy(owner) {
+        owner = _newOwner;
+    }
+
+    function buyContract() public payable onlyAfter(lastOwnerChange + 4 weeks) costs(1 ether) {
+        owner = msg.sender;
+        lastOwnerChange = now;
+    }
+}
+```
+
+**Helpful links**
+
+- `Ownable.sol` contract from OpenZeppelin: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
+- https://fravoll.github.io/solidity-patterns/access_restriction.html
+
+#### Secure Ether Transfer
+
+#### Pull over Push
+
+#### Emergency Stop
+
+**Motivation**
+
+A specific user (owner) will have the option to disable critical contract functionality in case of an emergency.
+
+**Use cases**
+
+`Pausable contract` from the _OpenZeppelin_ library.
+
+**Implementation**
+
+1. An `isStopped` or `isPaused` boolean state variable represents if the contract is stopped or not.
+2. With `stopContract` or `resumeContract` functions, authorized entities could change that boolean's value.
+3. Modifiers such as `onlyWhenStopped` and `stoppedInEmergency` could be used in critical functions.
+
+**Code example**
+
+```
+contract ExampleEmergencyStop {
+  bool paused = false;
+
+  constructor(){ }
+
+  modifier onlyOwner {
+    require(msg.sender == owner);
+    _;
+  }
+
+  modifier isPaused {
+   require(paused);
+   _;
+  }
+
+  modifier notPaused {
+   require(! paused);
+   _;
+  }
+
+  function pauseContract() public onlyOwner notPaused {
+     paused = true;
+  }
+
+  function unpauseContract() public onlyOwner isPaused {
+     paused = false;
+  }
+
+  function depositEther() public notPaused { }
+
+ function emergencyWithdrawal() public isPaused { }
+}
+```
+
+**Helpful links**
+
+- https://fravoll.github.io/solidity-patterns/emergency_stop.html
+- https://dev.to/jamiescript/design-patterns-in-solidity-1i28#emergency
+
+<a name="upgradeability-patterns"/>
+
+### Upgradeability Patterns
+
+#### Proxy Delegate
+
+#### Eternal Storage
 
 <a name="frameworks"/>
 
