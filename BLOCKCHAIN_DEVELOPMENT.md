@@ -138,6 +138,67 @@ An example to think of is that of a ticket to watch Manchester United in a Premi
 
 #### Guard Check
 
+**Motivation**
+
+A pattern to check if certain conditions of the contract are correct.
+
+**Use cases**
+
+- validate user inputs.
+- check the contract state or conditions.
+- check invariants.
+
+**Implementation**
+
+There are three main recommended functions to check conditions in Solidity:
+
+- `assert(bool condition, string error_message)`:
+  - It throws an exception if the parameter evaluates to false.
+  - It is used to test for internal errors, and to check invariants.
+  - It is used at the end of a function.
+  - It uses up all gas included in the transaction.
+  - Under normal circumstances and bug free code, it should never evaluate to "false".
+- `require(bool condition)`:
+  - It throws an exception if the parameter evaluates to false.
+  - It is used to ensure valid conditions, such as inputs, or contract state variables [..], or to validate return values from calls to external contracts.
+  - It is used at the beginning of a function for validation.
+  - If if throws, it refunds all of the not consumed gas.
+  - Under normal circumstances and bug free code, it is used more often than the other two..
+- `revert()`:
+  - It throws in every case.
+  - It is used to ensure valid conditions, same as "require()".
+  - It refunds all of the not consumed gas.
+  - It is used in complex situations, like if-else trees, where the evaluation of the condition cannot be conducted in one line of code and the use of "require()".
+
+**Code example**
+
+```
+contract GuardCheckPattern {
+
+  function donate(address addr) payable public {
+    require(addr != address(0), "Incorrect address");
+    require(msg.value != 0, "Value should be greater than zero");
+    uint balanceBeforeTransfer = this.balance;
+    uint transferAmount;
+
+    if (addr.balance == 0) {
+        transferAmount = msg.value;
+    } else if (addr.balance < msg.sender.balance) {
+        transferAmount = msg.value / 2;
+    } else {
+        revert();
+    }
+
+    addr.transfer(transferAmount);
+    assert(this.balance == balanceBeforeTransfer - transferAmount);
+  }
+}
+```
+
+**Helpful links**
+
+- https://fravoll.github.io/solidity-patterns/guard_check.html
+
 #### State Machine
 
 **Motivation**
