@@ -88,9 +88,13 @@ It's the process of dispatching events and executing instructions in a javascrip
 ### How does the Event loop work in Javascript?
 
 The event loop is the process of monitoring 2 parts of a Javascript hosting environment (such as Node js or a Web Browser), those 2 parts are, the **CallStack** and the **Callback Queue**.
+
 The CallStack is where the event loop puts each function call and it follows a LIFO approach to process functions. It means the last function that is executed is the first one that is removed from the CallStack.
+
 The Callback Queue is another place in which function calls are placed to be processed once the CallStack is empty. The Callback Queue follows a FIFO approach to process callback functions, it means that the first function that is added to de queue is the first one that is removed from it. Is used for different environment API's like `setTimeout`, `fetch` or `file.read` to put callback functions inside it once they're required.
+
 In example:
+
 `setTimeout` will put a callback function at the end of the Callback Queue once the timeout value is reached. Once the `setTimeout` callback is added into the Callback Queue, the event loop will wait until the CallStack is empty, when it happens, the event loop will move the `setTimeout` callback from the Callback Queue to the CallStack to be processed by the Javascript Engine.
 
 ### Explain Apply, Bind and Call functions
