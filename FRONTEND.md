@@ -196,7 +196,11 @@ The VirtualDom, like the DOM, is a node tree that list the webpage elements as o
 
 ### What is the Reconciliation in React?
 
-Complete
+It is a process of React for updating the UI in a fast way. It is related to concepts as **Browser DOM**, **Virtual Dom** and **Diffing algorithm**.
+
+As explained on the previous bullet, when there are changes on state or props, React creates a **new Virtual DOM** and compares it with the **old Virtual DOM** using a **Diffing algorithm**. Then, if there are differences, it updates the real **Browser DOM** with the minimum required changes. It is of course more efficient than just updating all the real Browser DOM every time.
+
+Source: https://en.reactjs.org/docs/reconciliation.html
 
 ### What is Redux?
 
