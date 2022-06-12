@@ -188,7 +188,9 @@ Component Oriented Programming (COP) is a technique for software development tha
 
 ### What is Immutability and why it is important in React?
 
-Complete
+In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its  state cannot be modified after its creation.
+
+In React, immutability is related to the reconciliation process: it is easier and faster to tell that something changed if the old object is different than the new one, instead of figuring out if any prop inside the original object has been altered.
 
 ### What is the Virtual DOM?
 
