@@ -34,6 +34,9 @@
   - What is redux-thunk?
   - What is react-native?
   - What is different in react-native from react?
+  - Hooks
+    - What are React Hooks?
+    - What are the advantages of using hooks?
 
 <a name="javascript"/>
 
@@ -241,3 +244,17 @@ It is a JS framework for writing mobile apps for iOS and Android. It uses reactJ
 - react-native does not use HTML or CSS. Instead, there are native views.
 - The navigation: in react-native there is a stack of views and the user navigates throw those views.
 - All stuff related to hardware usage: camera, microphone, GPS, etc.
+
+### Hooks
+
+#### What are React Hooks?
+
+Hooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
+
+Source: https://en.reactjs.org/docs/hooks-intro.html
+
+#### What are the advantages of using hooks?
+
+- Cleaner code: easier to read and write.
+- Re-usability: since a hook extract stateful logic from a component, it can be tested independently and reused in other components.
+- More efficient: there are certain tools like `usememo` and `useCallback` hooks related to performance, and the `array dependency` in `useEffect` that allows to execute certain code when a specific or specific prop is updated (not like the `componentDidUpdate` in React classes that fires when any prop or state is changed).
