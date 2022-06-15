@@ -191,7 +191,7 @@ Component Oriented Programming (COP) is a technique for software development tha
 
 ### What is Immutability and why it is important in React?
 
-In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its  state cannot be modified after its creation.
+In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its state cannot be modified after its creation.
 
 In React, immutability is related to the reconciliation process: it is easier and faster to tell that something changed if the old object is different than the new one, instead of figuring out if any prop inside the original object has been altered.
 
@@ -258,3 +258,11 @@ Source: https://en.reactjs.org/docs/hooks-intro.html
 - Cleaner code: easier to read and write.
 - Re-usability: since a hook extract stateful logic from a component, it can be tested independently and reused in other components.
 - More efficient: there are certain tools like `usememo` and `useCallback` hooks related to performance, and the `array dependency` in `useEffect` that allows to execute certain code when a specific or specific prop is updated (not like the `componentDidUpdate` in React classes that fires when any prop or state is changed).
+
+#### The useState hook
+
+The `useState` hook creates a piece of state for the component. Calling the hook returns the current value of that piece of state, and a method to update it, in the form of an array. This hook accepts one parameter that is the `initialValue`. If the initial value is expensive to compute, you may want to wrap it in a function. It looks like this:
+
+```
+const [value, setValue] = useState(initialValue);
+```
