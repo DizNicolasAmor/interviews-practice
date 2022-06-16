@@ -37,6 +37,8 @@
   - Hooks
     - What are React Hooks?
     - What are the advantages of using hooks?
+    - The useState hook
+    - The useEffect hook
 
 <a name="javascript"/>
 
@@ -266,3 +268,29 @@ The `useState` hook creates a piece of state for the component. Calling the hook
 ```
 const [value, setValue] = useState(initialValue);
 ```
+
+#### The useEffect hook
+
+The `useEffect` Hook lets you perform side effects in function components. For example, changing the DOM, fetching some data, subscribing to things that emit events, among other effects. It serves a purpose similar to some lifecycle methods of class components: `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`. It looks like this:
+
+```
+/**
+* effect is a function that performs the effect
+* dependencies is an array of values on which the effect depends
+**/
+useEffect(effect [, dependencies]);
+```
+
+Some effects might require cleanup so they return a function like this example:
+
+```
+useEffect(() => {
+  // add an event listener
+
+  return () => {
+    // remove the event listener
+  };
+}, []);
+```
+
+Source: https://en.reactjs.org/docs/hooks-effect.html
