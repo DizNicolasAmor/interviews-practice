@@ -39,6 +39,9 @@
     - What are the advantages of using hooks?
     - The useState hook
     - The useEffect hook
+    - The useMemo hook
+    - The useCallback hook
+    - What is the difference between useMemo and useCallback?
 
 <a name="javascript"/>
 
@@ -294,3 +297,23 @@ useEffect(() => {
 ```
 
 Source: https://en.reactjs.org/docs/hooks-effect.html
+
+#### The useMemo hook
+
+The `useMemo` hook returns a memoized value (it is like caching a value so that it does not need to be recalculated). The useMemo Hook only runs when one of its dependencies update. Based on that, this tool can improve performance.
+
+Example:
+
+`const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);`
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usememo
+
+#### The useCallback hook
+
+complete
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usecallback
+
+#### What is the difference between useMemo and useCallback?
+
+The main difference is that `useMemo` returns a memoized while and `useCallback` returns a memoized function.
