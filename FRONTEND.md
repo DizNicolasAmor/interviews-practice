@@ -310,10 +310,18 @@ Source: https://en.reactjs.org/docs/hooks-reference.html#usememo
 
 #### The useCallback hook
 
-complete
+The `useCallback` hook returns a memoized callback.
+
+It receives two parameters: a callback and an array of dependencies. It will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+
+Example:
+
+`const memoizedCallback = useCallback(myFunction, [a, b]);`
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#usecallback
 
 #### What is the difference between useMemo and useCallback?
 
-The main difference is that `useMemo` returns a memoized while and `useCallback` returns a memoized function.
+The main difference is that `useMemo` returns a memoized value while `useCallback` returns a memoized function.
+
+In code, `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps).`
