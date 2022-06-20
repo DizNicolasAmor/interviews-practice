@@ -42,6 +42,7 @@
     - The useMemo hook
     - The useCallback hook
     - What is the difference between useMemo and useCallback?
+    - The useRef hook
 
 <a name="javascript"/>
 
@@ -325,3 +326,13 @@ Source: https://en.reactjs.org/docs/hooks-reference.html#usecallback
 The main difference is that `useMemo` returns a memoized value while `useCallback` returns a memoized function.
 
 In code, `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps).`
+
+#### The useRef hook
+
+The `useRef` hook allows to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly. It returns a ref object with a `current` property that has a mutable value.
+
+Example:
+
+`const refContainer = useRef(initialValue);`
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#useref
