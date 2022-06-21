@@ -39,6 +39,7 @@
     - What are the advantages of using hooks?
     - The useState hook
     - The useEffect hook
+    - The useContext hook
     - The useMemo hook
     - The useCallback hook
     - What is the difference between useMemo and useCallback?
@@ -275,7 +276,7 @@ const [value, setValue] = useState(initialValue);
 
 #### The useEffect hook
 
-The `useEffect` Hook lets you perform side effects in function components. For example, changing the DOM, fetching some data, subscribing to things that emit events, among other effects. It serves a purpose similar to some lifecycle methods of class components: `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`. It looks like this:
+The `useEffect` hook lets you perform side effects in function components. For example, changing the DOM, fetching some data, subscribing to things that emit events, among other effects. It serves a purpose similar to some lifecycle methods of class components: `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`. It looks like this:
 
 ```
 /**
@@ -298,6 +299,39 @@ useEffect(() => {
 ```
 
 Source: https://en.reactjs.org/docs/hooks-effect.html
+
+#### The useContext hook
+
+The `useContext` hook is used to create common data that can be accessed throughout the component hierarchy without passing the props down manually to each level. Context defined will be available to all the child components without involving `props`.
+
+Example:
+
+```
+import { useState, createContext, useContext } from "react";
+
+const UserContext = createContext();
+
+function Component1() {
+  const [user, setUser] = useState("Jesse Hall");
+
+  return (
+    <UserContext.Provider value={user}>
+      <h1>{`Hello ${user}!`}</h1>
+      <AnotherChild />
+    </UserContext.Provider>
+  );
+}
+
+const AnotherChild = () => {
+  const user = useContext(UserContext);
+
+  return (
+    <div>{`Hello ${user} again!`}</div>
+  );
+}
+```
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usecontext
 
 #### The useMemo hook
 
