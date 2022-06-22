@@ -44,6 +44,7 @@
     - The useCallback hook
     - What is the difference between useMemo and useCallback?
     - The useRef hook
+    - The useReducer hook
 
 <a name="javascript"/>
 
@@ -370,3 +371,39 @@ Example:
 `const refContainer = useRef(initialValue);`
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#useref
+
+#### The useReducer hook
+
+The `useReducer` hook ia an alternative to `useState`. It accepts a reducer of type `(state, action) => newState`, and returns the current state paired with a dispatch method (similar to Redux concepts).
+
+Writing: `const [state, dispatch] = useReducer(reducer, initialArg, init);`
+
+Example:
+
+```
+const initialState = {count: 0};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case 'increment':
+      return {count: state.count + 1};
+    case 'decrement':
+      return {count: state.count - 1};
+    default:
+      throw new Error();
+  }
+}
+
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <>
+      Count: {state.count}
+      <button onClick={() => dispatch({type: 'decrement'})}>-</button>
+      <button onClick={() => dispatch({type: 'increment'})}>+</button>
+    </>
+  );
+}
+```
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
