@@ -29,7 +29,7 @@
   - What is the Reconciliation in React?
   - What is Redux?
   - What is a HOC (High order component)?
-  - What is a middleware?
+  - What is a Redux Middleware?
   - What is redux-saga?
   - What is redux-thunk?
   - What is react-native?
@@ -228,9 +228,9 @@ Source: https://en.reactjs.org/docs/reconciliation.html
 
 A High Order Component (HOC) is a function that takes a component as parameter and returns another component. For example, the `connect` function in `Redux` is a HOC.
 
-### What is a middleware?
+### What is a Redux Middleware?
 
-Complete
+It is a tool that allows you to intercept every action sent to the reducer so you can make changes to the action or cancel the action. Middleware helps you with logging, error reporting, making asynchronous requests, among other possibilities.
 
 ### What is redux-saga?
 
