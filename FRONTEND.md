@@ -3,6 +3,10 @@
 ## TABLE OF CONTENTS
 
 - [Javascript](#javascript)
+  - What is Javascript?
+  - What is OOP?
+  - Is JS OOP or Prototype orientes?
+  - Class-based OOP VS Prototype-based OOP
   - What does "data type" mean and how many data types are in JS?
   - What is hoisting?
   - What is Scope?
@@ -49,6 +53,32 @@
 <a name="javascript"/>
 
 ## Javascript
+
+### What is Javascript?
+
+JavaScript is a programming language that is mainly used for Web applications.
+
+It is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic types, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has APIs for working with text, dates, reges and the DOM.
+
+### What is OOP?
+
+complete
+
+### Is JS OOP or Prototype orientes?
+
+complete
+
+### Class-based OOP VS Prototype-based OOP
+
+JavaScript does not have real classes per se. Instead, it uses the concept of prototypes  for handling inheritance. 
+
+On the one hand, in class-based OOP a class defines the structure of the objects that will be instanciated from that class. And a class can extend characteristics from other parent classed. It is more structural.
+
+On the another hand, in Prototype-based OOP there is a real object that it is the Prototype, that is reused by new objects. It is more flexible.
+
+- Inheritance
+- Memory
+- Instances
 
 ### What does "data type" mean and how many data types are in JS?
 
