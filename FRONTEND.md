@@ -62,7 +62,12 @@ It is a high-level, often just-in-time compiled language that conforms to the EC
 
 ### What is OOP?
 
-complete
+Object Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain attributes (or properties) and methods. It is based on the main principles:
+
+- **Encapsulation**. This principle states that all important information is contained inside an object and only select information is exposed.
+- **Abstraction**. Objects only reveal internal mechanisms that are relevant for the use of other objects, hiding any unnecessary implementation code. The derived class can have its functionality extended. This concept can help developers more easily make additional changes or additions over time.
+- **Inheritance**. Classes can reuse code from other classes.
+- **Polymorphism**. Objects are designed to share behaviors and they can take on more than one form. A child class that extends the functionality of the parent class could overwrite a method with a particular behavior.
 
 ### Is JS OOP or Prototype orientes?
 
