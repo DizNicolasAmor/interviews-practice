@@ -5,7 +5,7 @@
 - [Javascript](#javascript)
   - What is Javascript?
   - What is OOP?
-  - Is JS OOP or Prototype orientes?
+  - Is JS OOP or Prototype oriented?
   - Class-based OOP VS Prototype-based OOP
   - What does "data type" mean and how many data types are in JS?
   - What is hoisting?
@@ -69,9 +69,11 @@ Object Oriented Programming (OOP) is a programming paradigm based on the concept
 - **Inheritance**. Classes can reuse code from other classes.
 - **Polymorphism**. Objects are designed to share behaviors and they can take on more than one form. A child class that extends the functionality of the parent class could overwrite a method with a particular behavior.
 
-### Is JS OOP or Prototype orientes?
+### Is JS OOP or Prototype-oriented programming?
 
-complete
+There is no such thing as Prototype-oriented programming paradigm.
+
+**Javascript is multiparadigm**, that means it supports various programming paradigms and **OOP** is one of them. **Prototype-based** programming is a style of OOP, just like **class-based**.
 
 ### Class-based OOP VS Prototype-based OOP
 
