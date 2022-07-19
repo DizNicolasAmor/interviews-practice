@@ -77,15 +77,23 @@ There is no such thing as Prototype-oriented programming paradigm.
 
 ### Class-based OOP VS Prototype-based OOP
 
-JavaScript does not have real classes per se. Instead, it uses the concept of prototypes  for handling inheritance. 
+JavaScript does not have real classes per se. Instead, it uses the concept of **prototypes** for handling inheritance.
 
-On the one hand, in class-based OOP a class defines the structure of the objects that will be instanciated from that class. And a class can extend characteristics from other parent classed. It is more structural.
+On the one hand, in class-based OOP a class defines the structure of the objects that will be instanciated from that class. And a class can extend characteristics from other parent classed. It is more structural. On the another hand, in Prototype-based OOP there is a real object that it is the Prototype, that is reused by new objects. It is more flexible.
 
-On the another hand, in Prototype-based OOP there is a real object that it is the Prototype, that is reused by new objects. It is more flexible.
+Here is how this two styles approach the OOP main principles:
 
-- Inheritance
-- Memory
-- Instances
+- **Abstraction**: in Class-based style abstraction is handled via interfaces and abstract classes, while in Prototype-based style like Javascript, it is handled with the concept of **closure**.
+- **Encapsulation**: in Class-based style there are specific keywords and methods to handle encapsulation, while in Prototype-based style like Javascript it is handled with the concept of **closure**.
+- **Inheritance**:
+  - On the one hand, in Prototype-based style, inheritance is attached to a live working object called prototype or __proto__ and accessed by all the children. Objects do not get copies of inherited behaviors, they receive the prototype object, and can be changed later.
+  - On the another hand, in Class-based style the objects instantiated from a class receive a copy of the class characteristics and they cannot be changed later, so it is important to plan the class structure before start instantiations.
+- **Polymorphism**
+  - In Javascript (Prototype-style) it is performed using **Prototype chaining**:
+
+  | When we try to read or write something on an object JS engine will firstly look for that property in the object. If found then the search will stop and will return the property. Else it will go to the object’s prototype will search among its properties if not found then will go to prototype’s prototype and so on… until it reaches to null if found anywhere it will stop there and return the property, if not found till the end it will return *undefined*.
+
+  - In class-based style there are other types of polymorphism: runtime, overloading, compile-time and casting.
 
 ### What does "data type" mean and how many data types are in JS?
 
