@@ -49,6 +49,12 @@
     - What is the difference between useMemo and useCallback?
     - The useRef hook
     - The useReducer hook
+  - Frameworks
+    - Create React App
+    - NextJS
+    - What is client-side rendering (CSR)?
+    - What is Server-side rendering (SSR)?
+    - What are the differences between CSR and SSR?
 
 <a name="javascript"/>
 
