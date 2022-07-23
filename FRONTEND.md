@@ -3,6 +3,10 @@
 ## TABLE OF CONTENTS
 
 - [Javascript](#javascript)
+  - What is Javascript?
+  - What is OOP?
+  - Is JS OOP or Prototype oriented?
+  - Class-based OOP VS Prototype-based OOP
   - What does "data type" mean and how many data types are in JS?
   - What is hoisting?
   - What is Scope?
@@ -29,7 +33,7 @@
   - What is the Reconciliation in React?
   - What is Redux?
   - What is a HOC (High order component)?
-  - What is a middleware?
+  - What is a Redux Middleware?
   - What is redux-saga?
   - What is redux-thunk?
   - What is react-native?
@@ -37,10 +41,65 @@
   - Hooks
     - What are React Hooks?
     - What are the advantages of using hooks?
+    - The useState hook
+    - The useEffect hook
+    - The useContext hook
+    - The useMemo hook
+    - The useCallback hook
+    - What is the difference between useMemo and useCallback?
+    - The useRef hook
+    - The useReducer hook
+  - Frameworks
+    - Create React App
+    - NextJS
+    - What is client-side rendering (CSR)?
+    - What is Server-side rendering (SSR)?
+    - What are the differences between CSR and SSR?
 
 <a name="javascript"/>
 
 ## Javascript
+
+### What is Javascript?
+
+JavaScript is a programming language that is mainly used for Web applications.
+
+It is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic types, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has APIs for working with text, dates, reges and the DOM.
+
+### What is OOP?
+
+Object Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain attributes (or properties) and methods. It is based on the main principles:
+
+- **Encapsulation**. This principle states that all important information is contained inside an object and only select information is exposed.
+- **Abstraction**. Objects only reveal internal mechanisms that are relevant for the use of other objects, hiding any unnecessary implementation code. The derived class can have its functionality extended. This concept can help developers more easily make additional changes or additions over time.
+- **Inheritance**. Classes can reuse code from other classes.
+- **Polymorphism**. Objects are designed to share behaviors and they can take on more than one form. A child class that extends the functionality of the parent class could overwrite a method with a particular behavior.
+
+### Is JS OOP or Prototype-oriented programming?
+
+There is no such thing as Prototype-oriented programming paradigm.
+
+**Javascript is multiparadigm**, that means it supports various programming paradigms and **OOP** is one of them. **Prototype-based** programming is a style of OOP, just like **class-based**.
+
+### Class-based OOP VS Prototype-based OOP
+
+JavaScript does not have real classes per se. Instead, it uses the concept of **prototypes** for handling inheritance.
+
+On the one hand, in class-based OOP a class defines the structure of the objects that will be instanciated from that class. And a class can extend characteristics from other parent classed. It is more structural. On the another hand, in Prototype-based OOP there is a real object that it is the Prototype, that is reused by new objects. It is more flexible.
+
+Here is how this two styles approach the OOP main principles:
+
+- **Abstraction**: in Class-based style abstraction is handled via interfaces and abstract classes, while in Prototype-based style like Javascript, it is handled with the concept of **closure**.
+- **Encapsulation**: in Class-based style there are specific keywords and methods to handle encapsulation, while in Prototype-based style like Javascript it is handled with the concept of **closure**.
+- **Inheritance**:
+  - On the one hand, in Prototype-based style, inheritance is attached to a live working object called prototype or __proto__ and accessed by all the children. Objects do not get copies of inherited behaviors, they receive the prototype object, and can be changed later.
+  - On the another hand, in Class-based style the objects instantiated from a class receive a copy of the class characteristics and they cannot be changed later, so it is important to plan the class structure before start instantiations.
+- **Polymorphism**
+  - In Javascript (Prototype-style) it is performed using **Prototype chaining**:
+
+  | When we try to read or write something on an object JS engine will firstly look for that property in the object. If found then the search will stop and will return the property. Else it will go to the object’s prototype will search among its properties if not found then will go to prototype’s prototype and so on… until it reaches to null if found anywhere it will stop there and return the property, if not found till the end it will return *undefined*.
+
+  - In class-based style there are other types of polymorphism: runtime, overloading, compile-time and casting.
 
 ### What does "data type" mean and how many data types are in JS?
 
@@ -191,7 +250,7 @@ Component Oriented Programming (COP) is a technique for software development tha
 
 ### What is Immutability and why it is important in React?
 
-In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its  state cannot be modified after its creation.
+In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its state cannot be modified after its creation.
 
 In React, immutability is related to the reconciliation process: it is easier and faster to tell that something changed if the old object is different than the new one, instead of figuring out if any prop inside the original object has been altered.
 
@@ -220,9 +279,9 @@ Source: https://en.reactjs.org/docs/reconciliation.html
 
 A High Order Component (HOC) is a function that takes a component as parameter and returns another component. For example, the `connect` function in `Redux` is a HOC.
 
-### What is a middleware?
+### What is a Redux Middleware?
 
-Complete
+It is a tool that allows you to intercept every action sent to the reducer so you can make changes to the action or cancel the action. Middleware helps you with logging, error reporting, making asynchronous requests, among other possibilities.
 
 ### What is redux-saga?
 
@@ -258,3 +317,144 @@ Source: https://en.reactjs.org/docs/hooks-intro.html
 - Cleaner code: easier to read and write.
 - Re-usability: since a hook extract stateful logic from a component, it can be tested independently and reused in other components.
 - More efficient: there are certain tools like `usememo` and `useCallback` hooks related to performance, and the `array dependency` in `useEffect` that allows to execute certain code when a specific or specific prop is updated (not like the `componentDidUpdate` in React classes that fires when any prop or state is changed).
+
+#### The useState hook
+
+The `useState` hook creates a piece of state for the component. Calling the hook returns the current value of that piece of state, and a method to update it, in the form of an array. This hook accepts one parameter that is the `initialValue`. If the initial value is expensive to compute, you may want to wrap it in a function. It looks like this:
+
+```
+const [value, setValue] = useState(initialValue);
+```
+
+#### The useEffect hook
+
+The `useEffect` hook lets you perform side effects in function components. For example, changing the DOM, fetching some data, subscribing to things that emit events, among other effects. It serves a purpose similar to some lifecycle methods of class components: `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`. It looks like this:
+
+```
+/**
+* effect is a function that performs the effect
+* dependencies is an array of values on which the effect depends
+**/
+useEffect(effect [, dependencies]);
+```
+
+Some effects might require cleanup so they return a function like this example:
+
+```
+useEffect(() => {
+  // add an event listener
+
+  return () => {
+    // remove the event listener
+  };
+}, []);
+```
+
+Source: https://en.reactjs.org/docs/hooks-effect.html
+
+#### The useContext hook
+
+The `useContext` hook is used to create common data that can be accessed throughout the component hierarchy without passing the props down manually to each level. Context defined will be available to all the child components without involving `props`.
+
+Example:
+
+```
+import { useState, createContext, useContext } from "react";
+
+const UserContext = createContext();
+
+function Component1() {
+  const [user, setUser] = useState("Jesse Hall");
+
+  return (
+    <UserContext.Provider value={user}>
+      <h1>{`Hello ${user}!`}</h1>
+      <AnotherChild />
+    </UserContext.Provider>
+  );
+}
+
+const AnotherChild = () => {
+  const user = useContext(UserContext);
+
+  return (
+    <div>{`Hello ${user} again!`}</div>
+  );
+}
+```
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usecontext
+
+#### The useMemo hook
+
+The `useMemo` hook returns a memoized value (it is like caching a value so that it does not need to be recalculated). The useMemo Hook only runs when one of its dependencies update. Based on that, this tool can improve performance.
+
+Example:
+
+`const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);`
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usememo
+
+#### The useCallback hook
+
+The `useCallback` hook returns a memoized callback.
+
+It receives two parameters: a callback and an array of dependencies. It will return a memoized version of the callback that only changes if one of the dependencies has changed. This is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+
+Example:
+
+`const memoizedCallback = useCallback(myFunction, [a, b]);`
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usecallback
+
+#### What is the difference between useMemo and useCallback?
+
+The main difference is that `useMemo` returns a memoized value while `useCallback` returns a memoized function.
+
+In code, `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps).`
+
+#### The useRef hook
+
+The `useRef` hook allows to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly. It returns a ref object with a `current` property that has a mutable value.
+
+Example:
+
+`const refContainer = useRef(initialValue);`
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#useref
+
+#### The useReducer hook
+
+The `useReducer` hook ia an alternative to `useState`. It accepts a reducer of type `(state, action) => newState`, and returns the current state paired with a dispatch method (similar to Redux concepts).
+
+Writing: `const [state, dispatch] = useReducer(reducer, initialArg, init);`
+
+Example:
+
+```
+const initialState = {count: 0};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case 'increment':
+      return {count: state.count + 1};
+    case 'decrement':
+      return {count: state.count - 1};
+    default:
+      throw new Error();
+  }
+}
+
+function Counter() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <>
+      Count: {state.count}
+      <button onClick={() => dispatch({type: 'decrement'})}>-</button>
+      <button onClick={() => dispatch({type: 'increment'})}>+</button>
+    </>
+  );
+}
+```
+
+Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
