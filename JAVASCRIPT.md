@@ -2,28 +2,35 @@
 
 ## TABLE OF CONTENTS
 
-- What is Javascript?
-- What is OOP?
-- Is JS OOP or Prototype oriented?
-- Class-based OOP VS Prototype-based OOP
-- What does "data type" mean and how many data types are in JS?
-- What is hoisting?
-- What is Scope?
-- What is Closure?
-- What is the Event loop?
-- How does the Event loop work in Javascript?
-- Explain Apply, Bind and Call functions
-- What is Immutability?
-- How to copy an object?
-- What is a HOF (high order function)?
-- What is the difference between map, reduce and forEach functions?
-- What is ECMAScript?
-- Mention some of the new features in ES6
-- Mention some of the new features in ES11 (ES 2020)
-- What are the differences between var, let and const?
-- What are the difference between an arrow function and a regular function?
-- What is a Promise?
-- How a Promise can be consumed?
+- [Paradigm](#paradigm)
+  - What is Javascript?
+  - What is OOP?
+  - Is JS OOP or Prototype oriented?
+  - Class-based OOP VS Prototype-based OOP
+- [Concepts](#concepts)
+  - What does "data type" mean and how many data types are in JS?
+  - What is hoisting?
+  - What is Scope?
+  - What is Closure?
+  - What is the Event loop?
+  - How does the Event loop work in Javascript?
+  - Explain Apply, Bind and Call functions
+  - What is Immutability?
+  - How to copy an object?
+  - What is a HOF (high order function)?
+  - What is the difference between map, reduce and forEach functions?
+  - What is a Promise?
+  - How a Promise can be consumed?
+- [ECMAScript](#ecmascript)
+  - What is ECMAScript?
+  - Mention some of the new features in ES6 (ES 2015)
+  - Mention some of the new features in ES11 (ES 2020)
+  - What are the differences between var, let and const?
+  - What are the difference between an arrow function and a regular function?
+
+<a name="paradigm"/>
+
+## Paradigm
 
 ### What is Javascript?
 
@@ -65,6 +72,10 @@ Here is how this two styles approach the OOP main principles:
   | When we try to read or write something on an object JS engine will firstly look for that property in the object. If found then the search will stop and will return the property. Else it will go to the object’s prototype will search among its properties if not found then will go to prototype’s prototype and so on… until it reaches to null if found anywhere it will stop there and return the property, if not found till the end it will return *undefined*.
 
   - In class-based style there are other types of polymorphism: runtime, overloading, compile-time and casting.
+
+<a name="concepts"/>
+
+## Concepts
 
 ### What does "data type" mean and how many data types are in JS?
 
@@ -153,6 +164,20 @@ A High Order Function is a function that either takes a function as an argument 
 The `map` method receives a function as a parameter. Then it applies it on each element and returns a new array populated
 with the results of calling the provided function. In the case of `forEach` method, it receives a function as a parameter with each array value and returns `undefined`, its proupouse is only iterate an array. And finally `reduce` method is used to reduce the array to a single value, it executes a provided function for each value of the array (from left-to-right) and the return value of the function is stored in an accumulator.
 
+### What is a Promise?
+
+A promise is a function that will return data in some future.
+
+### How a Promise can be consumed?
+
+- Using `then / catch`: you can call the `then` method and pass a callback as a param. The callback will be executed when the promise resolves. After that you can use the`catch` method. Same criteria, but the catch callback will be executed if the promise rejects.
+- Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
+- Using a generator: you can declare a generator function and consume the promise inside of it, with the yield keyword.
+
+<a name="ecmascript"/>
+
+## ECMAScript
+
 ### What is ECMAScript?
 
 Ecmascript (European Computer Manufacturer's Association) is a standard for scripting languages.
@@ -188,13 +213,3 @@ They have the following differences:
 2. Regular functions have an `arguments` binding and arrow functions only have access to `arguments` objects of the closest non-arrow parent function.
 3. Arrow ones have "lexical this". Basically in an arrow function, the value of `this` is always inherited from the enclosing scope. In regular functions, the value of `this` is defined whyen it's being executed and it depends on where it has been executed from.
 4. Arrow functions are only callable and regular functions are either callable and constructible (can be invoked with the `new` keyboard).
-
-### What is a Promise?
-
-A promise is a function that will return data in some future.
-
-### How a Promise can be consumed?
-
-- Using `then / catch`: you can call the `then` method and pass a callback as a param. The callback will be executed when the promise resolves. After that you can use the`catch` method. Same criteria, but the catch callback will be executed if the promise rejects.
-- Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
-- Using a generator: you can declare a generator function and consume the promise inside of it, with the yield keyword.
