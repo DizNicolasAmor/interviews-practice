@@ -2,9 +2,13 @@
 
 ## TABLE OF CONTENTS
 
-- [FRONTEND](./FRONTEND.md)
-  - Javascript
-  - React
+- **FRONTEND**
+  - [A11Y](./A11Y.md)
+  - [CSS](./CSS.md)
+  - [HTML](./HTML.md)
+  - [JAVASCRIPT](./JAVASCRIPT.md)
+  - [REACT](./REACT.md)
+  - [TESTING](./TESTING.md)
 - [BLOCKCHAIN](./BLOCKCHAIN.md)
 - [BLOCKCHAIN DEVELOPMENT](./BLOCKCHAIN_DEVELOPMENT.md)
 - [DATABASES](./DATABASES.md)
