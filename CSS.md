@@ -6,6 +6,7 @@
   - What is CSS?
   - What are the advantages of using CSS?
   - What are the limitations of CSS?
+  - How to add CSS to a HTML file?
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -36,6 +37,25 @@
 - No expressions.
 - Pseudo-class not controlled by dynamic behavior.
 - Rules, styles, targeting specific text not possible.
+
+### How to add CSS to a HTML file?
+
+There are three ways:
+
+- **Inline CSS**: it is used to apply CSS on a single line or element. For example:
+   ```
+   <p style="color:blue">Hello world</p>
+   ```
+- **Internal or Embedded CSS**: it is used to apply CSS on a single document or page. It can affect all the elements of the page. It is written inside the `style` tag within `head` section of `html`.
+   ```
+   <style>
+   p {color:blue}
+   </style>
+   ```
+- **External CSS**: it is used to apply on multiple pages or all pages. There is a separate CSS file with a `.css` extension which contains only styles and should be linked to the HTML document using the `link` tag.
+   ```
+   <link rel="stylesheet" type="text/css" href="./myCssFile.css">
+   ```
 
 <a name="preprocessors"/>
 
