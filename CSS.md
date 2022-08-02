@@ -7,6 +7,9 @@
   - What are the advantages of using CSS?
   - What are the limitations of CSS?
   - How to add CSS to a HTML file?
+- [Frameworks](#frameworks)
+   - What is a CSS framework?
+   - Name some CSS frameworks
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -56,6 +59,25 @@ There are three ways:
    ```
    <link rel="stylesheet" type="text/css" href="./myCssFile.css">
    ```
+
+<a name="frameworks"/>
+
+## Frameworks
+
+### What is a CSS framework?
+
+It is a preplanned library that contains several CSS stylesheets ready for use by web developers and designers.
+
+### Name some CSS frameworks
+
+The frequently used CSS frameworks are:
+
+- Bootstrap
+- Foundation
+- Bulma
+- Semantic UI
+- Tailwind
+- Ulkit
 
 <a name="preprocessors"/>
 
