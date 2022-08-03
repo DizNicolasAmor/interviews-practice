@@ -7,6 +7,7 @@
   - What are the advantages of using CSS?
   - What are the limitations of CSS?
   - How to add CSS to a HTML file?
+  - Which type of CSS addition has the highest priority?
 - [Frameworks](#frameworks)
    - What is a CSS framework?
    - Name some CSS frameworks
@@ -59,6 +60,12 @@ There are three ways:
    ```
    <link rel="stylesheet" type="text/css" href="./myCssFile.css">
    ```
+
+### Which type of CSS addition has the highest priority?
+
+- **Inline has the highest priority**. It overrides the other styles.
+- **Internal or Embedded stands second** in the priority list and overrides the styles in the external style sheet.
+- **External style sheets have the least priority**. If there are no styles defined either in the inline or internal style sheet then external style sheet rules are applied for the HTML tags.
 
 <a name="frameworks"/>
 
