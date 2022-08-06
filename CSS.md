@@ -8,7 +8,16 @@
   - What are the limitations of CSS?
   - How to add CSS to a HTML file?
   - Which type of CSS addition has the highest priority?
-  - Selectors
+- [Selectors](#selectors)
+  - Universal Selector
+  - Element Type Selector
+  - ID Selector
+  - Class Selector
+  - Descendant Combinator
+  - Child combinator
+  - General Sibling Combinator
+  - Adjacent Sibling Combinator
+  - Attribute Selector
 - [Frameworks](#frameworks)
    - What is a CSS framework?
    - Name some CSS frameworks
@@ -68,11 +77,13 @@ There are three ways:
 - **Internal or Embedded stands second** in the priority list and overrides the styles in the external style sheet.
 - **External style sheets have the least priority**. If there are no styles defined either in the inline or internal style sheet then external style sheet rules are applied for the HTML tags.
 
-### Selectors
+<a name="frameworks"/>
+
+## Selectors
 
 A CSS selector is the part of a CSS ruleset that actually selects the content you want to style.
 
-#### Universal Selector
+### Universal Selector
 
 The universal selector works like a wildcard character, selecting all elements on a page. Syntax:
 
@@ -82,7 +93,7 @@ The universal selector works like a wildcard character, selecting all elements o
 }
 ```
 
-#### Element Type Selector
+### Element Type Selector
 
 This selector matches one or more HTML elements of the same name. Syntax:
 
@@ -92,7 +103,7 @@ ul {
 }
 ```
 
-#### ID Selector
+### ID Selector
 
 This selector matches any HTML element that has an ID attribute with the same value as that of the selector. Syntax:
 
@@ -107,7 +118,7 @@ This selector matches any HTML element that has an ID attribute with the same va
 <div id="container"></div>
 ```
 
-#### Class Selector
+### Class Selector
 
 The class selector also matches all elements on the page that have their class attribute set to the same value as the class. Syntax:
 
@@ -123,7 +134,7 @@ The class selector also matches all elements on the page that have their class a
 <div class="box"></div>
 ```
 
-#### Descendant Combinator
+### Descendant Combinator
 
 The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.
 
@@ -140,7 +151,7 @@ The descendant selector or, more accurately, the descendant combinator lets you 
 
 This declaration block will apply to all elements that have a class of box that is inside an element with an ID of the container.
 
-#### Child Combinator
+### Child Combinator
 
 It only targets immediate child elements.
 
@@ -158,7 +169,7 @@ It only targets immediate child elements.
 </div>
 ```
 
-#### General Sibling Combinator
+### General Sibling Combinator
 
 A selector that uses a general sibling combinator to match elements based on sibling relationships. The selected elements are beside each other in the HTML.
 
@@ -178,7 +189,9 @@ h2 ~ p {
 
 In this example, all paragraph elements (<p>) will be styled with the specified rules, but only if they are siblings of <h2> elements. There could be other elements in between the <h2> and <p>, and the styles would still apply.
 
-Adjacent Sibling Combinator: A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
+### Adjacent Sibling Combinator
+
+A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
 
 ```
 p + p {
@@ -199,12 +212,13 @@ p + p {
 
 The above example will apply the specified styles only to paragraph elements that immediately follow other paragraph elements. This means the first paragraph element on a page would not receive these styles. Also, if another element appeared between two paragraphs, the second paragraph of the two wouldn’t have the styles applied.
 
-Attribute Selector: The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets.
+### Attribute Selector
+
+The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets.
 
 ```
 input [type=”text”] {
-	background-color: #444;
-	width: 200px;
+	background-color: lightgrey;
 }
 
 <input type="text">
