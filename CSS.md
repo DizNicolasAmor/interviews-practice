@@ -171,7 +171,7 @@ It only targets immediate child elements.
 
 ### General Sibling Combinator
 
-A selector that uses a general sibling combinator to match elements based on sibling relationships. The selected elements are beside each other in the HTML.
+It matches elements based on sibling relationships. The selected elements are beside each other in the HTML.
 
 ```
 h2 ~ p {
@@ -191,34 +191,31 @@ In this example, all paragraph elements (<p>) will be styled with the specified 
 
 ### Adjacent Sibling Combinator
 
-A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
+It uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
 
 ```
 p + p {
-	text-indent: 1.Sem;
-	margin-bottom: 0;
+	background: red;
 }
 
 <h2>Title</h2>
-<p>Paragraph example.</p>
-<p>Paragraph example.</p>
-<p>Paragraph example.</p>
+<p>Not styled.</p>
+<p>Styled.</p>
+<p>Styled.</p>
 
 <div class=”box”>
-	<p>Paragraph example.</p>
-	<p>Paragraph example.</p>
+	<p>Not styled.</p>
+	<p>Styled.</p>
 </div>
 ```
 
-The above example will apply the specified styles only to paragraph elements that immediately follow other paragraph elements. This means the first paragraph element on a page would not receive these styles. Also, if another element appeared between two paragraphs, the second paragraph of the two wouldn’t have the styles applied.
-
 ### Attribute Selector
 
-The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets.
+It targets elements based on the presence or value of HTML attributes, and is declared using square brackets.
 
 ```
-input [type=”text”] {
-	background-color: lightgrey;
+input[type="text"] {
+	outline: 1px solid blue;
 }
 
 <input type="text">
