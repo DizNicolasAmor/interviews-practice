@@ -8,6 +8,7 @@
   - What are the limitations of CSS?
   - How to add CSS to a HTML file?
   - Which type of CSS addition has the highest priority?
+  - What is the Box model?
 - [Selectors](#selectors)
   - Universal Selector
   - Element Type Selector
@@ -76,6 +77,15 @@ There are three ways:
 - **Inline has the highest priority**. It overrides the other styles.
 - **Internal or Embedded stands second** in the priority list and overrides the styles in the external style sheet.
 - **External style sheets have the least priority**. If there are no styles defined either in the inline or internal style sheet then external style sheet rules are applied for the HTML tags.
+
+### What is the Box model?
+
+The Box model is used to define the design and layout of CSS elements. The web browser renders every element as a rectangular box according to the CSS box model. Its elements are:
+
+- **Margin**: it is the area surrounding the border. It is transparent.
+- **Border**: it is the area between the box’s padding and margin.
+- **Padding**: it is the space around the content area and within the border box. It is transparent.
+- **Content**: it represents the content like text, images or other media content.
 
 <a name="frameworks"/>
 
