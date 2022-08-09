@@ -256,11 +256,11 @@ The frequently used CSS frameworks are:
 
 ### What is a CSS Preprocessor?
 
-complete
+It is a tool that extends the functionality of vanilla CSS through its own scripting language. It helps us to use complex logical syntax like variables, functions, mixins, code nesting, and inheritance, among others.
 
 ### Sass
 
-complete
+"Syntactically Awesome Style Sheets" can be written in two different syntaxes using SASS or SCSS.
 
 ### Less
 
