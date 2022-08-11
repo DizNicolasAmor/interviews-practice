@@ -262,9 +262,20 @@ It is a tool that extends the functionality of vanilla CSS through its own scrip
 
 "Syntactically Awesome Style Sheets" can be written in two different syntaxes using SASS or SCSS.
 
+### Sass VS Scss
+
+- **Syntax**: "SCSS" is the first syntax, and it uses the extension of `.scss`. "SASS" is the other syntax, and it uses the extension of `.sass`.
+- **CSS compatibility**: SCSS is fully CSS compatible. It provides CSS-friendly syntax to closing the gap between SASS and CSS. SCSS is called Sassy CSS. You can covert the valid CSS document into SASS by simply changing the extension from `.css` to `.scss`.
+
 ### Less
 
-complete
+**Leaner Style Sheet** is dynamic in nature and efficiently enables customization and reusability. It supports cross-browser friendly. It is JavaScript-based and has very precise error reporting along with indicating the exact location of the error.
+
+### Sass VS Less
+
+- **Syntax**: little differences.
+- **Features**: similar behavior since both allow to use complex logic in CSS via variables, mixins, and so on.
+- **Error log**: *Less* is more precise about error reporting with an indication of the location of the error.
 
 ### Stylus
 
@@ -273,8 +284,3 @@ complete
 ### Why to use them?
 
 complete
-
-### Sass VS Scss
-
-- **Syntax**: "SCSS" is the first syntax, and it uses the extension of `.scss`. "SASS" is the other syntax, and it uses the extension of `.sass`.
-- **CSS compatibility**: SCSS is fully CSS compatible. It provides CSS-friendly syntax to closing the gap between SASS and CSS. SCSS is called Sassy CSS. You can covert the valid CSS document into SASS by simply changing the extension from `.css` to `.scss`.
