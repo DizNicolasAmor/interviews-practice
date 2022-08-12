@@ -25,10 +25,11 @@
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
-  - Less
-  - Stylus
-  - Why to use them?
   - Sass VS Scss
+  - Less
+  - Sass VS Less
+  - Stylus
+  - Sass VS Less VS Stylus
 
 <a name="concepts"/>
 
