@@ -280,8 +280,12 @@ It is a tool that extends the functionality of vanilla CSS through its own scrip
 
 ### Stylus
 
-complete
+It was launched in 2010 by former Node JS developer TJ Holowaychuk, nearly 4 years after the release of Sass and 1 year after the release of LESS. The stylus is written Node JS and fits perfectly with JS stack. The idea is to have **the logical power of Sass and the simplicity of Less**.
 
-### Why to use them?
+### Sass VS Less VS Stylus
 
-complete
+All three CSS pre-processors considered in this article are mostly capable of the same things at their core and really just go about implementation and syntax differently.
+
+- **Sass** permit advanced logic and algorithms and allow us to write custom functions. It also has the largest adoption and an active community.
+- **Less** has the fewest features and logic-based functionality, but it compiles very easily on the front-end hence it thrives on serverless architectures. It has a flexible syntax and more adoption than Stylus.
+- **Stylus** has a highly concise and flexible syntax and easily integrates with Node projects. Another advantage is its powerful built-in functions and is capable of handling heavy computing.
