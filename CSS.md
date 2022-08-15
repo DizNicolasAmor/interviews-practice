@@ -22,6 +22,7 @@
 - [Frameworks](#frameworks)
    - What is a CSS framework?
    - Name some CSS frameworks
+   - Why use CSS frameworks?
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -250,6 +251,14 @@ The frequently used CSS frameworks are:
 - Semantic UI
 - Tailwind
 - Ulkit
+
+### Why use CSS frameworks?
+
+- Speeds up the development.
+- Enables cross-browser functionality.
+- Enforces good web design habits.
+- Gives clean and symmetrical layouts.
+- Make a styling workflow productive, clean, and maintainable.
 
 <a name="preprocessors"/>
 
