@@ -23,6 +23,7 @@
    - What is a CSS framework?
    - Name some CSS frameworks
    - Why use CSS frameworks?
+   - Bootstrap
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -259,6 +260,24 @@ The frequently used CSS frameworks are:
 - Enforces good web design habits.
 - Gives clean and symmetrical layouts.
 - Make a styling workflow productive, clean, and maintainable.
+
+### Bootstrap
+
+Pros:
+- Responsiveness.
+- Consistent & Flexible.
+- HTML, CSS, and JS framework.
+- Customizable.
+- Large Community.
+- Excellent Documentation.
+- MIT License, therefore it is free to use and free to distribute.
+
+Cons:
+- Javascript is tied to jQuery.
+
+Ideal for:
+- CSS beginners.
+- A developer with little JS knowledge can use Bootstrap components without writing a line in JS.
 
 <a name="preprocessors"/>
 
