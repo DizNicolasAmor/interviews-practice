@@ -24,6 +24,7 @@
    - Name some CSS frameworks
    - Why use CSS frameworks?
    - Bootstrap
+   - Bulma
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -278,6 +279,25 @@ Cons:
 Ideal for:
 - CSS beginners.
 - A developer with little JS knowledge can use Bootstrap components without writing a line in JS.
+
+### Bulma
+
+Pros:
+- Lightweight.
+- Easy to Use.
+- Responsive Design.
+- Based on Flexbox.
+- Highly customizable and modularizable.
+- Simple syntax.
+
+Cons:
+- Community support is limited.
+- Less documentation.
+- Less flexibility.
+- Limited browser support.
+
+Ideal For:
+- From beginner to pro, any developer can use it due to its simplicity.
 
 <a name="preprocessors"/>
 
