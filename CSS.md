@@ -25,6 +25,7 @@
    - Why use CSS frameworks?
    - Bootstrap
    - Bulma
+   - Foundation
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -298,6 +299,23 @@ Cons:
 
 Ideal For:
 - From beginner to pro, any developer can use it due to its simplicity.
+
+### Foundation
+
+Pros:
+- Device agnostic.
+- Responsive.
+- Easy to use.
+- Modern Look.
+- Customizable.
+- Good Documentation.
+
+Cons:
+- Limited browser support.
+- Heavy/large.
+
+Ideal For:
+- Professional, highly skilled developers and designers whose aim is to create a unique website and who wants to customize the framework.
 
 <a name="preprocessors"/>
 
