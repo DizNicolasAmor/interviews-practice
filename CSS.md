@@ -26,6 +26,7 @@
    - Bootstrap
    - Bulma
    - Foundation
+   - Materialize
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -316,6 +317,25 @@ Cons:
 
 Ideal For:
 - Professional, highly skilled developers and designers whose aim is to create a unique website and who wants to customize the framework.
+
+### Materialize
+
+Pros:
+- Flexible Grids.
+- Offers the finest of the customization abilities.
+- Possess a robust grid system.
+- Supports the rapid development of projects.
+- Contains a set of templates and readily available codes.
+- Offers services for sites as well as emails.
+- JS & jQuery both version available.
+
+Cons:
+- Community support is limited.
+- Complexity in customization.
+- Modification of code is tough.
+
+Ideal For:
+- It is accessible to everyone and easy to pick up quickly.
 
 <a name="preprocessors"/>
 
