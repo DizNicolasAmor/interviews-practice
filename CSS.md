@@ -35,6 +35,8 @@
   - Sass VS Less
   - Stylus
   - Sass VS Less VS Stylus
+- [Properties](#properties)
+  - Position
 
 <a name="concepts"/>
 
@@ -375,3 +377,17 @@ All three CSS pre-processors considered in this article are mostly capable of th
 - **Sass** permit advanced logic and algorithms and allow us to write custom functions. It also has the largest adoption and an active community.
 - **Less** has the fewest features and logic-based functionality, but it compiles very easily on the front-end hence it thrives on serverless architectures. It has a flexible syntax and more adoption than Stylus.
 - **Stylus** has a highly concise and flexible syntax and easily integrates with Node projects. Another advantage is its powerful built-in functions and is capable of handling heavy computing.
+
+<a name="properties"/>
+
+## Properties
+
+### Position
+
+It tells about the method of positioning for an HTML element. There are five different types of position. Some of them react to the *top*, *right*, *bottom*, *left* and *z-index* properties.
+
+1. **Fixed**: the HTML element will be positioned relative to the viewport. An element with fixed positioning allows it to remain at the same position even as we scroll the page.
+2. **Static**: this is the default value. Here, the *top*, *right*, *bottom* and *left* will not have any control over the element. The element will be positioned with the normal flow of the page.
+3. **Relative**: the element will remain in the natural flow of the page. It also makes the element positioned: it will act as an anchor point for the absolutely positioned child. Also, it will react to the other positioning properties.
+4. **Absolute**: the element will be positioned with respect to its parent that contains `position: relative`.
+5. **Sticky**: an element with `position: sticky` and `top: 0` plays a role between fixed & relative based on the position where it is placed: if it is placed in the middle of the document and the user scrolls, the sticky element starts scrolling until it touches the top and then it will be fixed at that place in spite of further scrolling. We can stick the element at the bottom, with the bottom property.
