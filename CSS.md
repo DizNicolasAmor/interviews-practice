@@ -10,7 +10,7 @@
   - Which type of CSS addition has the highest priority?
   - What is the Box model?
 - [Box Models](#boxmodels)
-  - BLock
+  - Block
   - Inline
   - Flex
   - Grid
@@ -104,10 +104,9 @@ The Box model is used to define the design and layout of CSS elements. The web b
 
 ## Box Models
 
-### BLock
+### Block
 
-complete
-// **Flexbox** is different from the block model which is vertically biased and the inline which is horizontally biased.
+The `display: block` elements make a whole new box to work on. It breaks the flow of the elements and will take up as much space as it can. This model is vertically biased.
 
 ### Inline
 
