@@ -100,6 +100,38 @@ The Box model is used to define the design and layout of CSS elements. The web b
 - **Padding**: it is the space around the content area and within the border box. It is transparent.
 - **Content**: it represents the content like text, images or other media content.
 
+<a name="boxmodels"/>
+
+## Box Models
+
+### BLock
+
+complete
+// **Flexbox** is different from the block model which is vertically biased and the inline which is horizontally biased.
+
+### Inline
+
+complete
+
+### Flex
+
+It is also called a `flexible box model`. It is a layout model that provides an easy and clean way to arrange items within a container. Flexbox was created for small-scale layouts. It is responsive and mobile-friendly.
+
+Syntax: `.main-container { display: flex; }`
+
+Flex Properties:
+
+- flex-direction
+- flex-wrap
+- flex-flow
+- justify-content
+- align-items
+- align-content
+
+### Grid
+
+complete
+
 <a name="frameworks"/>
 
 ## Selectors
