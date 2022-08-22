@@ -110,7 +110,7 @@ The `display: block` elements make a whole new box to work on. It breaks the flo
 
 ### Inline
 
-complete
+The `display: inline` elements stay inline with its neghboring content. Things like a span would render imperceptable to the user because it stays within the content. This model is horizontally biased.
 
 ### Flex
 
