@@ -112,6 +112,15 @@ The `display: block` elements make a whole new box to work on. It breaks the flo
 
 The `display: inline` elements stay inline with its neghboring content. Things like a span would render imperceptable to the user because it stays within the content. This model is horizontally biased.
 
+### Inline-Block
+
+This property takes the benefits of both block and inline-level elements.
+
+Syntax: `.box { display: inline-block; }`
+
+- You will be able to apply `width` and `height` to elements, which we cannot do with inline elements.
+- You can also place those elements side by side, which we cannot do with block-level elements.
+
 ### Flex
 
 It is also called a `flexible box model`. It is a layout model that provides an easy and clean way to arrange items within a container. Flexbox was created for small-scale layouts. It is responsive and mobile-friendly.
