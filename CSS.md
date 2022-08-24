@@ -12,7 +12,9 @@
 - [Box Models](#boxmodels)
   - Block
   - Inline
+  - Inline-Block
   - Flex
+  - Inline-Flex
   - Grid
 - [Selectors](#selectors)
   - Universal Selector
@@ -135,6 +137,12 @@ Flex Properties:
 - justify-content
 - align-items
 - align-content
+
+### Inline-Flex
+
+This property makes the flex container as an inline-level flex element. The container takes the necessary space as large as its children.
+
+Syntax: `.main-container { display: inline-flex; }`
 
 ### Grid
 
