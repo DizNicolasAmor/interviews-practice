@@ -146,7 +146,10 @@ Syntax: `.main-container { display: inline-flex; }`
 
 ### Grid
 
-complete
+It is a CSS property that offers a grid-based layout system, with rows and columns, making it easier to design web pages without floats and positioning. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
+
+### What is the difference between flexbox and grid?
+
 
 <a name="frameworks"/>
 
