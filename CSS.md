@@ -150,6 +150,9 @@ It is a CSS property that offers a grid-based layout system, with rows and colum
 
 ### What is the difference between flexbox and grid?
 
+1. **Dimension**: Flexbox si one-dimensional (it only deals with either columns or rows) while Grid is two-dimensional (it allows flexible widths as a unit of length).
+2. **Features**: Flexbox can push content element to extreme alignment while Grid can flex combination of items through space-occupying.
+3. **Support Type**: Flexbox is "Content First" while Grid is "Layout First".
 
 <a name="frameworks"/>
 
