@@ -27,13 +27,13 @@
   - Adjacent Sibling Combinator
   - Attribute Selector
 - [Frameworks](#frameworks)
-   - What is a CSS framework?
-   - Name some CSS frameworks
-   - Why use CSS frameworks?
-   - Bootstrap
-   - Bulma
-   - Foundation
-   - Materialize
+  - What is a CSS framework?
+  - Name some CSS frameworks
+  - Why use CSS frameworks?
+  - Bootstrap
+  - Bulma
+  - Foundation
+  - Materialize
 - [Preprocessors](#preprocessors)
   - What is a CSS Preprocessor?
   - Sass
@@ -450,3 +450,26 @@ It tells about the method of positioning for an HTML element. There are five dif
 3. **Relative**: the element will remain in the natural flow of the page. It also makes the element positioned: it will act as an anchor point for the absolutely positioned child. Also, it will react to the other positioning properties.
 4. **Absolute**: the element will be positioned with respect to its parent that contains `position: relative`.
 5. **Sticky**: an element with `position: sticky` and `top: 0` plays a role between fixed & relative based on the position where it is placed: if it is placed in the middle of the document and the user scrolls, the sticky element starts scrolling until it touches the top and then it will be fixed at that place in spite of further scrolling. We can stick the element at the bottom, with the bottom property.
+
+### Font-Size
+
+It defines the size of the text.
+
+Values:
+
+- **Default** value is `font-size: medium;`.
+- In **pixels**: this unity of measure is not scalable and it is an absolute unit. Syntax: `font-size: 20px;`.
+- In **em**: the value is relative to the parent's font-size. As a result, the value will cascade if used on child elements. Syntax: `font-size: 1.2em;`.
+- In **rem**: the value is relative to the **root** element's font-size, which is the `<html>` element. As a result, the value will not vary depending on the depth of the element in the HTML hierarchy, and will reamin context independent. Syntax: `font-size: 1.2rem;`.
+- In **percentage**: the values act like em values. The value is relative to the parent's font-size. As a result, the value will cascade if used on child elements. Syntax: `font-size: 90%;`.
+- In **relative keywords**: the value is relative to the parent. The following are available:
+  -  larger
+  -  smaller
+- In **absolute keywords**: the value is relative to the root element `<html>`. The following are available:
+  -  xx-small
+  -  x-small
+  -  small
+  -  medium
+  -  large
+  -  x-large
+  -  xx-large
