@@ -56,12 +56,12 @@ CSS is a style sheet language used with HTML5 to format and display the elements
 
 ### What are most important HTML5 structure elements?
 
-- <header>, containing the header or top of the page
-- <footer>, containing the footer or bottom of the page
-- <section>, containing one section that is thematically similar to other sections
-- <article>, containing standalone content
-- <nav>, containing the navigation functionality of the page
-- <aside>, containing secondary content
+- `<header>`, containing the header or top of the page
+- `<footer>`, containing the footer or bottom of the page
+- `<section>`, containing one section that is thematically similar to other sections
+- `<article>`, containing standalone content
+- `<nav>`, containing the navigation functionality of the page
+- `<aside>`, containing secondary content
 
 ### What are input elements?
 
