@@ -28,6 +28,14 @@
   - What is metadata in HTML5 and how is it specified?
   - What are the new tags for multimedia in HTML5?
 - [Advanced](#advanced)
+  . What is microdata?
+  . How is the Geolocation API implemented?
+  . What are some of the key global attributes?
+  . What is the role of the WebSocket API?
+  . When should <div> tags be used?
+  . What is the role of the Web Workers API?
+  . How can the performance of an HTML5 web page be measured?
+  . How can HTML5 web pages be optimized?
 
 <a name="basics"/>
 
