@@ -27,6 +27,7 @@
   - What are the different types of storage in HTML5?
   - What is metadata in HTML5 and how is it specified?
   - What are the new tags for multimedia in HTML5?
+- [Advanced](#advanced)
 
 <a name="basics"/>
 
@@ -172,3 +173,63 @@ HTML5 allows creating multimedia objects without the need for additional plugins
 - `<embed>`: used to embed content from an external source.
 - `<source>`: used to embed multiple media resources.
 - `<track>`: used to specify text tracks (such as subtitles) for audio and video content.
+
+<a name="advanced"/>
+
+## Advanced
+
+### What is microdata?
+
+It allows developers to define the custom semantics of elements. It is created using the `<itemscope>` element. Information about the item is then specified using the `<itemprop>` element.
+
+It’s used to provide browsers and search engines with more information about the contents of the web page.
+
+### How is the Geolocation API implemented?
+
+This API uses the device’s GPS, WiFi or mobile signal to triangulate the user’s latitude and longitude coordinates. The user must give their permission before geolocation services can be used on their device.
+
+From the developer, this API is implemented by calling the geolocation.navigator object.
+
+### What are some of the key global attributes?
+
+Global attributes are attributes that can be applied to all HTML5 elements. Some of the most important global attributes are:
+
+    accesskey, used to specify a keyboard shortcut for an element
+    class, used to assign one or more class names to an element
+    dir, used to specify the base direction of the element’s text
+    data-*, used to store custom data specific to the web page
+    contenteditable, used to indicate whether the content is editable or not
+
+### What is the role of the WebSocket API?
+
+It facilitates two-way, interactive communication between the web browser and the web server. This enables a real-time, event-driven data transfer to and from the server.
+
+### When should <div> tags be used?
+
+When no other semantically appropriate element is available. Generally, for styling purposes or structural purposes like wrapping some HTML elements.
+
+### What is the role of the Web Workers API?
+
+The Web Workers API makes it possible to run scripts independently in a background thread, separate from the main execution thread of the HTML5 document. This allows developers to continue working on the page without affecting its performance, while scripts run in the background.
+
+### How can the performance of an HTML5 web page be measured?
+
+Measuring performance is an important step for developers to gauge the competitiveness of their web page and can be achieved using APIs and extensions. Popular solutions include the Navigation Timing API and the User Timing API.
+
+These tools provide insights into specific performance metrics such as:
+
+    Page load speed: The time it takes for the full page to load
+    Time to interact: The time it takes for the user to be able to interact with the page
+    Bounce rate: The proportion of users that leave the page without interacting with it
+    Error rate: The proportion of visits to the page resulting in errors
+    Conversion rate: The proportion of users that complete a specified action, such as subscribing to a mailing list
+
+### How can HTML5 web pages be optimized?
+
+If a web page is performing poorly, developers have several HTML5 optimization strategies at their disposal:
+
+    Compress CPU-intensive assets such as high-resolution images
+    Bundle code into single files to reduce the number of HTTP requests
+    Minify code to remove all unnecessary whitespace
+    Offload operations to the Graphics Processing Unit (GPU)
+    Use CSS3 for animations and transitions
