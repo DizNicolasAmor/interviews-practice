@@ -30,9 +30,9 @@
 - [Advanced](#advanced)
   . What is microdata?
   . How is the Geolocation API implemented?
-  . What are some of the key global attributes?
+  . What are global attributes?
   . What is the role of the WebSocket API?
-  . When should <div> tags be used?
+  . When should `<div>` tags be used?
   . What is the role of the Web Workers API?
   . How can the performance of an HTML5 web page be measured?
   . How can HTML5 web pages be optimized?
@@ -198,15 +198,15 @@ This API uses the device’s GPS, WiFi or mobile signal to triangulate the user�
 
 From the developer, this API is implemented by calling the geolocation.navigator object.
 
-### What are some of the key global attributes?
+### What are global attributes?
 
-Global attributes are attributes that can be applied to all HTML5 elements. Some of the most important global attributes are:
+They are attributes that can be applied to all HTML5 elements, such as:
 
-    accesskey, used to specify a keyboard shortcut for an element
-    class, used to assign one or more class names to an element
-    dir, used to specify the base direction of the element’s text
-    data-*, used to store custom data specific to the web page
-    contenteditable, used to indicate whether the content is editable or not
+- **accesskey**: used to specify a keyboard shortcut for an element.
+- **class**: used to assign one or more class names to an element.
+- **dir**: used to specify the base direction of the element’s text.
+- **data-**: used to store custom data specific to the web page.
+- **contenteditable**:, used to indicate whether the content is editable or not.
 
 ### What is the role of the WebSocket API?
 
