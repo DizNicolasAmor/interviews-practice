@@ -16,6 +16,7 @@
   - How do you link to another web page using HTML5?
   - What are the three types of lists in HTML5?
 - [Intermediate](#intermediate)
+  - What is Semantic HTML?
   - What are the key benefits of HTML5?
   - What is the role of formatting tags in HTML5?
   - What types of graphics are supported by HTML5?
@@ -28,14 +29,14 @@
   - What is metadata in HTML5 and how is it specified?
   - What are the new tags for multimedia in HTML5?
 - [Advanced](#advanced)
-  . What is microdata?
-  . How is the Geolocation API implemented?
-  . What are global attributes?
-  . What is the role of the WebSocket API?
-  . When should `<div>` tags be used?
-  . What is the role of the Web Workers API?
-  . How can the performance of an HTML5 web page be measured?
-  . How can HTML5 web pages be optimized?
+  - What is microdata?
+  - How is the Geolocation API implemented?
+  - What are global attributes?
+  - What is the role of the WebSocket API?
+  - When should `<div>` tags be used?
+  - What is the role of the Web Workers API?
+  - How can the performance of an HTML5 web page be measured?
+  - How can HTML5 web pages be optimized?
 
 <a name="basics"/>
 
@@ -103,6 +104,14 @@ The anchor tag, or `<a>`, is used with the `href` attribute to link to other web
 <a name="intermediate"/>
 
 ## Intermediate
+
+### What is Semantic HTML?
+
+Semantic HTML refers to syntax that makes the HTML more comprehensible by better defining the different sections and layout of web pages. It makes web pages more informative and adaptable, allowing browsers and search engines to better interpret content.
+
+It is also good for a11y since Screen Readers respond to that good practices. Consider structural navigation (an a11y user could navigate throw the structue page).
+
+The following HTML tags are examples of Semantics: `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<footer>`.
 
 ### What are the key benefits of HTML5?
 
