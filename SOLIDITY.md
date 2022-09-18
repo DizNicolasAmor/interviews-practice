@@ -1,11 +1,10 @@
-# BLOCKCHAIN DEVELOPMENT Q&A
+# SOLIDITY
 
 ## TABLE OF CONTENTS
 
 - [BASICS](#basics)
   - What is the EVM?
   - What is an ABI?
-- [SOLIDITY](#solidity)
   - What is a Solidity?
   - What does Contract-Oriented mean?
   - ERC standards
@@ -59,10 +58,6 @@ ABI (Application Binary Interface) is an interface between two program modules, 
 Smart contracts written in high-level languages like Solidity or Vyper need to be compiled in EVM executable bytecode; when a smart contract is deployed, this bytecode is stored on the blockchain and is associated with an address. For Ethereum and EVM, a smart contract is just this sequence of bytecode. To access functions defined in high-level languages, users need to translate names and arguments.
 
 ABI defines the methods and structures used to interact with the binary contract, just like API does but on a lower-level.
-
-<a name="solidity"/>
-
-## SOLIDITY
 
 ### What is Solidity?
 
