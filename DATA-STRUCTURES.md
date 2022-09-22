@@ -35,6 +35,16 @@ Like stacks, are collection of elements. But unlike stacks, they follow the Fist
 
 Is similar to a Queue, but in this case, every element inside the priority queue has a priority value associated with it. The priority of the elements in a priority queue determines the order in which elements are served. If in any case the elements have same priority, they are served in the same way as a normal Queue.
 
+**When to use a Priority queue?**
+
+- When you need to get the next element with most priority.
+- When dealing with "next best" or "next worse" searches.
+
+**Examples**
+
+- Used in Minimum Spanning Tree (MST) algorithm.
+- Used in Huffman coding (for lossless data compression).
+
 ### Set
 
 A set is a data structure that can store any number of unique values in any order you wish.
