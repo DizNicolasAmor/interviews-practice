@@ -45,6 +45,17 @@ Is similar to a Queue, but in this case, every element inside the priority queue
 - Used in Minimum Spanning Tree (MST) algorithm.
 - Used in Huffman coding (for lossless data compression).
 
+**Complexity**
+
+| OPERATION | COMPLEXITY  |
+| --------- | ----------- |
+| Peek      | 0 (1)       |
+| Enqueue   | 0 (log n)   |
+| Dequeue   | 0 (log n)   |
+| Contains  | 0 (log n)   |
+| Remove    | 0 (log n)   |
+
+
 ### Set
 
 A set is a data structure that can store any number of unique values in any order you wish.
