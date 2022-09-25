@@ -33,14 +33,14 @@ Like stacks, are collection of elements. But unlike stacks, they follow the Fist
 
 ### Priority Queue
 
-Is similar to a Queue, but in this case, every element inside the priority queue has a priority value associated with it. The priority of the elements in a priority queue determines the order in which elements are served. If in any case the elements have same priority, they are served in the same way as a normal Queue.
+It is similar to a Queue, except that each element has a certain priority. The priority determines the order in which elements are served. If in any case the elements have same priority, they are served in the same way as a normal Queue.
 
 **When to use a Priority queue?**
 
 - When you need to get the next element with most priority.
 - When dealing with "next best" or "next worse" searches.
 
-**Examples**
+**Usage examples**
 
 - Used in Minimum Spanning Tree (MST) algorithm.
 - Used in Huffman coding (for lossless data compression).
@@ -55,6 +55,42 @@ Is similar to a Queue, but in this case, every element inside the priority queue
 | Contains  | 0 (log n)   |
 | Remove    | 0 (log n)   |
 
+** How to achieve it?**
+
+Using a HEAP: a semiordered tree-based data structure in which each parent is greater than its children.
+
+** How to INSERT a new element?**
+
+1. Push it at the end.
+2. If it is greater than its father, swap then.
+3. Repeat step 2 until necessary.
+
+** How to FIND a PARENT?**
+
+The relation is `Math.floor(index/2)`.
+
+** How to FIND the CHILDREN?**
+
+- Index of child #1:  `indexFather x 2`.
+- Index of child #2: `indexFather x 2 + 1`.
+
+** How to REMOVE an element?**
+
+1. Swap the root with the last element and `pop()` it.
+2. If the new orrt is smaller than its children, swap it with the greatest.
+3. Repeat step 2 until necessary.
+
+**Visual example**
+
+```
+    9
+   /  \
+  8    5
+ / \  / \
+7  2 3   4
+
+const myArray = [9, 8, 5, 7, 2, 3, 4]
+```
 
 ### Set
 
