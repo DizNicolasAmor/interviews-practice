@@ -3,6 +3,7 @@
 ## TABLE OF CONTENTS
 
 - [General](#general)
+  - Array
   - Stack
   - Queue
   - Priority Queue
@@ -18,6 +19,22 @@
 A *Data Structure* is a way of organizing data so it can be used effectively.
 
 An *Abstract Data Structure* is an abstraction of the DS which provides only its interface, that is without the details of the implementation. Examples: Stack, Queue, List, Tree, Graph, Map, Set, Multiset, Container, Array.
+
+### Array
+
+**Static Array**: it is a fixed length container of indexable elements that starts from index zero. Each index could be referenced with a number.
+
+**Dynamic Array**: it is a dynamic length container of indexable elements that starts from index zero. Each index could be referenced with a number.
+
+**Complexity**
+
+| OPERATION | STATIC ARRAY | DYNAMIC ARRAY |
+| --------- | ------------ | ------------- |
+| Access    | 0 (1)        | 0 (1)         |
+| Search    | 0 (n)        | 0 (n)         |
+| Insert    | N / A        | 0 (n)         |
+| Append    | N / A        | 0 (1)         |
+| Remove    | N / A        | 0 (n)         |
 
 ### Stack
 
