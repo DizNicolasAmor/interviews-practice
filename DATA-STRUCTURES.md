@@ -74,21 +74,21 @@ It is similar to a Queue, except that each element has a certain priority. The p
 | Contains  | 0 (log n)   |
 | Remove    | 0 (log n)   |
 
-** How to achieve it?**
+**How to achieve it?**
 
 Using a HEAP: a semiordered tree-based data structure in which each parent is greater than its children.
 
-** How to INSERT a new element?**
+**How to INSERT a new element?**
 
 1. Push it at the end.
 2. If it is greater than its father, swap then.
 3. Repeat step 2 until necessary.
 
-** How to FIND a PARENT?**
+**How to FIND a PARENT?**
 
 The relation is `Math.floor(index/2)`.
 
-** How to FIND the CHILDREN?**
+**How to FIND the CHILDREN?**
 
 - Index of child #1:  `indexFather x 2`.
 - Index of child #2: `indexFather x 2 + 1`.
@@ -123,6 +123,26 @@ Are data structures that store key-value pairs.
 
 A linked list is a linear data structure, in which the elements are not stored at contigous memory locations. The elements in a linked list are linked using pointers. Each element is called "Node", and each "Node" contains a data field and a reference (link) to the next node.
 
-### Doubly Linked list
+**Some implementations**
 
-Is a Linked List but this one contains an extra pointer used to point a previous element in a Node.
+- Simple Linked List: this one contains only one pointer to the next node.
+- Double Linked List: this one contains an extra pointer to the previous node.
+- Circular Linked List.
+
+**Terminology**
+
+- `node`: object containing data and a pointer.
+- `pointer`: the reference to another node or null.
+- `head`: the first node.
+- `tail`: the last node.
+
+**Complexity**
+
+| OPERATION        | Single LL  | Double LL  |
+| ---------------- | ---------- | ---------- |
+| Search           | 0 (n)      | 0 (n)      |
+| Insert at head   | 0 (1)      | 0 (1)      |
+| Insert at tail   | 0 (1)      | 0 (1)      |
+| Remove from head | 0 (1)      | 0 (1)      |
+| Remove from tail | 0 (n)      | 0 (1)      |
+| Remove in middle | 0 (n)      | 0 (n)      |
