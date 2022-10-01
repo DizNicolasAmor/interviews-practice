@@ -10,7 +10,6 @@
   - Set
   - Map
   - Linked List
-  - Doubly Linked List
 
 <a name="general" />
 
@@ -127,7 +126,8 @@ A linked list is a linear data structure, in which the elements are not stored a
 
 - Simple Linked List: this one contains only one pointer to the next node.
 - Double Linked List: this one contains an extra pointer to the previous node.
-- Circular Linked List.
+- Circular Linked List: this one contains extra pointers in the first and last nodes to connect each other.
+- Circular Double List: the name is very explicit.
 
 **Terminology**
 
