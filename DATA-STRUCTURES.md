@@ -37,13 +37,31 @@ An *Abstract Data Structure* is an abstraction of the DS which provides only its
 
 ### Stack
 
-Is a linear data structure that follows the principle of Last in First Out (LIFO). It means the last element inserted is the one that is be removed first. You can think it as a pile of plates on top of another. Possible operations could be:
+It is a linear data structure that models a real world stack. It follows the principle of Last in First Out (LIFO): that means the last element inserted is the one that is be removed first. You can think it as a pile of plates on top of another.
 
-1. Push
-2. Pop
-3. IsEmpty
-4. IsFull
-5. Peek (Get the value of the top element without removing it).
+**Operations**
+
+1. `Push`: add an element.
+2. `Pop`: remove an element.
+3. `Search`: search for an element.
+4. `Size`: get the quantity of elements in the stack.
+5. `IsEmpty`: if size = 0.
+6. `Peek`: get the top value without removing it.
+
+**Usage examples**
+
+- Undo mechanisms in text editors.
+- Browser history.
+
+**Complexity**
+
+| OPERATION | Complexity  |
+| --------- | ---------- |
+| Push      | 0 (1)      |
+| Pop       | 0 (1)      |
+| Peek      | 0 (1)      |
+| Search    | 0 (n)      |
+| Size      | 0 (1)      |
 
 ### Queue
 
