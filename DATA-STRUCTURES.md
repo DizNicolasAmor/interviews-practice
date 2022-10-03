@@ -55,7 +55,7 @@ It is a linear data structure that models a real world stack. It follows the pri
 
 **Complexity**
 
-| OPERATION | Complexity  |
+| OPERATION | Complexity |
 | --------- | ---------- |
 | Push      | 0 (1)      |
 | Pop       | 0 (1)      |
@@ -65,7 +65,22 @@ It is a linear data structure that models a real world stack. It follows the pri
 
 ### Queue
 
-Like stacks, are collection of elements. But unlike stacks, they follow the Fist in First Out (FIFO) principle. Elements added to the queue are pushed to the end, and only the element at the front of the queue is allowed to be removed.
+It is a linear data structure that models a real world queue. It follows the Fist in First Out (FIFO) principle. Elements added to the queue are pushed to the end, and only the element at the front of the queue is allowed to be removed. Those operations are called `enqueue` and `dequeue`.
+
+**Usage examples**
+
+- Waiting lives. For example, the queue of files to download.
+
+**Complexity**
+
+| OPERATION | Complexity |
+| --------- | ---------- |
+| Enqueue   | 0 (1)      |
+| Dequeue   | 0 (1)      |
+| Peek      | 0 (1)      |
+| Contains  | 0 (n)      |
+| Remove    | 0 (n)      |
+| Size      | 0 (1)      |
 
 ### Priority Queue
 
