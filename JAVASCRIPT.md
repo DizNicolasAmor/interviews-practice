@@ -14,6 +14,7 @@
   - What is Closure?
   - What is the Event loop?
   - How does the Event loop work in Javascript?
+  - Microtask and Macrotask
   - Explain Apply, Bind and Call functions
   - What is Immutability?
   - How to copy an object?
@@ -134,6 +135,28 @@ The Callback Queue is another place in which function calls are placed to be pro
 In example:
 
 `setTimeout` will put a callback function at the end of the Callback Queue once the timeout value is reached. Once the `setTimeout` callback is added into the Callback Queue, the event loop will wait until the CallStack is empty, when it happens, the event loop will move the `setTimeout` callback from the Callback Queue to the CallStack to be processed by the Javascript Engine.
+
+### Microtask and Macrotask
+
+complete
+
+**Example**
+
+```
+function whatIsTheOrder() {
+    new Promise((_, reject) => reject())
+        .catch(() => { console.log('a') });
+
+    setTimeout(() => { console.log('b') }, 0);
+
+    new Promise((resolve) => resolve())
+        .then(() => { console.log('c') });
+
+    console.log('d');
+}
+```
+
+The log will be: `d a c b`.
 
 ### Explain Apply, Bind and Call functions
 
