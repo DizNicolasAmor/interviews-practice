@@ -138,7 +138,35 @@ In example:
 
 ### Microtask and Macrotask
 
-complete
+Inside the **task queue**, the tasks are broadly classified into two categories, namely **microtasks** and **macrotasks**.
+
+**Microtasks**
+
+A microtask is a function which is executed after the function or program which created it exits and only if the JavaScript execution stack is empty, but before returning control to the event loop being used by the user agent to drive the script’s execution environment. A Microtask is also capable of en-queuing other micro-tasks.
+
+Microtasks are often scheduled for things that are required to be completed immediately after the execution of the current script. On completion of one macrotask, the event loop moves on to the microtask queue. The event loop does not move to the next task outside of the microtask queue until all tasks are completed. This implies that the microtask queue has a higher priority.
+
+Once all the microtask are finished, only then does the event loop shifts back to the macrotask queue. The primary reason for this is to improve the user experience.
+
+**Usage cases**
+
+— process.nextTick
+- Promises
+- queueMicrotask
+- MutationObserver
+
+**Macrotasks**.
+
+Macrotask represents some discrete and independent work. These are always executed after the microtask queue is empty.
+
+**Usage cases**
+
+- setTimeout
+- setInterval
+- setImmediate
+- requestAnimationFrame
+- I/O (for example the "fetch" method)
+- UI Rendering
 
 **Example**
 
