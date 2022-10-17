@@ -6,6 +6,7 @@
   - What is Software Testing?
   - What are the benefits of software testing?
   - What are the principles of software testing?
+- [TYPES OF SOFTWARE TESTING](#types_of_software_testing)
 
 <a name="basics"/>
 
@@ -35,3 +36,14 @@ It can be said that testing enhances the quality of the product by preventing bu
 5. **Pesticide Paradox**: it is impossible to find new bugs by re-running the same test cases over and over again. Thus, updating or adding new test cases is necessary in order to find new bugs.
 6. **Early testing**: in the early stages of development, defects will be detected more easily and at a lower cost.
 7. **Testing is context-dependent**: software needs to be tested differently depending on its type.
+
+<a name="types_of_software_testing"/>
+
+## TYPES OF SOFTWARE TESTING
+
+There are different ways to clasify the types of software testing. One clasification could be **Manual VS Automated** that is based on how the test is done, and another clasification could be **Functional VS non functional** that is based on what is the focus of the test.
+
+### Manual VS Automated
+
+- **Manual**: a team or individual will manually operate a software product and ensure it behaves as expected.
+- **Automated**: many different tools checks to simulating a full human-driven manual testing experience.
