@@ -7,6 +7,8 @@
   - What are the benefits of software testing?
   - What are the principles of software testing?
 - [TYPES OF SOFTWARE TESTING](#types_of_software_testing)
+  - Manual VS Automated
+  - Functional VS Non Functional
 
 <a name="basics"/>
 
@@ -41,9 +43,14 @@ It can be said that testing enhances the quality of the product by preventing bu
 
 ## TYPES OF SOFTWARE TESTING
 
-There are different ways to clasify the types of software testing. One clasification could be **Manual VS Automated** that is based on how the test is done, and another clasification could be **Functional VS non functional** that is based on what is the focus of the test.
+There are different ways to clasify the types of software testing. One clasification could be **Manual VS Automated** that is based on how the test is done, and another clasification could be **Functional VS Non Functional** that is based on what is the focus of the test.
 
 ### Manual VS Automated
 
 - **Manual**: a team or individual will manually operate a software product and ensure it behaves as expected.
 - **Automated**: many different tools checks to simulating a full human-driven manual testing experience.
+
+### Functional VS Non Functional
+
+- **Functional**: it has the goal to validate software **actions**. For example, checking the login functionality of an app.
+- **Automated**: has the goal to validate the **performance** of the software. For example, checking that the dashboard should load in 2 seconds.
