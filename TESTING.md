@@ -9,6 +9,7 @@
 - [TYPES OF SOFTWARE TESTING](#types_of_software_testing)
   - Manual VS Automated
   - Functional VS Non Functional
+  - Functional Testing
 
 <a name="basics"/>
 
@@ -54,3 +55,9 @@ There are different ways to clasify the types of software testing. One clasifica
 
 - **Functional**: it has the goal to validate software **actions**. For example, checking the login functionality of an app.
 - **Automated**: has the goal to validate the **performance** of the software. For example, checking that the dashboard should load in 2 seconds.
+
+### Functional Testing
+
+1. **Unit Testing**
+
+A unit test is a way of testing a unit: the smallest piece of code that can be logically isolated in a system. In most programming languages, that is a function, a subroutine, a method or property. The isolated part of the definition is important. Typically, Unit testing is done by the developer at the application development phase. Unit testing is important because we can find more defects at the unit test level.
