@@ -61,3 +61,7 @@ There are different ways to clasify the types of software testing. One clasifica
 1. **Unit Testing**
 
 A unit test is a way of testing a unit: the smallest piece of code that can be logically isolated in a system. In most programming languages, that is a function, a subroutine, a method or property. The isolated part of the definition is important. Typically, Unit testing is done by the developer at the application development phase. Unit testing is important because we can find more defects at the unit test level.
+
+2. **Integration Testing**
+
+Integration testing is a type of software testing where two or more modules of an application are logically grouped together and tested as a whole. The focus is to find the defect on interface, communication, and data flow among modules. The approaches used are *top-down* or *bottom-up*.
