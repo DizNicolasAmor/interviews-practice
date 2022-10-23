@@ -65,3 +65,14 @@ A unit test is a way of testing a unit: the smallest piece of code that can be l
 2. **Integration Testing**
 
 Integration testing is a type of software testing where two or more modules of an application are logically grouped together and tested as a whole. The focus is to find the defect on interface, communication, and data flow among modules. The approaches used are *top-down* or *bottom-up*.
+
+3. **System Testing**
+
+System testing is types of testing where tester evaluates the whole system against the specified requirements.
+
+- **End to End Testing.** It involves testing a complete application environment in a situation that mimics real-world use, such as interacting with a database, using network communications, or interacting with other hardware, applications, or systems if appropriate.
+- **Black Box Testing**. Blackbox testing is a software testing technique in which testing is performed without knowing the internal structure, design, or code of a system under test. Testers should focus only on the input and output of test objects.
+- **Smoke Testing**. Smoke testing is performed to verify that basic and critical functionality of the system under test is working fine at a very high level.
+- **Sanity Testing**.  It is performed on a system to verify that newly added functionality or bug fixes are working fine.
+- **Happy path Testing**. The objective is to test an application successfully on a positive flow.
+- **Monkey Testing**. It is carried out by a tester, assuming that if the monkey uses the application, then how random input and values will be entered by the Monkey without any knowledge or understanding of the application. The objective of Monkey Testing is to check if an application or system gets crashed by providing random input values/data.
