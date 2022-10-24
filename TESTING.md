@@ -76,3 +76,11 @@ System testing is types of testing where tester evaluates the whole system again
 - **Sanity Testing**.  It is performed on a system to verify that newly added functionality or bug fixes are working fine.
 - **Happy path Testing**. The objective is to test an application successfully on a positive flow.
 - **Monkey Testing**. It is carried out by a tester, assuming that if the monkey uses the application, then how random input and values will be entered by the Monkey without any knowledge or understanding of the application. The objective of Monkey Testing is to check if an application or system gets crashed by providing random input values/data.
+
+4. **Acceptance Testing**
+
+Acceptance testing is a type of testing where the client test the software with real time business scenarios. This is the last phase of testing, after which the software goes into production. This is also called User Acceptance Testing (UAT).
+
+- a) **Alpha Testing**-. It is performed by the team in an organization to find as many defects as possible before releasing software to customers.
+- b) **Beta Testing**. It is performed in the Real Environment before releasing the product to the market for the actual end-users. It is carried out to ensure that there are no major failures in the software or product, and it satisfies the business requirements from an end-user perspective.
+- c) **Operational acceptance testing (OAT)**. It is performed by operations or system administration staff in the production environment. The purpose of operational acceptance testing is to make sure that the system administrators can keep the system working properly for the users in a real-time environment. For example, it tests: backup and restore, installing, uninstalling, upgrading software, maintenance of the software.
