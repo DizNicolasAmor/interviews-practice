@@ -10,6 +10,7 @@
   - Manual VS Automated
   - Functional VS Non Functional
   - Functional Testing
+  - Non Functional Testing
 
 <a name="basics"/>
 
@@ -84,3 +85,9 @@ Acceptance testing is a type of testing where the client test the software with 
 - a) **Alpha Testing**-. It is performed by the team in an organization to find as many defects as possible before releasing software to customers.
 - b) **Beta Testing**. It is performed in the Real Environment before releasing the product to the market for the actual end-users. It is carried out to ensure that there are no major failures in the software or product, and it satisfies the business requirements from an end-user perspective.
 - c) **Operational acceptance testing (OAT)**. It is performed by operations or system administration staff in the production environment. The purpose of operational acceptance testing is to make sure that the system administrators can keep the system working properly for the users in a real-time environment. For example, it tests: backup and restore, installing, uninstalling, upgrading software, maintenance of the software.
+
+### Non Functional Testing
+
+1. **Security Testing**
+
+It is done to check how the software, application, or website is secure from internal and/or external threats. This testing includes how much software is secure from malicious programs, viruses and how secure and strong the authorization and authentication processes are. Example: Penetration Testing
