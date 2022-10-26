@@ -91,3 +91,7 @@ Acceptance testing is a type of testing where the client test the software with 
 1. **Security Testing**
 
 It is done to check how the software, application, or website is secure from internal and/or external threats. This testing includes how much software is secure from malicious programs, viruses and how secure and strong the authorization and authentication processes are. Example: Penetration Testing
+
+2. **Performance Testing**
+
+It tests the application stability (the ability of the application to withstand in the presence of load) and response time (how quickly an application is available to users) by applying load. Performance testing is done with the help of tools such as Loader.IO, JMeter, LoadRunner, among others.
