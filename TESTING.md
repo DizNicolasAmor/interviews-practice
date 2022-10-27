@@ -95,3 +95,11 @@ It is done to check how the software, application, or website is secure from int
 2. **Performance Testing**
 
 It tests the application stability (the ability of the application to withstand in the presence of load) and response time (how quickly an application is available to users) by applying load. Performance testing is done with the help of tools such as Loader.IO, JMeter, LoadRunner, among others.
+
+3. **Usability Testing**
+
+It test the application from the user’s perspective. It includes:
+
+  - a) Exploratory testing (finding defects)
+  - b) Cross browser testing
+  - c) Accessibility Testing
