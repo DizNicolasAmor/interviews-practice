@@ -103,3 +103,7 @@ It test the application from the user’s perspective. It includes:
   - a) Exploratory testing (finding defects)
   - b) Cross browser testing
   - c) Accessibility Testing
+
+4. **Compatibility testing**
+
+It validates how software behaves and runs in a different environment, web servers, hardware, and network environment. Compatibility testing ensures that software can run on different configuration, different databases, different browsers, and their versions.
