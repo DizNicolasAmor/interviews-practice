@@ -34,6 +34,8 @@
   - What is client-side rendering (CSR)?
   - What is Server-side rendering (SSR)?
   - What are the differences between CSR and SSR?
+- [Patterns](#patterns)
+  - Custom Hook
 
 <a name="concepts"/>
 
@@ -293,3 +295,35 @@ complete
 ### What are the differences between CSR and SSR?
 
 complete
+
+<a name="patterns"/>
+
+## Patterns
+
+### Custom Hook
+
+This patterns consist in moving some stateful logic into a variable.
+
+Pros:
+
+- Reusability.
+- Single responsability of the custom hook.
+- Less complexity of the components that use the custom hook.
+- Cleaner code.
+
+Code:
+
+```
+// the name must start with "use"
+const useMyCustomHook = () => {
+  // state and effects here
+};
+
+// it must be called inside a React function component
+// or another custom hook
+useMyCustomHook();
+```
+
+Example:
+
+- The library `react-use`.
