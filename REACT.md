@@ -36,6 +36,7 @@
   - What are the differences between CSR and SSR?
 - [Patterns](#patterns)
   - Custom Hook
+  - Compound Components
 
 <a name="concepts"/>
 
@@ -327,3 +328,30 @@ useMyCustomHook();
 Example:
 
 - The library `react-use`.
+
+### Compound Components
+
+It is a way to show an explicit parent-child relationship between components and share implicit state.
+
+Pros:
+
+- Simplified imports.
+- Flexible usage of components.
+- Separation of concerns: the parent has the state logic and communicates it internally to its children.
+- Reduced complexity: all internal props flow are internally.
+
+Code:
+
+```
+<Accordion>
+  <Accordion.Item>
+      <Accordion.Header>Accordion Item #1</Accordion.Header>
+      <Accordion.Body>Lorem ipsum dolor sit amet</Accordion.Body>
+    </Accordion.Item>
+  <Accordion.Item />
+</Accordion>
+```
+
+Example:
+
+- The library `react-bootstrap`: see Accordion, Card, Nav, Navbar among other components.
