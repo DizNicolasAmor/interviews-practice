@@ -37,6 +37,7 @@
 - [Patterns](#patterns)
   - Custom Hook
   - Compound Components
+  - Extensible Styles
 
 <a name="concepts"/>
 
@@ -355,3 +356,22 @@ Code:
 Example:
 
 - The library `react-bootstrap`: see Accordion, Card, Nav, Navbar among other components.
+
+### Extensible Styles
+
+It is a way to allow adding or overriding styles.
+
+Pros:
+
+- Flexibility for styling.
+- Intuitive styling syntax.
+
+Code:
+
+```
+<MyComponent classname={myClass} style={myStyle} />
+```
+
+Example:
+
+- The library `reach-ui`.
