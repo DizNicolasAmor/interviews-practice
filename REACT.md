@@ -38,6 +38,7 @@
   - Custom Hook
   - Compound Components
   - Extensible Styles
+  - Control Props
 
 <a name="concepts"/>
 
@@ -375,3 +376,25 @@ Code:
 Example:
 
 - The library `reach-ui`.
+
+### Control Props
+
+It allows users to control the internal state of the component.
+
+Pros:
+
+- Inversion of control.
+- Flexibility of omponent behaviour.
+
+Code:
+
+```
+<MyComponent
+    value="myStateValue"
+    onChange={myFunctionToUpdateTheState}
+/>
+```
+
+Example:
+
+- The library `material-UI`: look at the Rating component.
