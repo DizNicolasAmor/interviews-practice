@@ -39,6 +39,7 @@
   - Compound Components
   - Extensible Styles
   - Control Props
+  - Props Collection
 
 <a name="concepts"/>
 
@@ -398,3 +399,21 @@ Code:
 Example:
 
 - The library `material-UI`: look at the Rating component.
+
+### Props Collection
+
+It is related to a collection of common props your component or hook probably needs.
+
+Pros:
+
+- Usability.
+
+Code:
+
+```
+// the collection is in general an object
+const myPropCollection = useMyHook();
+
+// so you could write it like this
+const { myProp1, myProp2, myProp3 } = useMyHook();
+```
