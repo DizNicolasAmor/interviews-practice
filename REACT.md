@@ -40,6 +40,7 @@
   - Extensible Styles
   - Control Props
   - Props Collection
+  - Props Getter
 
 <a name="concepts"/>
 
@@ -417,3 +418,25 @@ const myPropCollection = useMyHook();
 // so you could write it like this
 const { myProp1, myProp2, myProp3 } = useMyHook();
 ```
+
+### Props Getter
+
+It is similar to Props Collection Pattern. The difference is that the hook returns a function. And the function returns the props collection. So there is more flexibility on the final props.
+
+Pros:
+
+- Usability.
+- Flexibility.
+
+Code:
+
+```
+const myPropsGetterFunction = useMyHook();
+const { myProp1, myProp2, myProp3 } = myPropsGetterFunction({
+  onClick: myCustomOnClick
+});
+```
+
+Example:
+
+- The library `react-table`.
