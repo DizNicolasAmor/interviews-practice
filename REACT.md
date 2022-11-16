@@ -41,6 +41,7 @@
   - Control Props
   - Props Collection
   - Props Getter
+  - State Initialisers
 
 <a name="concepts"/>
 
@@ -440,3 +441,21 @@ const { myProp1, myProp2, myProp3 } = myPropsGetterFunction({
 Example:
 
 - The library `react-table`.
+
+### State Initialisers
+
+It consists on giving your component's user the option to configure the `initialState` and the option to `reset` it.
+
+Pros:
+
+- Flexibility.
+
+Code:
+
+```
+const { value, reset } = useMyHook(initialState);
+```
+
+Example:
+
+- The library `formik` and its `initialValues` prop.
