@@ -12,6 +12,7 @@
   - What is hoisting?
   - What is Scope?
   - What is Closure?
+  - What is a Javascript Hosting Environment?
   - What is the Event loop?
   - How does the Event loop work in Javascript?
   - Microtask and Macrotask
@@ -115,7 +116,7 @@ It's a policy that manages the availability of variables. That means, it is the 
 
 It's a combination of a function bundled together with references to its surrounding state. Basically it's a function that is created inside another one. The outer function is said to "enclose" the scope of the inner function.
 
-- **What is a Javascript Hosting Environment?**
+# What is a Javascript Hosting Environment?
 
 It's where a JS Engine runs. It consists in the JS Engine itself, a set of environment API's and the Event loop.
 Environment API's depends on the context. In a web browser for example we are able to use `onclick` events, in Node Js, file operations such as read, write, delete, etc...
