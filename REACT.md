@@ -284,7 +284,9 @@ Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
 
 ### Create React App
 
-complete
+It is also a development environment that brings already setup the build tools. CRA uses webpack to handle its core functionalities under the hood.
+
+It is one of the most used ReactJS frameworks and it is very recommended for beginners.
 
 ### NextJS
 
