@@ -290,7 +290,7 @@ It is one of the most used ReactJS frameworks and it is very recommended for beg
 
 ### NextJS
 
-complete
+NextJS is an open-source JavaScript framework for developing SPAs and static content websites. It allows developers to quickly create static sites with the ability to generate dynamic routes and provides features such as server-side rendering, code splitting, and automatic routing.
 
 ### What is client-side rendering (CSR)?
 
