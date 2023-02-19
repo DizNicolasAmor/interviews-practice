@@ -31,6 +31,7 @@
 - [Frameworks](#frameworks)
   - Create React App
   - NextJS
+  - GatsbyJS
   - What is client-side rendering (CSR)?
   - What is Server-side rendering (SSR)?
   - What are the differences between CSR and SSR?
@@ -291,6 +292,11 @@ It is one of the most used ReactJS frameworks and it is very recommended for beg
 ### NextJS
 
 NextJS is an open-source JavaScript framework for developing SPAs and static content websites. It allows developers to quickly create static sites with the ability to generate dynamic routes and provides features such as server-side rendering, code splitting, and automatic routing.
+
+### GatsbyJS
+
+
+GatsbyJS is a React framework for developing fast webappssites and applications. It provides features such as automatic routing, code splitting, and server-side rendering, allowing developers to quickly create modern web experiences. Additionally, GatsbyJS has a plugin system for integrating with third-party data sources and content management systems, making it easy to integrate with existing projects.
 
 ### What is client-side rendering (CSR)?
 
