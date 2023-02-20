@@ -295,12 +295,11 @@ NextJS is an open-source JavaScript framework for developing SPAs and static con
 
 ### GatsbyJS
 
-
 GatsbyJS is a React framework for developing fast webappssites and applications. It provides features such as automatic routing, code splitting, and server-side rendering, allowing developers to quickly create modern web experiences. Additionally, GatsbyJS has a plugin system for integrating with third-party data sources and content management systems, making it easy to integrate with existing projects.
 
 ### What is client-side rendering (CSR)?
 
-complete
+CSR in ReactJS is the process of displaying dynamic web content on a browser. It is done by rendering a React component to a DOM element on the browser. This is done by using ReactDOM.render() function. The main features of CSR are: the ability to create complex user interfaces, quickly render content and update it dynamically. CSR allows for a more interactive user experience than SSR.
 
 ### What is Server-side rendering (SSR)?
 
