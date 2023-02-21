@@ -303,7 +303,7 @@ CSR in ReactJS is the process of displaying dynamic web content on a browser. It
 
 ### What is Server-side rendering (SSR)?
 
-complete
+SSR is a way of rendering React components on the server instead of the client. It allows you to use the same codebase for both server-side and client-side rendering. The main benefits of SSR are that it increases page performance and perceived performance, reduces load time, and improves SEO. Additionally, SSR can help improve user experience by allowing for faster page loading and better user interaction.
 
 ### What are the differences between CSR and SSR?
 
