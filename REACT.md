@@ -35,6 +35,7 @@
   - What is client-side rendering (CSR)?
   - What is Server-side rendering (SSR)?
   - What are the differences between CSR and SSR?
+  - When is better to use CSR Vs SSR?
 - [Patterns](#patterns)
   - Custom Hook
   - Compound Components
@@ -308,6 +309,12 @@ SSR is a way of rendering React components on the server instead of the client. 
 ### What are the differences between CSR and SSR?
 
 complete
+
+### When is better to use CSR Vs SSR?
+
+On the one hand, CSR is better for creating interactive UI and for faster page load times.
+
+On the another hand, SSR is better for creating SEO-friendly pages and for ensuring that all users have access to the same content, regardless of their device or browser.
 
 <a name="patterns"/>
 
