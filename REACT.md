@@ -34,7 +34,8 @@
   - GatsbyJS
   - What is client-side rendering (CSR)?
   - What is Server-side rendering (SSR)?
-  - What are the differences between CSR and SSR?
+  - Why SSR is better for webapps that consume dynamic data?
+  - Why the page load is faster in CSR than in SSR?
   - When is better to use CSR Vs SSR?
 - [Patterns](#patterns)
   - Custom Hook
@@ -304,9 +305,13 @@ CSR in ReactJS is the process of displaying dynamic web content on a browser. It
 
 SSR is a way of rendering React components on the server instead of the client. It allows you to use the same codebase for both server-side and client-side rendering. SSR is better for creating SEO-friendly pages and webapps that consume dynamic data.
 
-### What are the differences between CSR and SSR?
+### Why SSR is better for webapps that consume dynamic data?
 
-complete
+SSR is better for webapps that consume dynamic data because it ensures that the page is generated before the data is sent to the client. This means that the user will always get the most up-to-date version of the page. This also ensures that all users have access to the same content, regardless of their device or browser.
+
+### Why the page load is faster in CSR than in SSR?
+
+The page load is faster in client-side rendering (CSR) than in server-side rendering (SSR) because in CSR the page is rendered directly in the browser, while in SSR the page is generated before it is sent to the client.
 
 ### When is better to use CSR Vs SSR?
 
