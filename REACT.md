@@ -286,9 +286,7 @@ Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
 
 ### Create React App
 
-It is also a development environment that brings already setup the build tools. CRA uses webpack to handle its core functionalities under the hood.
-
-It is one of the most used ReactJS frameworks and it is very recommended for beginners.
+It is also a development environment that brings already setup the build tools. CRA uses webpack to handle its core functionalities under the hood. It is one of the most used ReactJS frameworks and it is very recommended for beginners.
 
 ### NextJS
 
@@ -304,7 +302,7 @@ CSR in ReactJS is the process of displaying dynamic web content on a browser. It
 
 ### What is Server-side rendering (SSR)?
 
-SSR is a way of rendering React components on the server instead of the client. It allows you to use the same codebase for both server-side and client-side rendering. The main benefits of SSR are that it increases page performance and perceived performance, reduces load time, and improves SEO. Additionally, SSR can help improve user experience by allowing for faster page loading and better user interaction.
+SSR is a way of rendering React components on the server instead of the client. It allows you to use the same codebase for both server-side and client-side rendering. SSR is better for creating SEO-friendly pages and webapps that consume dynamic data.
 
 ### What are the differences between CSR and SSR?
 
