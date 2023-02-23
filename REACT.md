@@ -37,6 +37,7 @@
   - Why SSR is better for webapps that consume dynamic data?
   - Why the page load is faster in CSR than in SSR?
   - When is better to use CSR Vs SSR?
+  - Comparison table of CSR Vs SSR
 - [Patterns](#patterns)
   - Custom Hook
   - Compound Components
@@ -318,6 +319,16 @@ The page load is faster in client-side rendering (CSR) than in server-side rende
 On the one hand, CSR is better for creating interactive UI and for faster page load times.
 
 On the another hand, SSR is better for creating SEO-friendly pages and for ensuring that all users have access to the same content, regardless of their device or browser.
+
+### Comparison table of CSR Vs SSR
+
+|               | Client-side Rendering (CSR) | Server-side Rendering (SSR) |
+| ------------- | --------------------------- | --------------------------- |
+| Rendering     | With a JavaScript library   | With a JavaScript library   |
+| HTML          | Generated in the browser    | Generated before the page is sent to the client |
+| Page load     | Faster                     | Slower                      |
+| User interfaces | Easier to create interactive | Easier to create SEO-friendly |
+| Page content  | Rendered as soon as the user accesses the page | Rendered before the user accesses the page |
 
 <a name="patterns"/>
 
