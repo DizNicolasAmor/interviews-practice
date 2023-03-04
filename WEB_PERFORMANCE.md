@@ -9,6 +9,7 @@
   - What is the Perceived Performance?
   - What is the Perceived Performance related to?
   - How could be Perceived Performance improved?
+  - Loading Performance VS Render Performance
 
 <a name="basics"/>
 
@@ -37,3 +38,21 @@ Perceived performance is influenced by various factors such as the time it takes
 ### How could be Perceived Performance improved?
 
 To optimize perceived performance, web developers can use techniques such as lazy loading, progressive rendering, and prioritizing the loading of critical resources. These techniques can help ensure that users perceive a website to be loading quickly, even if some resources take longer to load in the background.
+
+### Loading Performance VS Render Performance
+
+There are two parts of web performance: loading and render performance.
+
+Loading Performance:
+
+- Refers to how long it takes for a website to load all of its resources.
+- Influenced by factors such as the size of the files, the speed of the server, and the user's internet connection.
+- Typically measured using metrics such as the time to first byte (TTFB), the time to first paint (TTFP), and the time to interact (TTI).
+- Optimized using techniques such as caching, minification, compression, and image optimization.
+
+Render performance
+
+- Refers to how quickly a web page is displayed on the user's screen once the resources have finished loading.
+- Influenced by factors such as the complexity of the web page, size and number of images and videos, and efficiency of the browser's rendering engine.
+- Typically measured using metrics such as first contentful paint (FCP), first meaningful paint (FMP), and time to visually complete (TVC).
+- Optimized using techniques such as image optimization, code splitting, lazy loading, optimize JavaScript and optimizing CSS.
