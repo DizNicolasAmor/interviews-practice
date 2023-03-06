@@ -18,3 +18,11 @@
 <a name="basics" />
 
 ## BASICS
+
+### What is Rust, and what makes it different from other programming languages?
+
+Rust is a low-level programming language that was first introduced by Mozilla in 2010. It is designed to be fast, safe, and concurrent, with a focus on performance, memory safety, and thread safety.
+
+One of the main features that sets Rust apart from other programming languages is its ownership system, which enables fine-grained control over memory allocation and deallocation, without the need for a garbage collector. This system helps prevent common errors like null pointer dereferencing and data races, which are often the cause of security vulnerabilities and program crashes in other languages.
+
+Rust offers a number of other advanced features, including pattern matching, closures, traits, and macros, that make it a versatile and powerful language for a wide range of applications. Overall, Rust is a modern programming language that combines performance, safety, and expressiveness.
