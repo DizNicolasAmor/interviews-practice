@@ -4,7 +4,7 @@
 
 - [BASICS](#basics)
     - What is Rust, and what makes it different from other programming languages?
-    - Can you explain the ownership system in Rust and how it helps prevent memory errors?
+    - What is the ownership system in Rust and how it helps prevent memory errors?
     - What are the basic data types in Rust, and how are they used?
     - What is a trait in Rust, and how does it differ from an interface in other programming languages?
     - How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
@@ -26,3 +26,7 @@ Rust is a low-level programming language that was first introduced by Mozilla in
 One of the main features that sets Rust apart from other programming languages is its ownership system, which enables fine-grained control over memory allocation and deallocation, without the need for a garbage collector. This system helps prevent common errors like null pointer dereferencing and data races, which are often the cause of security vulnerabilities and program crashes in other languages.
 
 Rust offers a number of other advanced features, including pattern matching, closures, traits, and macros, that make it a versatile and powerful language for a wide range of applications. Overall, Rust is a modern programming language that combines performance, safety, and expressiveness.
+
+### What is the ownership system in Rust and how it helps prevent memory errors?
+
+The ownership system in Rust tracks the ownership of heap-allocated memory and ensures that memory is properly deallocated when it is no longer needed. This helps prevent memory errors like null pointer dereferencing and use-after-free errors, which can cause crashes and security vulnerabilities.
