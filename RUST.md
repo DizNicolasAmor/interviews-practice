@@ -30,3 +30,13 @@ Rust offers a number of other advanced features, including pattern matching, clo
 ### What is the ownership system in Rust and how it helps prevent memory errors?
 
 The ownership system in Rust tracks the ownership of heap-allocated memory and ensures that memory is properly deallocated when it is no longer needed. This helps prevent memory errors like null pointer dereferencing and use-after-free errors, which can cause crashes and security vulnerabilities.
+
+### What are the basic data types in Rust, and how are they used?
+
+The basic data types are:
+
+- **Booleans**: `bool`, which can be either true or false. Commonly used in conditional statements and loops.
+- **Characters**: `char`, which represents a Unicode scalar value. Commonly used to represent text.
+- **Numeric**: `i8`, `i16`, `i32`, `i64`, `i128`, `u8`, `u16`, `u32`, `u64`, `u128`, `f32`, and `f64`. Commonly used for arithmetic operations and to represent values like counts, sizes, and indices.
+- **Arrays**: fixed-size sequences of elements of the same type. Commonly used to group values together into collections.
+- **Tuples**: heterogeneous collections of values of different types. Commonly used to group values together into collections.
