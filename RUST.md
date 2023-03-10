@@ -44,3 +44,10 @@ The basic data types are:
 ### What is a trait in Rust?
 
 It is a language construct that defines a set of behaviors or capabilities that a type can implement. Traits are similar to interfaces in other programming languages in that they provide a way to specify a contract that a type must follow in order to be considered a member of a particular group.
+
+### Differences between traits in Rust and interfaces in other programming languages?
+
+- **Implementation**: In Rust, a trait can be implemented for any type, including types that are not defined in the same module as the trait itself. This is different from interfaces in some other languages, which are often tightly bound to the class or type that implements them.
+- **Associated Types**: Traits in Rust can define associated types, which allow the trait to specify a type that will be used in conjunction with the methods defined in the trait. This can be useful in situations where the type that will be used with the trait is not known at the time the trait is defined.
+- **Default Implementations**: Traits in Rust can include default implementations for some or all of their methods. This can make it easier to implement the trait for a new type, since the default implementations can be used as a starting point.
+- **OOP**: Rust does not have built-in support for OOP concepts like inheritance and polymorphism. Traits can be used to provide some of the same functionality, but the approach is different from traditional OOP languages.
