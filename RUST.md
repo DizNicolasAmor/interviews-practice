@@ -51,3 +51,11 @@ It is a language construct that defines a set of behaviors or capabilities that 
 - **Associated Types**: Traits in Rust can define associated types, which allow the trait to specify a type that will be used in conjunction with the methods defined in the trait. This can be useful in situations where the type that will be used with the trait is not known at the time the trait is defined.
 - **Default Implementations**: Traits in Rust can include default implementations for some or all of their methods. This can make it easier to implement the trait for a new type, since the default implementations can be used as a starting point.
 - **OOP**: Rust does not have built-in support for OOP concepts like inheritance and polymorphism. Traits can be used to provide some of the same functionality, but the approach is different from traditional OOP languages.
+
+### How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
+
+Rust uses a combination of return values and the Result enum to handle errors. The Result enum has two variants: Ok and Err, which can be used to represent a successful result or an error, respectively.
+
+The main ways to propagate errors in Rust are through Result return values, panic! macro, unwrap and expect methods, and the ? operator, which is shorthand for unwrapping a Result and returning the error if it is an Err variant.
+
+Rust encourages explicit error handling to avoid unexpected panics and to make code more reliable and robust.
