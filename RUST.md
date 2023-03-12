@@ -9,7 +9,7 @@
     - What is a trait in Rust?
     - Differences between traits in Rust and interfaces in other programming languages?
     - How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
-    - Can you explain the difference between mutable and immutable variables in Rust?
+    - Mutable and immutable variables in Rust?
     - What is a closure in Rust, and how is it used?
     - Can you explain the difference between a struct and an enum in Rust?
     - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives in Rust?
@@ -54,8 +54,22 @@ It is a language construct that defines a set of behaviors or capabilities that 
 
 ### How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
 
-Rust uses a combination of return values and the Result enum to handle errors. The Result enum has two variants: Ok and Err, which can be used to represent a successful result or an error, respectively.
+Rust uses a combination of return values and the `Result` enum to handle errors. The `Result` enum has two variants: `Ok` and `Err`, which can be used to represent a successful result or an error, respectively.
 
-The main ways to propagate errors in Rust are through Result return values, panic! macro, unwrap and expect methods, and the ? operator, which is shorthand for unwrapping a Result and returning the error if it is an Err variant.
+The main ways to propagate errors in Rust are through `Result` return values, `panic!` macro, `unwrap` and `expect` methods, and the `?` operator, which is shorthand for unwrapping a Result and returning the error if it is an Err variant.
 
 Rust encourages explicit error handling to avoid unexpected panics and to make code more reliable and robust.
+
+### Mutable and immutable variables in Rust?
+
+Immutable variables:
+
+- They are declared with the `let` keyword and cannot be modified once they are assigned a value.
+- Useful for situations where the value should not change, such as constants or function parameters.
+
+Mutable variables:
+
+- They are declared with the `let mut` keyword and can be modified after they are assigned a value.
+- Useful when the value needs to be modified during the program execution, such as when updating a counter or performing calculations.
+
+Rust's ownership and borrowing system ensures that mutable variables are only modified in safe and controlled ways, preventing common errors like data races and null pointer exceptions.
