@@ -10,7 +10,7 @@
     - Differences between traits in Rust and interfaces in other programming languages?
     - How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
     - Mutable and immutable variables in Rust?
-    - What is a closure in Rust, and how is it used?
+    - What is a closure and how is it used?
     - Can you explain the difference between a struct and an enum in Rust?
     - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives in Rust?
     - Can you explain the borrowing rules in Rust, and how they help prevent data races?
@@ -73,3 +73,11 @@ Mutable variables:
 - Useful when the value needs to be modified during the program execution, such as when updating a counter or performing calculations.
 
 Rust's ownership and borrowing system ensures that mutable variables are only modified in safe and controlled ways, preventing common errors like data races and null pointer exceptions.
+
+### What is a closure and how is it used?
+
+A closure is a type of anonymous function that can capture variables from its surrounding environment. The name "closure" referes to the values that are enclosed to the scope of that function.
+
+Closures are defined using the `|args|` expression syntax and can be stored in variables or passed as arguments to other functions.
+
+They are commonly used for operations that require some context or state, such as filtering or mapping collections.
