@@ -11,7 +11,7 @@
     - How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
     - Mutable and immutable variables in Rust?
     - What is a closure and how is it used?
-    - Can you explain the difference between a struct and an enum in Rust?
+    - What is a struct and an enum?
     - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives in Rust?
     - Can you explain the borrowing rules in Rust, and how they help prevent data races?
 
@@ -81,3 +81,14 @@ A closure is a type of anonymous function that can capture variables from its su
 Closures are defined using the `|args|` expression syntax and can be stored in variables or passed as arguments to other functions.
 
 They are commonly used for operations that require some context or state, such as filtering or mapping collections.
+
+### What is a struct and an enum?
+
+| CRITERIA       | STRUCT                         | ENUM                                   |
+| -------------- | ------------------------------ | -------------------------------------- |
+| Definition     | A custom data type with fields | A custom data type with variants       |
+| Fields         | Can have named fields          | Can have named or unnamed fields       |
+| Variants       | N/A                            | Can have multiple variants             |
+| Associated Fn  | Yes                            | Yes                                    |
+| Implementation | Can be instantiated directly   | Must be instantiated through a variant |
+| Usage          | For grouping data              | For representing a set of values       |
