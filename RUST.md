@@ -12,7 +12,7 @@
     - Mutable and immutable variables in Rust?
     - What is a closure and how is it used?
     - What is a struct and an enum?
-    - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives in Rust?
+    - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
     - Can you explain the borrowing rules in Rust, and how they help prevent data races?
 
 <a name="basics" />
@@ -92,3 +92,17 @@ They are commonly used for operations that require some context or state, such a
 | Associated Fn  | Yes                            | Yes                                    |
 | Implementation | Can be instantiated directly   | Must be instantiated through a variant |
 | Usage          | For grouping data              | For representing a set of values       |
+
+### How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
+
+Concurrency is about managing multiple tasks at the same time, while parallelism is about executing multiple tasks simultaneously.
+
+Rust provides a powerful concurrency and parallelism model through its ownership and borrowing system and its support for low-level threading primitives. The ownership and borrowing system ensures that concurrent access to data is safe and free of data races.
+
+The main concurrency primitives in Rust are:
+
+- **Threads** can be created using the `std::thread` module and allow for parallel execution of multiple functions or closures.
+- **Channels** allow for communication between threads
+- **Locks** provide a way to synchronize access to shared resources.
+
+Rust also provides abstractions like `Futures` and `async/await` syntax to work with asynchronous programming, which allows for concurrent execution without creating multiple threads.
