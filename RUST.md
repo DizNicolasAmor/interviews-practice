@@ -13,7 +13,7 @@
     - What is a closure and how is it used?
     - What is a struct and an enum?
     - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
-    - Can you explain the borrowing rules in Rust, and how they help prevent data races?
+    - How do the borrowing rules prevent data races?
 
 <a name="basics" />
 
@@ -106,3 +106,11 @@ The main concurrency primitives in Rust are:
 - **Locks** provide a way to synchronize access to shared resources.
 
 Rust also provides abstractions like `Futures` and `async/await` syntax to work with asynchronous programming, which allows for concurrent execution without creating multiple threads.
+
+### How do the borrowing rules prevent data races?
+
+They prevent data races by ensuring that only one mutable reference or any number of shared references can exist at any given time for a given piece of data.
+
+This ensures that the data is not modified while it is being read and that multiple mutable references cannot exist simultaneously, preventing write-write data races.
+
+Additionally, Rust's ownership model ensures that data is not accessed after it has been freed, preventing read-after-free data races.
