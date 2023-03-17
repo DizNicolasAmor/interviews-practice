@@ -3,23 +3,23 @@
 ## TABLE OF CONTENTS
 
 - [BASICS](#basics)
-    - What is Rust, and what makes it different from other programming languages?
-    - What is the ownership system in Rust and how it helps prevent memory errors?
-    - What are the basic data types in Rust, and how are they used?
-    - What is a trait in Rust?
-    - Differences between traits in Rust and interfaces in other programming languages?
-    - How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
-    - Mutable and immutable variables in Rust?
-    - What is a closure and how is it used?
-    - What is a struct and an enum?
-    - How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
-    - How do the borrowing rules prevent data races?
+    1. What is Rust, and what makes it different from other programming languages?
+    2. What is the ownership system in Rust and how it helps prevent memory errors?
+    3. What are the basic data types in Rust, and how are they used?
+    4. What is a trait in Rust?
+    5. Differences between traits in Rust and interfaces in other programming languages?
+    6. How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
+    7. Mutable and immutable variables in Rust?
+    8. What is a closure and how is it used?
+    9. What is a struct and an enum?
+    10. How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
+    11. How do the borrowing rules prevent data races?
 
 <a name="basics" />
 
 ## BASICS
 
-### What is Rust, and what makes it different from other programming languages?
+### 1. What is Rust, and what makes it different from other programming languages?
 
 Rust is a low-level programming language that was first introduced by Mozilla in 2010. It is designed to be fast, safe, and concurrent, with a focus on performance, memory safety, and thread safety.
 
@@ -27,11 +27,11 @@ One of the main features that sets Rust apart from other programming languages i
 
 Rust offers a number of other advanced features, including pattern matching, closures, traits, and macros, that make it a versatile and powerful language for a wide range of applications. Overall, Rust is a modern programming language that combines performance, safety, and expressiveness.
 
-### What is the ownership system in Rust and how it helps prevent memory errors?
+### 2. What is the ownership system in Rust and how it helps prevent memory errors?
 
 The ownership system in Rust tracks the ownership of heap-allocated memory and ensures that memory is properly deallocated when it is no longer needed. This helps prevent memory errors like null pointer dereferencing and use-after-free errors, which can cause crashes and security vulnerabilities.
 
-### What are the basic data types in Rust, and how are they used?
+### 3. What are the basic data types in Rust, and how are they used?
 
 The basic data types are:
 
@@ -41,18 +41,18 @@ The basic data types are:
 - **Arrays**: fixed-size sequences of elements of the same type. Commonly used to group values together into collections.
 - **Tuples**: heterogeneous collections of values of different types. Commonly used to group values together into collections.
 
-### What is a trait in Rust?
+### 4. What is a trait in Rust?
 
 It is a language construct that defines a set of behaviors or capabilities that a type can implement. Traits are similar to interfaces in other programming languages in that they provide a way to specify a contract that a type must follow in order to be considered a member of a particular group.
 
-### Differences between traits in Rust and interfaces in other programming languages?
+### 5. Differences between traits in Rust and interfaces in other programming languages?
 
 - **Implementation**: In Rust, a trait can be implemented for any type, including types that are not defined in the same module as the trait itself. This is different from interfaces in some other languages, which are often tightly bound to the class or type that implements them.
 - **Associated Types**: Traits in Rust can define associated types, which allow the trait to specify a type that will be used in conjunction with the methods defined in the trait. This can be useful in situations where the type that will be used with the trait is not known at the time the trait is defined.
 - **Default Implementations**: Traits in Rust can include default implementations for some or all of their methods. This can make it easier to implement the trait for a new type, since the default implementations can be used as a starting point.
 - **OOP**: Rust does not have built-in support for OOP concepts like inheritance and polymorphism. Traits can be used to provide some of the same functionality, but the approach is different from traditional OOP languages.
 
-### How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
+### 6. How does Rust handle error handling, and what are the main ways to propagate errors in Rust?
 
 Rust uses a combination of return values and the `Result` enum to handle errors. The `Result` enum has two variants: `Ok` and `Err`, which can be used to represent a successful result or an error, respectively.
 
@@ -60,7 +60,7 @@ The main ways to propagate errors in Rust are through `Result` return values, `p
 
 Rust encourages explicit error handling to avoid unexpected panics and to make code more reliable and robust.
 
-### Mutable and immutable variables in Rust?
+### 7. Mutable and immutable variables in Rust?
 
 Immutable variables:
 
@@ -74,7 +74,7 @@ Mutable variables:
 
 Rust's ownership and borrowing system ensures that mutable variables are only modified in safe and controlled ways, preventing common errors like data races and null pointer exceptions.
 
-### What is a closure and how is it used?
+### 8. What is a closure and how is it used?
 
 A closure is a type of anonymous function that can capture variables from its surrounding environment. The name "closure" referes to the values that are enclosed to the scope of that function.
 
@@ -82,7 +82,7 @@ Closures are defined using the `|args|` expression syntax and can be stored in v
 
 They are commonly used for operations that require some context or state, such as filtering or mapping collections.
 
-### What is a struct and an enum?
+### 9. What is a struct and an enum?
 
 | CRITERIA       | STRUCT                         | ENUM                                   |
 | -------------- | ------------------------------ | -------------------------------------- |
@@ -93,7 +93,7 @@ They are commonly used for operations that require some context or state, such a
 | Implementation | Can be instantiated directly   | Must be instantiated through a variant |
 | Usage          | For grouping data              | For representing a set of values       |
 
-### How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
+### 10. How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
 
 Concurrency is about managing multiple tasks at the same time, while parallelism is about executing multiple tasks simultaneously.
 
@@ -107,7 +107,7 @@ The main concurrency primitives in Rust are:
 
 Rust also provides abstractions like `Futures` and `async/await` syntax to work with asynchronous programming, which allows for concurrent execution without creating multiple threads.
 
-### How do the borrowing rules prevent data races?
+### 11. How do the borrowing rules prevent data races?
 
 They prevent data races by ensuring that only one mutable reference or any number of shared references can exist at any given time for a given piece of data.
 
