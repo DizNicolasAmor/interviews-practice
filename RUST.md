@@ -2,7 +2,7 @@
 
 ## TABLE OF CONTENTS
 
-- [BASICS](#basics)
+- [BASIC](#basic)
     1. What is Rust, and what makes it different from other programming languages?
     2. What is the ownership system in Rust and how it helps prevent memory errors?
     3. What are the basic data types in Rust, and how are they used?
@@ -14,8 +14,20 @@
     9. What is a struct and an enum?
     10. How does Rust handle concurrency and parallelism, and what are the main concurrency primitives?
     11. How do the borrowing rules prevent data races?
+- [INTERMEDIATE](#INTERMEDIATE)
+    12. What is the concept of "unsafe" code and when it is appropriate to use it?
+    13. How does Rust ensure memory safety and prevent common programming errors such as null pointers and data races?
+    14. Vec VS Array
+    15. How to handle error propagation between functions?
+    16. What are Lifetimes in Rust and how they are used?
+    17. Give an example of a macro you have written or used?
+    18. How do you approach writing efficient Rust code?
+    19. Closure VS function
+    20. Option VS Result and when to use each one?
+    21. Rust testing framework
+    22. What is the Module system and how it can be used to organize code?
 
-<a name="basics" />
+<a name="basic" />
 
 ## BASICS
 
@@ -114,3 +126,9 @@ They prevent data races by ensuring that only one mutable reference or any numbe
 This ensures that the data is not modified while it is being read and that multiple mutable references cannot exist simultaneously, preventing write-write data races.
 
 Additionally, Rust's ownership model ensures that data is not accessed after it has been freed, preventing read-after-free data races.
+
+<a name="intermediate" />
+
+## INTERMEDIATE
+
+### 12. What is the concept of "unsafe" code and when it is appropriate to use it?
