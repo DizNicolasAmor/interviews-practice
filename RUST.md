@@ -26,6 +26,18 @@
     20. Option VS Result and when to use each one?
     21. Rust testing framework
     22. What is the Module system and how it can be used to organize code?
+- [ADVANCED](#ADVANCED)
+    23. What is Rust's low-level control of hardware and how it can be used in system programming?
+    24. How Rust's type system enables zero-cost abstractions and how this can improve performance?
+    25. How Rust's memory layout and alignment works and how it affects performance and portability?
+    26. How to use Rust's FFI capabilities to interact with foreign languages?
+    27. How Rust's macros can be used to generate code and improve code readability and maintainability?
+    28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
+    29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
+    30. How trait system enables generic programming and how this can be used to write reusable code?
+    31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
+    32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
+    33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
 
 <a name="basic" />
 
@@ -132,3 +144,49 @@ Additionally, Rust's ownership model ensures that data is not accessed after it 
 ## INTERMEDIATE
 
 ### 12. What is the concept of "unsafe" code and when it is appropriate to use it?
+
+### 13. How does Rust ensure memory safety and prevent common programming errors such as null pointers and data races?
+
+### 14. Vec VS Array
+
+### 15. How to handle error propagation between functions?
+
+### 16. What are Lifetimes in Rust and how they are used?
+
+### 17. Give an example of a macro you have written or used?
+
+### 18. How do you approach writing efficient Rust code?
+
+### 19. Closure VS function
+
+### 20. Option VS Result and when to use each one?
+
+### 21. Rust testing framework
+
+### 22. What is the Module system and how it can be used to organize code?
+
+<a name="advanced" />
+
+## ADVANCED
+
+### 23. What is Rust's low-level control of hardware and how it can be used in system programming?
+
+### 24. How Rust's type system enables zero-cost abstractions and how this can improve performance?
+
+### 25. How Rust's memory layout and alignment works and how it affects performance and portability?
+
+### 26. How to use Rust's FFI capabilities to interact with foreign languages?
+
+### 27. How Rust's macros can be used to generate code and improve code readability and maintainability?
+
+### 28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
+
+### 29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
+
+### 30. How trait system enables generic programming and how this can be used to write reusable code?
+
+### 31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
+
+### 32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
+
+### 33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
