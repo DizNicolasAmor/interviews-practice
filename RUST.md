@@ -145,6 +145,8 @@ Additionally, Rust's ownership model ensures that data is not accessed after it 
 
 ### 12. What is the concept of "unsafe" code and when it is appropriate to use it?
 
+In Rust, "unsafe" is a keyword used to indicate code that can potentially violate memory safety and other language invariants. It should only be used when necessary for implementing low-level system interfaces or performance-critical operations, and must be accompanied by careful manual memory management and other safety checks.
+
 ### 13. How does Rust ensure memory safety and prevent common programming errors such as null pointers and data races?
 
 ### 14. Vec VS Array
