@@ -149,6 +149,13 @@ In Rust, "unsafe" is a keyword used to indicate code that can potentially violat
 
 ### 13. How does Rust ensure memory safety and prevent common programming errors such as null pointers and data races?
 
+Rust ensures memory safety through ownership and borrowing, lifetimes, safe abstractions, and compiler checks.
+
+1. Ownership and Borrowing: ownership means that each value is only modified by a single owner at a time. Additionally, borrowing system allows for temporary access to values without transferring ownership.
+2. Lifetimes: this tool tracks the lifetime of a value and ensure that references to that value are only used while it is valid.
+3. Safe Abstractions: it automatically handle memory management and safety for common programming patterns, such as strings and vectors.
+4. Compiler Checks: Rust's compiler performs a variety of static checks to prevent common programming errors.
+
 ### 14. Vec VS Array
 
 ### 15. How to handle error propagation between functions?
