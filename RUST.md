@@ -158,6 +158,14 @@ Rust ensures memory safety through ownership and borrowing, lifetimes, safe abst
 
 ### 14. Vec VS Array
 
+| Feature       | Vec                   | Array                  |
+| ------------- | --------------------- | ---------------------- |
+| Size          | Dynamic               | Fixed                  |
+| Allocation    | Heap                  | Stack                  |
+| Element Types | Flexible              | Same                   |
+| Resize        | Yes                   | No                     |
+| Efficiency    | Lower for small sizes | Higher for small sizes |
+
 ### 15. How to handle error propagation between functions?
 
 ### 16. What are Lifetimes in Rust and how they are used?
