@@ -168,6 +168,10 @@ Rust ensures memory safety through ownership and borrowing, lifetimes, safe abst
 
 ### 15. How to handle error propagation between functions?
 
+Using the `Result` type.
+
+A function that can produce an error returns a `Result` enum, which can either contain an `Ok` value representing the successful result, or an `Err` value containing the error. The calling function can then use pattern matching to handle the error, either by propagating it further up the call stack or by handling it directly. The `?` operator can also be used to propagate errors automatically, allowing for concise error handling code.
+
 ### 16. What are Lifetimes in Rust and how they are used?
 
 ### 17. Give an example of a macro you have written or used?
