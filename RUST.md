@@ -174,6 +174,14 @@ A function that can produce an error returns a `Result` enum, which can either c
 
 ### 16. What are Lifetimes in Rust and how they are used?
 
+Lifetimes are a mechanism for tracking the lifetime of a variable and ensuring that references to it are only used while it is valid. Lifetimes are used to prevent dangling pointer errors and other memory safety issues. They are specified using a special syntax:
+
+```
+fn foo<'a>(x: &'a str) -> &'a str {
+    // code
+}
+```
+
 ### 17. Give an example of a macro you have written or used?
 
 ### 18. How do you approach writing efficient Rust code?
