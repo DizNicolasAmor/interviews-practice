@@ -20,7 +20,7 @@
     14. Vec VS Array
     15. How to handle error propagation between functions?
     16. What are Lifetimes in Rust and how they are used?
-    17. Give an example of a macro you have written or used?
+    17. How to write a custom macro in Rust?
     18. How do you approach writing efficient Rust code?
     19. Closure VS function
     20. Option VS Result and when to use each one?
@@ -182,7 +182,15 @@ fn foo<'a>(x: &'a str) -> &'a str {
 }
 ```
 
-### 17. Give an example of a macro you have written or used?
+### 17. How to write a custom macro in Rust?
+
+```
+macro_rules! say_hello {
+    () => {
+        println!("Hello, world!");
+    };
+}
+```
 
 ### 18. How do you approach writing efficient Rust code?
 
