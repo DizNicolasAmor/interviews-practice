@@ -194,6 +194,14 @@ macro_rules! say_hello {
 
 ### 18. How do you approach writing efficient Rust code?
 
+- Use appropriate data structures
+- Avoid unnecessary copying of data. Instead, use references or borrow the data.
+- Avoid unnecessary allocations.
+- Optimize hot code paths.
+- Profile and measure. Use profiling tools to identify bottlenecks.
+- Write idiomatic Rust.
+- Stay up to date.
+
 ### 19. Closure VS function
 
 ### 20. Option VS Result and when to use each one?
