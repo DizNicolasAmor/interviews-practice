@@ -204,6 +204,8 @@ macro_rules! say_hello {
 
 ### 19. Closure VS function
 
+In Rust, Closures are similar to Functions but with some key differences. Closures are defined inline, can capture variables from their surrounding scope, and can have their own unique types. Functions, on the other hand, are standalone units of code with a fixed signature and cannot capture variables from their surrounding scope.
+
 ### 20. Option VS Result and when to use each one?
 
 ### 21. Rust testing framework
