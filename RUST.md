@@ -208,6 +208,11 @@ In Rust, Closures are similar to Functions but with some key differences. Closur
 
 ### 20. Option VS Result and when to use each one?
 
+`Option` and `Result` are two enum types used to handle errors and absent values.
+
+- **Option** is used to represent a value that may or may not be present. It can either be `Some(value)` or `None`. Option is useful when a value may or may not exist and allows for handling of these cases in a concise and safe way. Option is used when there is a possibility of no value.
+- **Result** is used to represent an operation that may or may not succeed. It can either be `Ok(value)` or `Err(error)`. Result is useful when an operation may fail and allows for handling of errors in a concise and safe way. Result is used when there is a possibility of failure.
+
 ### 21. Rust testing framework
 
 ### 22. What is the Module system and how it can be used to organize code?
