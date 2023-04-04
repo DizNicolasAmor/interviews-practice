@@ -215,6 +215,8 @@ In Rust, Closures are similar to Functions but with some key differences. Closur
 
 ### 21. Rust testing framework
 
+Rust has a built-in testing framework that allows developers to write tests for their code. Tests are defined using the `#[test]` attribute and can be run using the `cargo test` command. The testing framework includes support for running tests in parallel, testing both successful and error cases, and generating code coverage reports.
+
 ### 22. What is the Module system and how it can be used to organize code?
 
 <a name="advanced" />
