@@ -219,6 +219,8 @@ Rust has a built-in testing framework that allows developers to write tests for 
 
 ### 22. What is the Module system and how it can be used to organize code?
 
+It is a system used to organize code into a logical structure that can be easily navigated and maintained. Modules can be defined using the `mod` keyword and can be nested to create a hierarchy. Modules can contain types, functions, constants, and other modules, and their visibility can be controlled using the `pub` keyword.
+
 <a name="advanced" />
 
 ## ADVANCED
