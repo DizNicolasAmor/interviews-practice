@@ -227,6 +227,8 @@ It is a system used to organize code into a logical structure that can be easily
 
 ### 23. What is Rust's low-level control of hardware and how it can be used in system programming?
 
+Rust's low-level control of hardware allows developers to write system-level programs that have direct access to hardware resources. Rust provides support for writing low-level code using the unsafe keyword, which allows for manual memory management, direct access to hardware registers, and other low-level operations.
+
 ### 24. How Rust's type system enables zero-cost abstractions and how this can improve performance?
 
 ### 25. How Rust's memory layout and alignment works and how it affects performance and portability?
