@@ -116,7 +116,7 @@ It's a policy that manages the availability of variables. That means, it is the 
 
 It's a combination of a function bundled together with references to its surrounding state. Basically it's a function that is created inside another one. The outer function is said to "enclose" the scope of the inner function.
 
-# What is a Javascript Hosting Environment?
+### What is a Javascript Hosting Environment?
 
 It's where a JS Engine runs. It consists in the JS Engine itself, a set of environment API's and the Event loop.
 Environment API's depends on the context. In a web browser for example we are able to use `onclick` events, in Node Js, file operations such as read, write, delete, etc...
@@ -253,8 +253,7 @@ Ecmascript (European Computer Manufacturer's Association) is a standard for scri
 1. `var` declarations are globally scoped or function scoped while `let` and `const` are block scoped.
 2. `var` variables can be updated and re-declared within its scope, `let` variables can be updated but not re-declared
    and `const` variables can neither be updated nor re-declared.
-3. All of them are hoisted to the top of their scope. But while `var` v ariables are initialized with `undefined`, `let` and `const` variables
-   are not initialized.
+3. All of them are hoisted to the top of their scope. But while `var` variables are initialized with `undefined`, `let` and `const` variables are not initialized.
 4. While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
 
 ### What are the difference between an arrow function and a regular function?
