@@ -265,11 +265,11 @@ h2 ~ p {
 </div>
 ```
 
-In this example, all paragraph elements (<p>) will be styled with the specified rules, but only if they are siblings of <h2> elements. There could be other elements in between the <h2> and <p>, and the styles would still apply.
+In this example, all paragraph elements `(<p>)` will be styled with the specified rules, but only if they are siblings of `<h2>` elements. There could be other elements in between the `<h2>` and `<p>`, and the styles would still apply.
 
 ### Adjacent Sibling Combinator
 
-It uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
+It uses the plus symbol `(+)`, and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
 
 ```
 p + p {
