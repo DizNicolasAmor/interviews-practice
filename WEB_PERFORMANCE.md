@@ -26,6 +26,18 @@
   20. What is the role of website analytics in web performance optimization?
   21. What is the role of browser rendering and how does it affect web performance?
   22. What are the best practices for optimizing server-side performance?
+- [ADVANCED](#advanced)
+  23. How do you diagnose and fix common web performance issues like slow load times or high network latency?
+  24. What is the difference between performance and scalability?
+  25. How to optimize database performance in a web application?
+  26. How to leverage serverless architectures to improve web performance?
+  27. What is critical CSS?
+  28. What are the benefits and drawbacks of using a microservices architecture?
+  29. How to use browser dev tools to improve web performance?
+  30. How to use A/B testing to improve web performance?
+  31. What is predictive performance?
+  32. How to optimize web performance in a multi-lingual or multi-regional website?
+  33. How to use machine learning algorithms to optimize web performance?
 
 <a name="basics"/>
 
