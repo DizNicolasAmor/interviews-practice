@@ -231,6 +231,8 @@ Rust's low-level control of hardware allows developers to write system-level pro
 
 ### 24. How Rust's type system enables zero-cost abstractions and how this can improve performance?
 
+In Rust, zero-cost abstractions are achieved through mechanisms such as generic programming, trait bounds, and monomorphization, which enable the compiler to generate specialized code for each use case, while still maintaining safety and correctness.
+
 ### 25. How Rust's memory layout and alignment works and how it affects performance and portability?
 
 ### 26. How to use Rust's FFI capabilities to interact with foreign languages?
