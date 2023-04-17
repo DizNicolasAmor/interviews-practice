@@ -235,6 +235,14 @@ In Rust, zero-cost abstractions are achieved through mechanisms such as generic 
 
 ### 25. How Rust's memory layout and alignment works and how it affects performance and portability?
 
+Memory layout and alignment rules define how data is organized in memory and affect performance and portability.
+
+- Memory is typically aligned to the largest primitive component, with padding as needed.
+- Proper alignment can improve performance by enabling the CPU to load and store data in larger chunks.
+- Rust's ownership model can enable aggressive optimizations, such as eliminating unnecessary memory copies.
+- The `#[repr(C)]` attribute can ensure compatibility with `C`.
+- Rust's rules balance performance, portability, type safety, and memory safety.
+
 ### 26. How to use Rust's FFI capabilities to interact with foreign languages?
 
 ### 27. How Rust's macros can be used to generate code and improve code readability and maintainability?
