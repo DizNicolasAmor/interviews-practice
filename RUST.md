@@ -31,7 +31,7 @@
     24. How Rust's type system enables zero-cost abstractions and how this can improve performance?
     25. How Rust's memory layout and alignment works and how it affects performance and portability?
     26. How to use FFI capabilities to interact with foreign languages?
-    27. How Rust's macros can be used to generate code and improve code readability and maintainability?
+    27. How macros can be used to generate code and improve code readability and maintainability?
     28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
     29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
     30. How trait system enables generic programming and how this can be used to write reusable code?
@@ -249,7 +249,11 @@ Rust's FFI (Foreign Function Interface) capabilities enable Rust code to interac
 
 To use it, the `extern` keyword is used to define external functions or variables, and the `unsafe` keyword is used to indicate that the function may have side effects or violate Rust's safety rules. Additionally, Rust's `std::ffi` module provides facilities for working with C-style strings and pointers.
 
-### 27. How Rust's macros can be used to generate code and improve code readability and maintainability?
+### 27. How macros can be used to generate code and improve code readability and maintainability?
+
+- Reusability: macros generate code at compile-time, allowing for repetitive tasks to be automated.
+- Readability: macros abstract low-level details and create more expressive syntax.
+- Maintainability: macros provide a consistent interface and enable changes to be made in a single location.
 
 ### 28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
 
