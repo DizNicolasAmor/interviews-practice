@@ -257,6 +257,10 @@ To use it, the `extern` keyword is used to define external functions or variable
 
 ### 28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
 
+Lifetime elision rules in Rust allow for the omission of explicit lifetime annotations in certain cases. The rules determine the lifetime of references based on the structure of the code.
+
+Explicit lifetime annotations are necessary in cases where the lifetime cannot be inferred from the code, such as when returning a reference that is created inside a function. In such cases, the `static` lifetime may be used to indicate that the reference is valid for the entire lifetime of the program.
+
 ### 29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
 
 ### 30. How trait system enables generic programming and how this can be used to write reusable code?
