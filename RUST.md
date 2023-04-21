@@ -33,7 +33,7 @@
     26. How to use FFI capabilities to interact with foreign languages?
     27. How macros can be used to generate code and improve code readability and maintainability?
     28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
-    29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
+    29. How to use unsafe features to optimize performance-critical code?
     30. How trait system enables generic programming and how this can be used to write reusable code?
     31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
     32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
@@ -261,7 +261,9 @@ Lifetime elision rules in Rust allow for the omission of explicit lifetime annot
 
 Explicit lifetime annotations are necessary in cases where the lifetime cannot be inferred from the code, such as when returning a reference that is created inside a function. In such cases, the `static` lifetime may be used to indicate that the reference is valid for the entire lifetime of the program.
 
-### 29. Have you ever used Rust's unsafe features to optimize performance-critical code? If so, give an example.
+### 29. How to use unsafe features to optimize performance-critical code?
+
+Unsafe features in Rust allow for low-level manipulation of memory and can be used to optimize performance-critical code. Examples include using raw pointers and calling external functions through FFI. Unsafe code should be contained within `unsafe` blocks and must ensure that it does not violate Rust's memory safety or type safety rules. An example of unsafe code that can improve performance is using `std::intrinsics::copy_nonoverlapping` to copy memory directly, bypassing the usual Rust checks for memory safety.
 
 ### 30. How trait system enables generic programming and how this can be used to write reusable code?
 
