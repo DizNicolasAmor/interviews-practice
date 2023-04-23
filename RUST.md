@@ -267,6 +267,8 @@ Unsafe features in Rust allow for low-level manipulation of memory and can be us
 
 ### 30. How trait system enables generic programming and how this can be used to write reusable code?
 
+By defining behavior that can be applied to multiple types, allowing for code reuse and abstraction. Traits define a set of methods that a type must implement to be considered a member of that trait, enabling polymorphism and generic code.
+
 ### 31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
 
 ### 32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
