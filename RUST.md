@@ -35,7 +35,7 @@
     28. What is lifetime elision rules and when to use explicit lifetime annotations in code?
     29. How to use unsafe features to optimize performance-critical code?
     30. How trait system enables generic programming and how this can be used to write reusable code?
-    31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
+    31. What is the monomorphization process?
     32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
     33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
 
@@ -269,7 +269,9 @@ Unsafe features in Rust allow for low-level manipulation of memory and can be us
 
 By defining behavior that can be applied to multiple types, allowing for code reuse and abstraction. Traits define a set of methods that a type must implement to be considered a member of that trait, enabling polymorphism and generic code.
 
-### 31. Can you explain Rust's monomorphization process and how it can improve performance by eliminating dynamic dispatch overhead?
+### 31. What is the monomorphization process?
+
+Monomorphization generates specialized code at compile-time for each specific set of generic type arguments, resulting in faster and more efficient code. The generated code is equivalent to manually writing out all the concrete type combinations, without the need for boilerplate code.
 
 ### 32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
 
