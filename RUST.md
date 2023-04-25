@@ -36,7 +36,7 @@
     29. How to use unsafe features to optimize performance-critical code?
     30. How trait system enables generic programming and how this can be used to write reusable code?
     31. What is the monomorphization process?
-    32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
+    32. What is the procedural macro system?
     33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
 
 <a name="basic" />
@@ -273,6 +273,14 @@ By defining behavior that can be applied to multiple types, allowing for code re
 
 Monomorphization generates specialized code at compile-time for each specific set of generic type arguments, resulting in faster and more efficient code. The generated code is equivalent to manually writing out all the concrete type combinations, without the need for boilerplate code.
 
-### 32. What is Rust's procedural macro system and how it can be used to generate code at compile-time?
+### 32. What is the procedural macro system?
+
+Procedural macros allow creating syntax extensions as execution of a function. Procedural macros come in one of three flavors:
+
+- Function-like macros: `custom!(...)`
+- Derive macros: `#[derive(CustomDerive)]`
+- Attribute macros: `#[CustomAttribute]`
+
+Procedural macros allow you to run code at compile time that operates over Rust syntax, both consuming and producing Rust syntax.
 
 ### 33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
