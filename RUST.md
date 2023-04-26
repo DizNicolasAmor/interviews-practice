@@ -37,7 +37,7 @@
     30. How trait system enables generic programming and how this can be used to write reusable code?
     31. What is the monomorphization process?
     32. What is the procedural macro system?
-    33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
+    33. Where Rust's code-generation capabilities to generate code for specific hardware architectures can be used?
 
 <a name="basic" />
 
@@ -283,4 +283,6 @@ Procedural macros allow creating syntax extensions as execution of a function. P
 
 Procedural macros allow you to run code at compile time that operates over Rust syntax, both consuming and producing Rust syntax.
 
-### 33. Have you ever used Rust's code-generation capabilities to generate code for specific hardware architectures? If so, can you give an example of a project you worked on?
+### 33. Where Rust's code-generation capabilities to generate code for specific hardware architectures can be used?
+
+An example of a project where Rust's code-generation capabilities can be used to generate code for specific hardware architectures is `lumen`. Lumen is an implementation of the Erlang/OTP virtual machine that uses Rust to generate platform-specific code for its just-in-time (JIT) compiler. The Rust code generator is used to generate x86-64 machine code, which is then executed at runtime by the JIT compiler. This approach allows for high-performance code generation that can take advantage of the specific features of each hardware architecture, without sacrificing portability or safety.
