@@ -84,3 +84,7 @@ There are two parts of web performance: loading and render performance.
 - Influenced by factors such as the complexity of the web page, size and number of images and videos, and efficiency of the browser's rendering engine.
 - Typically measured using metrics such as first contentful paint (FCP), first meaningful paint (FMP), and time to visually complete (TVC).
 - Optimized using techniques such as image optimization, code splitting, lazy loading, optimize JavaScript and optimizing CSS.
+
+### 8. What tools do you use to measure web performance?
+
+There are various tools to measure web performance. For example: Google PageSpeed Insights, GTmetrix, Pingdom, WebPageTest, and Lighthouse. These tools analyze website speed, performance, and provide recommendations for improvement.
