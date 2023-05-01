@@ -88,3 +88,11 @@ There are two parts of web performance: loading and render performance.
 ### 8. What tools do you use to measure web performance?
 
 There are various tools to measure web performance. For example: Google PageSpeed Insights, GTmetrix, Pingdom, WebPageTest, and Lighthouse. These tools analyze website speed, performance, and provide recommendations for improvement.
+
+### 9. How do you optimize images for the web?
+
+- Reducing the file size without compromising the quality. This can be achieved by using compression tools such as Adobe Photoshop, Squoosh, or TinyPNG.
+- Adjusting image dimensions to the required size.
+- Removing unnecessary metadata to reduce the file size.
+- Choosing the appropriate image format such as JPEG, PNG, or WebP.
+- Using responsive images and lazy loading can further optimize web performance.
