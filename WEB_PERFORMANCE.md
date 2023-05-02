@@ -96,3 +96,10 @@ There are various tools to measure web performance. For example: Google PageSpee
 - Removing unnecessary metadata to reduce the file size.
 - Choosing the appropriate image format such as JPEG, PNG, or WebP.
 - Using responsive images and lazy loading can further optimize web performance.
+
+### 10. How do you reduce the size of CSS and JavaScript files?
+
+- Minification: it is a technique that removes white space and unnecessary characters without altering functionality.
+- Concatenation: it is a technique that combines multiple files into a single file, reducing the number of requests required.
+- Optimization: unused or duplicate code should be removed.
+- Gzip: it is a compression tool.
