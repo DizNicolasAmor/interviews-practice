@@ -103,3 +103,7 @@ There are various tools to measure web performance. For example: Google PageSpee
 - Concatenation: it is a technique that combines multiple files into a single file, reducing the number of requests required.
 - Optimization: unused or duplicate code should be removed.
 - Gzip: it is a compression tool.
+
+### 11. How do you handle browser caching?
+
+To handle browser caching, you can set the appropriate HTTP headers to control how long the browser should cache specific resources. Resources that are unlikely to change frequently, such as images, can be set with a longer cache time, while resources that change frequently, such as CSS or JavaScript files, should be set with a shorter cache time. You can also use cache-busting techniques, such as appending a query string to the URL or changing the file name when a resource is updated, to ensure that the browser requests the latest version of the file.
