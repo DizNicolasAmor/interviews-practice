@@ -107,3 +107,11 @@ There are various tools to measure web performance. For example: Google PageSpee
 ### 11. How do you handle browser caching?
 
 To handle browser caching, you can set the appropriate HTTP headers to control how long the browser should cache specific resources. Resources that are unlikely to change frequently, such as images, can be set with a longer cache time, while resources that change frequently, such as CSS or JavaScript files, should be set with a shorter cache time. You can also use cache-busting techniques, such as appending a query string to the URL or changing the file name when a resource is updated, to ensure that the browser requests the latest version of the file.
+
+<a name="intermediate"/>
+
+## INTERMEDIATE
+
+### 12. What is minification and how it can improve web performance?
+
+Minification is the process of removing unnecessary characters, such as white space, comments, and line breaks, from code without changing its functionality. This results in smaller file sizes, leading to faster loading times and improved web performance. Minification is commonly used for CSS and JavaScript files, but can also be applied to HTML and other resources.
