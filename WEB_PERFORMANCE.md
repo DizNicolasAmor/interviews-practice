@@ -115,3 +115,7 @@ To handle browser caching, you can set the appropriate HTTP headers to control h
 ### 12. What is minification and how it can improve web performance?
 
 Minification is the process of removing unnecessary characters, such as white space, comments, and line breaks, from code without changing its functionality. This results in smaller file sizes, leading to faster loading times and improved web performance. Minification is commonly used for CSS and JavaScript files, but can also be applied to HTML and other resources.
+
+### 13. What is the impact of HTTP requests on web performance?
+
+HTTP requests can significantly impact web performance as each request requires a round-trip between the browser and the server. This can result in slower loading times, increased network latency, and lower user engagement. To optimize web performance, you should reduce the number of HTTP requests required by combining resources, using sprites, and leveraging browser caching. It's also important to optimize the order in which resources are loaded, prioritize critical resources, and minimize the use of third-party scripts that require additional HTTP requests.
