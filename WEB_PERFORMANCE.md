@@ -119,3 +119,7 @@ Minification is the process of removing unnecessary characters, such as white sp
 ### 13. What is the impact of HTTP requests on web performance?
 
 HTTP requests can significantly impact web performance as each request requires a round-trip between the browser and the server. This can result in slower loading times, increased network latency, and lower user engagement. To optimize web performance, you should reduce the number of HTTP requests required by combining resources, using sprites, and leveraging browser caching. It's also important to optimize the order in which resources are loaded, prioritize critical resources, and minimize the use of third-party scripts that require additional HTTP requests.
+
+### 14. What is the impact of using third-party scripts on web performance?
+
+It can impact web performance by increasing the number of HTTP requests required, slowing down page load times, and increasing network latency. Third-party scripts can also introduce dependencies and conflicts, leading to potential security vulnerabilities and compatibility issues.
