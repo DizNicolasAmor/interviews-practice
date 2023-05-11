@@ -123,3 +123,7 @@ HTTP requests can significantly impact web performance as each request requires 
 ### 14. What is the impact of using third-party scripts on web performance?
 
 It can impact web performance by increasing the number of HTTP requests required, slowing down page load times, and increasing network latency. Third-party scripts can also introduce dependencies and conflicts, leading to potential security vulnerabilities and compatibility issues.
+
+### 15. Can you explain the concept of lazy loading?
+
+Lazy loading is a technique used to defer the loading of non-critical resources, such as images, until they are needed. This reduces the initial page load time and improves web perceived performance by prioritizing critical resources. When lazy loading is used, only the resources above the fold are loaded initially, and additional resources are loaded as the user scrolls or interacts with the page.
