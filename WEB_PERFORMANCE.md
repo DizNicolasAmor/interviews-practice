@@ -127,3 +127,7 @@ It can impact web performance by increasing the number of HTTP requests required
 ### 15. Can you explain the concept of lazy loading?
 
 Lazy loading is a technique used to defer the loading of non-critical resources, such as images, until they are needed. This reduces the initial page load time and improves web perceived performance by prioritizing critical resources. When lazy loading is used, only the resources above the fold are loaded initially, and additional resources are loaded as the user scrolls or interacts with the page.
+
+### 16. What is the difference between client-side and server-side caching?
+
+Client-side caching stores resources in the user's browser cache, reducing the number of requests required and improving web performance. Server-side caching, on the other hand, stores resources in the server's cache, reducing the time required to generate a response and reducing the load on the server. Client-side caching is useful for resources that don't change frequently, while server-side caching is useful for dynamic content that is generated frequently. Both client-side and server-side caching can significantly improve web performance when used appropriately.
