@@ -131,3 +131,7 @@ Lazy loading is a technique used to defer the loading of non-critical resources,
 ### 16. What is the difference between client-side and server-side caching?
 
 Client-side caching stores resources in the user's browser cache, reducing the number of requests required and improving web performance. Server-side caching, on the other hand, stores resources in the server's cache, reducing the time required to generate a response and reducing the load on the server. Client-side caching is useful for resources that don't change frequently, while server-side caching is useful for dynamic content that is generated frequently. Both client-side and server-side caching can significantly improve web performance when used appropriately.
+
+### 17. What is the role of a Content Delivery Network (CDN) in web performance?
+
+A CDN improves the delivery of content to users. It achieves this by distributing content across multiple servers strategically placed in various geographic locations. The CDN serves content to users from the server closest to their location, reducing latency and improving load times. Additionally, CDNs can cache static content, reducing the load on origin servers and improving overall website performance. CDNs also provide additional features like DDoS protection, SSL encryption, and traffic optimization, contributing to a faster and more reliable browsing experience.
