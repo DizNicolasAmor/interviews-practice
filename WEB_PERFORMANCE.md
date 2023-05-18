@@ -135,3 +135,9 @@ Client-side caching stores resources in the user's browser cache, reducing the n
 ### 17. What is the role of a Content Delivery Network (CDN) in web performance?
 
 A CDN improves the delivery of content to users. It achieves this by distributing content across multiple servers strategically placed in various geographic locations. The CDN serves content to users from the server closest to their location, reducing latency and improving load times. Additionally, CDNs can cache static content, reducing the load on origin servers and improving overall website performance. CDNs also provide additional features like DDoS protection, SSL encryption, and traffic optimization, contributing to a faster and more reliable browsing experience.
+
+### 18. What are the benefits of using a front-end framework for web performance?
+
+- They often provide optimized and efficient code structures, pre-built components, and performance-focused optimizations.
+- They often implement best practices for performance, such as code splitting, lazy loading, and efficient rendering techniques.
+- They also provide tools and features for optimizing assets, handling caching, and reducing unnecessary re-renders.
