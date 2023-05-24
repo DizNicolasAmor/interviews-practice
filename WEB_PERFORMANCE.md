@@ -141,3 +141,10 @@ A CDN improves the delivery of content to users. It achieves this by distributin
 - They often provide optimized and efficient code structures, pre-built components, and performance-focused optimizations.
 - They often implement best practices for performance, such as code splitting, lazy loading, and efficient rendering techniques.
 - They also provide tools and features for optimizing assets, handling caching, and reducing unnecessary re-renders.
+
+### 19. How do you handle web page optimization for mobile devices?
+
+- Adopt a mobile-first approach by prioritizing essential content and optimizing the layout for smaller screens.
+- Minimize the use of large images and unnecessary elements that can impact load times.
+- Implement responsive design techniques (such as CSS media queries): it eliminates the need for separate mobile-specific versions of the website, reducing the number of resources that need to be loaded, and avoiding redirects.
+- Leverage mobile-specific features like touch events and gestures to enhance user experience: it may not directly improve web performance in terms of resource optimization, but it can contribute to a better overall user experience on mobile devices.
