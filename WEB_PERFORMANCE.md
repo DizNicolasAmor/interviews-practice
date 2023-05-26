@@ -148,3 +148,7 @@ A CDN improves the delivery of content to users. It achieves this by distributin
 - Minimize the use of large images and unnecessary elements that can impact load times.
 - Implement responsive design techniques (such as CSS media queries): it eliminates the need for separate mobile-specific versions of the website, reducing the number of resources that need to be loaded, and avoiding redirects.
 - Leverage mobile-specific features like touch events and gestures to enhance user experience: it may not directly improve web performance in terms of resource optimization, but it can contribute to a better overall user experience on mobile devices.
+
+### 20. What is the role of website analytics in web performance optimization?
+
+They provide insights into user behavior, page load times, and performance metrics. They help identify areas for improvement, such as high bounce rates or slow-loading pages, and prioritize optimization efforts. Analytics data can be used to measure the impact of performance optimizations, track improvements over time, and make data-driven decisions to enhance web performance and user experience.
