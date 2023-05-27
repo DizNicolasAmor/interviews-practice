@@ -152,3 +152,7 @@ A CDN improves the delivery of content to users. It achieves this by distributin
 ### 20. What is the role of website analytics in web performance optimization?
 
 They provide insights into user behavior, page load times, and performance metrics. They help identify areas for improvement, such as high bounce rates or slow-loading pages, and prioritize optimization efforts. Analytics data can be used to measure the impact of performance optimizations, track improvements over time, and make data-driven decisions to enhance web performance and user experience.
+
+### 21. What is the role of browser rendering and how does it affect web performance?
+
+Browser rendering refers to the process of converting HTML, CSS, and JavaScript into a visual display on the user's screen. It plays a significant role in web performance as inefficient rendering can lead to slow page rendering and lower user experience. Optimizing browser rendering involves reducing rendering-blocking resources, optimizing CSS delivery, and minimizing JavaScript execution.
