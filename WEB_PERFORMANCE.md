@@ -156,3 +156,20 @@ They provide insights into user behavior, page load times, and performance metri
 ### 21. What is the role of browser rendering and how does it affect web performance?
 
 Browser rendering refers to the process of converting HTML, CSS, and JavaScript into a visual display on the user's screen. It plays a significant role in web performance as inefficient rendering can lead to slow page rendering and lower user experience. Optimizing browser rendering involves reducing rendering-blocking resources, optimizing CSS delivery, and minimizing JavaScript execution.
+
+### 22. What are the best practices for optimizing server-side performance?
+
+- Efficient database queries.
+- Caching.
+- Code optimization.
+- Load balancing.
+- Connection pooling.
+- Content compression.
+- Asynchronous processing.
+- Scalable infrastructure.
+
+<a name="advanced"/>
+
+## ADVANCED
+
+### 23. How do you diagnose and fix common web performance issues like slow load times or high network latency?
