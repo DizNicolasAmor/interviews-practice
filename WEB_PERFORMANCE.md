@@ -27,7 +27,7 @@
   21. What is the role of browser rendering and how does it affect web performance?
   22. What are the best practices for optimizing server-side performance?
 - [ADVANCED](#advanced)
-  23. How do you diagnose and fix common web performance issues like slow load times or high network latency?
+  23. How do you diagnose and fix slow load times or high network latency?
   24. What is the difference between performance and scalability?
   25. How to optimize database performance in a web application?
   26. How to leverage serverless architectures to improve web performance?
@@ -172,4 +172,12 @@ Browser rendering refers to the process of converting HTML, CSS, and JavaScript 
 
 ## ADVANCED
 
-### 23. How do you diagnose and fix common web performance issues like slow load times or high network latency?
+### 23. How do you diagnose and fix slow load times or high network latency?
+
+- Diagnose:
+  - Use network monitoring tools like browser dev tools or network analyzers.
+- Fix:
+  - Reduce the size of assets, leverage caching, and use CDNs.
+  - Minimize HTTP requests.
+  - Optimize database queries or server-side operations that may be causing delays.
+  - Consider using techniques like code minification, compression, and lazy loading.
