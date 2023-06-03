@@ -181,3 +181,7 @@ Browser rendering refers to the process of converting HTML, CSS, and JavaScript 
   - Minimize HTTP requests.
   - Optimize database queries or server-side operations that may be causing delays.
   - Consider using techniques like code minification, compression, and lazy loading.
+
+### 24. What is the difference between performance and scalability?
+
+Performance is about speed and efficiency, while scalability is about handling growth and capacity without compromising performance.
