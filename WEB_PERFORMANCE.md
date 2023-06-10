@@ -185,3 +185,13 @@ Browser rendering refers to the process of converting HTML, CSS, and JavaScript 
 ### 24. What is the difference between performance and scalability?
 
 Performance is about speed and efficiency, while scalability is about handling growth and capacity without compromising performance.
+
+### 25. How to optimize database performance in a web application?
+
+- Indexing: properly index frequently queried columns to speed up data retrieval.
+- Query optimization.
+- Database caching.
+- Connection pooling.
+- Database normalization.
+- Database server optimization.
+- Regular maintenance: indexing, updating statistics and cleaning up unused data.
