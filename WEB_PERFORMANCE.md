@@ -195,3 +195,10 @@ Performance is about speed and efficiency, while scalability is about handling g
 - Database normalization.
 - Database server optimization.
 - Regular maintenance: indexing, updating statistics and cleaning up unused data.
+
+### 26. How to leverage serverless architectures to improve web performance?
+
+- Auto-scaling: serverless platforms automatically scale resources based on demand.
+- Reduced latency: serverless functions are deployed closer to end-users, reducing network latency and improving response times.
+- Efficient resource allocation: serverless platforms handle resource management, allowing developers to focus on code optimization and performance improvements.
+- Pay-per-use pricing: with serverless, you only pay for actual usage, which incentivizes optimizing code and reducing unnecessary computations.
