@@ -202,3 +202,7 @@ Performance is about speed and efficiency, while scalability is about handling g
 - Reduced latency: serverless functions are deployed closer to end-users, reducing network latency and improving response times.
 - Efficient resource allocation: serverless platforms handle resource management, allowing developers to focus on code optimization and performance improvements.
 - Pay-per-use pricing: with serverless, you only pay for actual usage, which incentivizes optimizing code and reducing unnecessary computations.
+
+### 27. What is critical CSS?
+
+It refers to the minimal CSS needed for the initial page load, improving perceived performance by prioritizing the rendering of visible content. By inlining or loading the critical CSS inline, the page can display faster and provide a better user experience, while non-critical CSS can be loaded asynchronously or deferred.
