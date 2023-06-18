@@ -206,3 +206,7 @@ Performance is about speed and efficiency, while scalability is about handling g
 ### 27. What is critical CSS?
 
 It refers to the minimal CSS needed for the initial page load, improving perceived performance by prioritizing the rendering of visible content. By inlining or loading the critical CSS inline, the page can display faster and provide a better user experience, while non-critical CSS can be loaded asynchronously or deferred.
+
+### 28. What are the benefits and drawbacks of using a microservices architecture?
+
+Microservices architecture benefits web performance optimization with granular performance optimization, independent scalability, and technology selection. However, drawbacks include increased network latency, complexity of coordination, and operational overhead in managing multiple services.
