@@ -27,15 +27,15 @@
   21. What are the different types of storage in HTML5?
   22. What is metadata in HTML5 and how is it specified?
 - [Advanced](#advanced)
-  - What are the new tags for multimedia in HTML5?
-  - What is microdata?
-  - How is the Geolocation API implemented?
-  - What are global attributes?
-  - What is the role of the WebSocket API?
-  - When should `<div>` tags be used?
-  - What is the role of the Web Workers API?
-  - How can the performance of an HTML5 web page be measured?
-  - How can HTML5 web pages be optimized?
+  23. What are the new tags for multimedia in HTML5?
+  24. What is microdata?
+  25. How is the Geolocation API implemented?
+  26. What are global attributes?
+  27. What is the role of the WebSocket API?
+  28. When should `<div>` tags be used?
+  29. What is the role of the Web Workers API?
+  30. How can the performance of an HTML5 web page be measured?
+  31. How can HTML5 web pages be optimized?
 
 <a name="basics"/>
 
@@ -182,7 +182,7 @@ The `<meta>` tag is used to define metadata about an HTML document. These tags a
 
 ## Advanced
 
-### What are the new tags for multimedia in HTML5?
+### 23. What are the new tags for multimedia in HTML5?
 
 HTML5 allows creating multimedia objects without the need for additional plugins. The new tags that facilitate this are:
 
@@ -192,19 +192,19 @@ HTML5 allows creating multimedia objects without the need for additional plugins
 - `<source>`: used to embed multiple media resources.
 - `<track>`: used to specify text tracks (such as subtitles) for audio and video content.
 
-### What is microdata?
+### 24. What is microdata?
 
 It allows developers to define the custom semantics of elements. It is created using the `<itemscope>` element. Information about the item is then specified using the `<itemprop>` element.
 
 It’s used to provide browsers and search engines with more information about the contents of the web page.
 
-### How is the Geolocation API implemented?
+### 25. How is the Geolocation API implemented?
 
 This API uses the device’s GPS, WiFi or mobile signal to triangulate the user’s latitude and longitude coordinates. The user must give their permission before geolocation services can be used on their device.
 
 From the developer, this API is implemented by calling the geolocation.navigator object.
 
-### What are global attributes?
+### 26. What are global attributes?
 
 They are attributes that can be applied to all HTML5 elements, such as:
 
@@ -214,19 +214,19 @@ They are attributes that can be applied to all HTML5 elements, such as:
 - **data-**: used to store custom data specific to the web page.
 - **contenteditable**:, used to indicate whether the content is editable or not.
 
-### What is the role of the WebSocket API?
+### 27. What is the role of the WebSocket API?
 
 It facilitates two-way, interactive communication between the web browser and the web server. This enables a real-time, event-driven data transfer to and from the server.
 
-### When should `<div>` tags be used?
+### 28. When should `<div>` tags be used?
 
 When no other semantically appropriate element is available. Generally, for styling purposes or structural purposes like wrapping some HTML elements.
 
-### What is the role of the Web Workers API?
+### 29. What is the role of the Web Workers API?
 
 It allows to run scripts independently in a background thread, separate from the main execution thread of the HTML5 document.
 
-### How can the performance of an HTML5 web page be measured?
+### 30. How can the performance of an HTML5 web page be measured?
 
 Using the **Navigation Timing API** and the **User Timing API**. They provide insights about:
 
@@ -236,7 +236,7 @@ Using the **Navigation Timing API** and the **User Timing API**. They provide in
 - Error rate: the proportion of visits to the page resulting in errors.
 - Conversion rate: the proportion of users that complete a specified action, such as subscribing to a mailing list.
 
-### How can HTML5 web pages be optimized?
+### 31. How can HTML5 web pages be optimized?
 
 - Compress heavy assets such as high-resolution images.
 - Bundle code into single files to reduce the number of HTTP requests.
