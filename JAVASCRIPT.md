@@ -3,10 +3,10 @@
 ## TABLE OF CONTENTS
 
 - [Paradigm](#paradigm)
-  - What is Javascript?
-  - What is OOP?
-  - Is JS OOP or Prototype oriented?
-  - Class-based OOP VS Prototype-based OOP
+  1. What is Javascript?
+  2. What is OOP?
+  3. Is JS OOP or Prototype oriented?
+  4. Class-based OOP VS Prototype-based OOP
 - [Concepts](#concepts)
   - What does "data type" mean and how many data types are in JS?
   - What is hoisting?
@@ -34,13 +34,13 @@
 
 ## Paradigm
 
-### What is Javascript?
+### 1. What is Javascript?
 
 JavaScript is a programming language that is mainly used for Web applications.
 
 It is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic types, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has APIs for working with text, dates, reges and the DOM.
 
-### What is OOP?
+### 2. What is OOP?
 
 Object Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", which can contain attributes (or properties) and methods. It is based on the main principles:
 
@@ -49,13 +49,13 @@ Object Oriented Programming (OOP) is a programming paradigm based on the concept
 - **Inheritance**. Classes can reuse code from other classes.
 - **Polymorphism**. Objects are designed to share behaviors and they can take on more than one form. A child class that extends the functionality of the parent class could overwrite a method with a particular behavior.
 
-### Is JS OOP or Prototype-oriented programming?
+### 3. Is JS OOP or Prototype-oriented programming?
 
 There is no such thing as Prototype-oriented programming paradigm.
 
 **Javascript is multiparadigm**, that means it supports various programming paradigms and **OOP** is one of them. **Prototype-based** programming is a style of OOP, just like **class-based**.
 
-### Class-based OOP VS Prototype-based OOP
+### 4. Class-based OOP VS Prototype-based OOP
 
 JavaScript does not have real classes per se. Instead, it uses the concept of **prototypes** for handling inheritance.
 
