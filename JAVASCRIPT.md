@@ -8,21 +8,21 @@
   3. Is JS OOP or Prototype oriented?
   4. Class-based OOP VS Prototype-based OOP
 - [Concepts](#concepts)
-  - What does "data type" mean and how many data types are in JS?
-  - What is hoisting?
-  - What is Scope?
-  - What is Closure?
-  - What is a Javascript Hosting Environment?
-  - What is the Event loop?
-  - How does the Event loop work in Javascript?
-  - Microtask and Macrotask
-  - Explain Apply, Bind and Call functions
-  - What is Immutability?
-  - How to copy an object?
-  - What is a HOF (high order function)?
-  - What is the difference between map, reduce and forEach functions?
-  - What is a Promise?
-  - How a Promise can be consumed?
+  5. What does "data type" mean and how many data types are in JS?
+  6. What is hoisting?
+  7. What is Scope?
+  8. What is Closure?
+  9. What is a Javascript Hosting Environment?
+  10. What is the Event loop?
+  11. How does the Event loop work in Javascript?
+  12. Microtask and Macrotask
+  13. Explain Apply, Bind and Call functions
+  14. What is Immutability?
+  15. How to copy an object?
+  16. What is a HOF (high order function)?
+  17. What is the difference between map, reduce and forEach functions?
+  18. What is a Promise?
+  19. How a Promise can be consumed?
 - [ECMAScript](#ecmascript)
   - What is ECMAScript?
   - Mention some of the new features in ES6 (ES 2015)
@@ -79,7 +79,7 @@ Here is how this two styles approach the OOP main principles:
 
 ## Concepts
 
-### What does "data type" mean and how many data types are in JS?
+### 5. What does "data type" mean and how many data types are in JS?
 
 Data type in programming is a **classification** that is used for specifying with kind of operation can be done with a given value. In Javascript we have 6 different primitive data types:
 
@@ -98,11 +98,11 @@ and 3 structural data types:
 
 Javascript has **dynamic types**. This means the same variable can be used to hold different data types.
 
-### What is hoisting?
+### 6. What is hoisting?
 
 Is a javascript mechanism where variables and function declarations are put in the memory before the code execution. For the coder, it is like the variable declarations are moved to the top of their scope.
 
-### What is Scope?
+### 7. What is Scope?
 
 It's a policy that manages the availability of variables. That means, it is the specific environment where a variable is accessible and can be used. In javascript we have different scopes:
 
@@ -112,20 +112,20 @@ It's a policy that manages the availability of variables. That means, it is the 
 4. Global scope - Is accessible from everywhere, examples: `window` object in browser and `process` object in nodejs.
 5. Lexical scope - Is determined statically by the position of the variables within the nested function scopes.
 
-### What is Closure?
+### 8. What is Closure?
 
 It's a combination of a function bundled together with references to its surrounding state. Basically it's a function that is created inside another one. The outer function is said to "enclose" the scope of the inner function.
 
-### What is a Javascript Hosting Environment?
+### 9. What is a Javascript Hosting Environment?
 
 It's where a JS Engine runs. It consists in the JS Engine itself, a set of environment API's and the Event loop.
 Environment API's depends on the context. In a web browser for example we are able to use `onclick` events, in Node Js, file operations such as read, write, delete, etc...
 
-### What is the Event loop?
+### 10. What is the Event loop?
 
 It's the process of dispatching events and executing instructions in a javascript program.
 
-### How does the Event loop work in Javascript?
+### 11. How does the Event loop work in Javascript?
 
 The event loop is the process of monitoring 2 parts of a Javascript hosting environment (such as Node js or a Web Browser), those 2 parts are, the **CallStack** and the **Callback Queue**.
 
@@ -137,7 +137,7 @@ In example:
 
 `setTimeout` will put a callback function at the end of the Callback Queue once the timeout value is reached. Once the `setTimeout` callback is added into the Callback Queue, the event loop will wait until the CallStack is empty, when it happens, the event loop will move the `setTimeout` callback from the Callback Queue to the CallStack to be processed by the Javascript Engine.
 
-### Microtask and Macrotask
+### 12. Microtask and Macrotask
 
 Inside the **task queue**, the tasks are broadly classified into two categories, namely **microtasks** and **macrotasks**.
 
@@ -187,17 +187,17 @@ function whatIsTheOrder() {
 
 The log will be: `d a c b`.
 
-### Explain Apply, Bind and Call functions
+### 13. Explain Apply, Bind and Call functions
 
 1. Bind: Creates a new function with a new context assigned by the first argument on `bind` invocation.
 2. Call: Call a function with a new context assigned by the first argument.
 3. Apply: It's the same as `call` but `apply` taskes an array as a unique argument where the first position is the new context and the rest of them are the arguments.
 
-### What is Immutability?
+### 14. What is Immutability?
 
 Immutability is an attribute that forbids a data type mutation.
 
-### How to copy an object?
+### 15. How to copy an object?
 
 It depends on the object.
 
@@ -207,20 +207,20 @@ It depends on the object.
 - Also, you could use third-party solutions from libraries like `lodash`.
 - You could use a mix of `JSON.parse` and `JSON.stringify` methods to copy an object with any level of deepness. However this is a naive solution and there are some issues in border cases.
 
-### What is a HOF (high order function)?
+### 16. What is a HOF (high order function)?
 
 A High Order Function is a function that either takes a function as an argument or returns a function.
 
-### What is the difference between map, reduce and forEach functions?
+### 17. What is the difference between map, reduce and forEach functions?
 
 The `map` method receives a function as a parameter. Then it applies it on each element and returns a new array populated
 with the results of calling the provided function. In the case of `forEach` method, it receives a function as a parameter with each array value and returns `undefined`, its proupouse is only iterate an array. And finally `reduce` method is used to reduce the array to a single value, it executes a provided function for each value of the array (from left-to-right) and the return value of the function is stored in an accumulator.
 
-### What is a Promise?
+### 18. What is a Promise?
 
 A promise is a function that will return data in some future.
 
-### How a Promise can be consumed?
+### 19. How a Promise can be consumed?
 
 - Using `then / catch`: you can call the `then` method and pass a callback as a param. The callback will be executed when the promise resolves. After that you can use the`catch` method. Same criteria, but the catch callback will be executed if the promise rejects.
 - Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
