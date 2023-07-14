@@ -24,11 +24,11 @@
   18. What is a Promise?
   19. How a Promise can be consumed?
 - [ECMAScript](#ecmascript)
-  - What is ECMAScript?
-  - Mention some of the new features in ES6 (ES 2015)
-  - Mention some of the new features in ES11 (ES 2020)
-  - What are the differences between var, let and const?
-  - What are the difference between an arrow function and a regular function?
+  20. What is ECMAScript?
+  21. Mention some of the new features in ES6 (ES 2015)
+  22. Mention some of the new features in ES11 (ES 2020)
+  23. What are the differences between var, let and const?
+  24. What are the difference between an arrow function and a regular function?
 
 <a name="paradigm"/>
 
@@ -230,25 +230,25 @@ A promise is a function that will return data in some future.
 
 ## ECMAScript
 
-### What is ECMAScript?
+### 20. What is ECMAScript?
 
 Ecmascript (European Computer Manufacturer's Association) is a standard for scripting languages.
 
-### Mention some of the new features in ES6
+### 21. Mention some of the new features in ES6
 
 1. Arrow functions
 2. Template strings
 3. Let and const keywords.
 4. Symbols
 
-### Mention some of the new features in ES11 (ES 2020)
+### 22. Mention some of the new features in ES11 (ES 2020)
 
 1. Optional chaining
 2. Dynamic imports
 3. Promise.allSettled
 4. Global this.
 
-### What are the differences between var, let and const?
+### 23. What are the differences between var, let and const?
 
 1. `var` declarations are globally scoped or function scoped while `let` and `const` are block scoped.
 2. `var` variables can be updated and re-declared within its scope, `let` variables can be updated but not re-declared
@@ -256,7 +256,7 @@ Ecmascript (European Computer Manufacturer's Association) is a standard for scri
 3. All of them are hoisted to the top of their scope. But while `var` variables are initialized with `undefined`, `let` and `const` variables are not initialized.
 4. While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
 
-### What are the difference between an arrow function and a regular function?
+### 24. What are the difference between an arrow function and a regular function?
 
 They have the following differences:
 
