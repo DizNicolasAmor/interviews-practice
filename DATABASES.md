@@ -3,36 +3,35 @@
 ## TABLE OF CONTENTS
 
 - [General](#general)
-  - What is a Database (DB)?
-  - What is a Database Management System (DBMS)?
-  - What is a Relational Database Management System (RDBMS)?
-  - Mention different DBMS.
-  - Mention some RDBMS.
-  - What is SQL?
-  - Define the SQL subgroups.
-  - What is a Relational Model?
-  - What NoSQL?
-  - What is ACID?
-  - Mention different SQL Data types.
-  - What is Cardinality?
-  - Mention different relationship types in a "Relational model".
+  1. What is a Database (DB)?
+  2. What is a Database Management System (DBMS)?
+  3. What is a Relational Database Management System (RDBMS)?
+  4. Mention different DBMS.
+  5. Mention some RDBMS.
+  6. What is SQL?
+  7. Define the SQL subgroups.
+  8. What is a Relational Model?
+  9. What NoSQL?
+  10. What is ACID?
+  11. Mention different SQL Data types.
+  12. What is Cardinality?
+  13. Mention different relationship types in a "Relational model".
 
 <a name="general" />
 
 ## General
 
-### What is a Database?
+### 1. What is a Database?
 
 A database is an organized collection of data stored in a computer.
 
-### What is a Database management system (DBMS) ?
+### 2. What is a Database Management System (DBMS)?
 
-Database Mangagement Systems are specially designed software applications that interact
-with the user, other applications and the database itself to capture and analyze data. The general purpose of a Database Management System is allow the definition, creation, querying, update and administration of a database.
+DBMS are specially designed software applications that interact with the user, other applications and the database itself to capture and analyze data. The general purpose of a Database Management System is allow the definition, creation, querying, update and administration of a database.
 
-### Mention different DBMS.
+### 3. Mention different DBMS.
 
-Some Database Management Systems are MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, Oracle, MongoDB, Apache Cassandra, Redis, Apache CouchDB.
+Some Database Management Systems are **MySQL**, **PostgreSQL**, **MariaDB**, **Microsoft SQL Server**, **Oracle**, **MongoDB**, **Apache Cassandra**, **Redis**, **Apache CouchDB**.
 
 ### What is a Relational Database Management System (RDBMS)?
 
