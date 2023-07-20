@@ -33,19 +33,19 @@ DBMS are specially designed software applications that interact with the user, o
 
 Some Database Management Systems are **MySQL**, **PostgreSQL**, **MariaDB**, **Microsoft SQL Server**, **Oracle**, **MongoDB**, **Apache Cassandra**, **Redis**, **Apache CouchDB**.
 
-### What is a Relational Database Management System (RDBMS)?
+### 4. What is a Relational Database Management System (RDBMS)?
 
 This term defines how data is stored in a Database Management System (DBMS). Since DBMS is a generic term, it does not contain information of how data should be exactly stored. It could be stored in files, graphs, key-value, relational tables, etc... In this case the data is stored using tables following the Relational Model.
 
-### Mention some RDBMS
+### 5. Mention some RDBMS
 
-Some RDBMS could be MySQL, MariaDB, Microsoft SQL Server, PostgreSQL.
+Some RDBMS could be **MySQL**, **MariaDB**, **Microsoft SQL Server**, **PostgreSQL**.
 
-### What is SQL?
+### 6. What is SQL?
 
-SQL refers to Structured Query Language. It is a standarized language mostly used by Relational Database Management Systems.
+SQL refers to **Structured Query Language**. It is a standarized language mostly used by Relational Database Management Systems.
 
-### Define the SQL subgroups
+### 7. Define the SQL subgroups
 
 SQL consists in 4 different subgroups that build the language itself.
 
@@ -54,11 +54,15 @@ SQL consists in 4 different subgroups that build the language itself.
 3. DCL (Data control language): It includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
 4. TCL (Transaction control language): It deals with a transaction within a database. Some examples of different commands are: COMMIT, ROLLBACK.
 
-### What NoSQL ?
+### 8. What is a Relational Model?
 
 Answer
 
-### What is ACID?
+### 9. What NoSQL ?
+
+Answer
+
+### 10. What is ACID?
 
 Is a set of properties that you would like to apply when modifying a database.
 
@@ -78,7 +82,7 @@ Means that one transaction cannot read data from another transaction that is not
 
 It is guaranteed that all of the changes have been recorded to a durable medium (ej: Hard drive), and the fact that the transaction has been completed is likewise recorded.
 
-### Mention different SQL Data types.
+### 11. Mention different SQL Data types.
 
 1. CHARACTER
 2. VARCHAR
@@ -91,11 +95,11 @@ It is guaranteed that all of the changes have been recorded to a durable medium 
 9. DATE
 10. TIMESTAMP
 
-### What is Cardinality?
+### 12. What is Cardinality?
 
 It defines how many instances of one entity are related to instances of another entity.
 
-### Mention different relationship types of cardinality.
+### 13. Mention different relationship types of cardinality.
 
 There are 3:
 
