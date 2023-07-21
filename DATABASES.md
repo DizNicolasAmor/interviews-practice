@@ -56,7 +56,7 @@ SQL consists in 4 different subgroups that build the language itself.
 
 ### 8. What is a Relational Model?
 
-Answer
+It is a way of structuring data in a database, where information is organized into tables with rows and columns. Each table represents an entity, and the relationships between entities are defined through shared values across tables. This model allows for easy data retrieval, manipulation, and ensures data integrity.
 
 ### 9. What NoSQL ?
 
