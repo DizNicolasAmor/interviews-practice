@@ -58,9 +58,9 @@ SQL consists in 4 different subgroups that build the language itself.
 
 It is a way of structuring data in a database, where information is organized into tables with rows and columns. Each table represents an entity, and the relationships between entities are defined through shared values across tables. This model allows for easy data retrieval, manipulation, and ensures data integrity.
 
-### 9. What NoSQL ?
+### 9. What NoSQL?
 
-Answer
+NoSQL is a term for a category of databases that diverge from the traditional relational model. It stands for "Not Only SQL" or "Non-SQL," emphasizing the use of alternative data models, like document-oriented, key-value, column-family, or graph databases. NoSQL databases are designed for scalability, high performance, and flexibility in handling large volumes of unstructured or semi-structured data.
 
 ### 10. What is ACID?
 
