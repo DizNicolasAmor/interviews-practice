@@ -36,6 +36,8 @@
   29. What is the role of the Web Workers API?
   30. How can the performance of an HTML5 web page be measured?
   31. How can HTML5 web pages be optimized?
+  32. Explain the concept of "shadow DOM" in the context of web components.
+  33. How does shadow DOM encapsulation work
 
 <a name="basics"/>
 
@@ -243,3 +245,9 @@ Using the **Navigation Timing API** and the **User Timing API**. They provide in
 - Minify code to remove all unnecessary whitespace.
 - Offload operations to the Graphics Processing Unit (GPU).
 - Use CSS3 for animations and transitions.
+
+### 32. Explain the concept of "shadow DOM" in the context of web components.
+
+The "shadow DOM" is a fundamental concept that enables the encapsulation of HTML, CSS, and JavaScript within a custom element. It creates a scoped and isolated subtree where the component's internals are hidden from the outside document. This encapsulation is crucial for avoiding style and naming conflicts and allows developers to build self-contained and reusable components that don't interfere with the rest of the page.
+
+### 33. How does shadow DOM encapsulation work
