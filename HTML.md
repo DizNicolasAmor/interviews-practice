@@ -37,7 +37,7 @@
   30. How can the performance of an HTML5 web page be measured?
   31. How can HTML5 web pages be optimized?
   32. Explain the concept of "shadow DOM" in the context of web components.
-  33. How does shadow DOM encapsulation work
+  33. How does shadow DOM encapsulation work?
 
 <a name="basics"/>
 
@@ -250,4 +250,6 @@ Using the **Navigation Timing API** and the **User Timing API**. They provide in
 
 The "shadow DOM" is a fundamental concept that enables the encapsulation of HTML, CSS, and JavaScript within a custom element. It creates a scoped and isolated subtree where the component's internals are hidden from the outside document. This encapsulation is crucial for avoiding style and naming conflicts and allows developers to build self-contained and reusable components that don't interfere with the rest of the page.
 
-### 33. How does shadow DOM encapsulation work
+### 33. How does shadow DOM encapsulation work?
+
+It works by creating a separate, isolated DOM subtree within a custom element. It shields the component's internal structure, preventing styles and elements within the shadow DOM from affecting the outer document, and vice versa. This isolation is achieved through the use of shadow DOM selectors and CSS encapsulation, making it challenging for external styles or scripts to interfere with the component's behavior.
