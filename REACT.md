@@ -2,12 +2,12 @@
 
 ## TABLE OF CONTENTS
 
-- [Concepts](#concepts)
-  - What is React?
-  - What is COP (component oriented programming)?
-  - What is Immutability and why it is important in React?
-  - What is the Virtual DOM?
-  - What is the Reconciliation in React?
+- [BASIC](#basic)
+    1. What is React?
+    2. What is COP (component oriented programming)?
+    3. What is Immutability and why it is important in React?
+    4. What is the Virtual DOM?
+    5. What is the Reconciliation in React?
 - [Redux](#redux)
   - What is Redux?
   - What is a HOC (High order component)?
@@ -47,31 +47,31 @@
   - Props Getter
   - State Initialisers
 
-<a name="concepts"/>
+<a name="basic"/>
 
-## Concepts
+## BASIC
 
-### What is React?
+### 1. What is React?
 
 React is a javascript library for the frontend. It is based on the Component Oriented Programming paradigm. It is very useful for building interactive user interfaces.
 
 In React, you have a state with important data in your app that can change dynamically, and you can show different views depending on each state. Another important topic is that it uses a virtual DOM.
 
-### What is COP (component oriented programming)?
+### 2. What is COP (component oriented programming)?
 
 Component Oriented Programming (COP) is a technique for software development that consist on combining independent entitied, called components, in order to build an app.
 
-### What is Immutability and why it is important in React?
+### 3. What is Immutability and why it is important in React?
 
 In programming, immutability refers to not changing the values of certain entities. Specifically, if an object is immutable means its state cannot be modified after its creation.
 
 In React, immutability is related to the reconciliation process: it is easier and faster to tell that something changed if the old object is different than the new one, instead of figuring out if any prop inside the original object has been altered.
 
-### What is the Virtual DOM?
+### 4. What is the Virtual DOM?
 
 The VirtualDom, like the DOM, is a node tree that list the webpage elements as objects. reactJS uses the VirtualDOM to compare the changes in the state and props and determinate which updates send to the real DOM for repainting or re-rendering the UI.
 
-### What is the Reconciliation in React?
+### 5. What is the Reconciliation in React?
 
 It is a process of React for updating the UI in a fast way. It is related to concepts as **Browser DOM**, **Virtual Dom** and **Diffing algorithm**.
 
