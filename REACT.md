@@ -3,20 +3,17 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#basic)
-    1. What is React?
-    2. What is COP (component oriented programming)?
-    3. What is Immutability and why it is important in React?
-    4. What is the Virtual DOM?
-    5. What is the Reconciliation in React?
-- [Redux](#redux)
-  - What is Redux?
-  - What is a HOC (High order component)?
-  - What is a Redux Middleware?
-  - What is redux-saga?
-  - What is redux-thunk?
-- [react-native](#react-native)
-  - What is react-native?
-  - What is different in react-native from react?
+  1. What is React?
+  2. What is COP (component oriented programming)?
+  3. What is Immutability and why it is important in React?
+  4. What is the Virtual DOM?
+  5. What is the Reconciliation in React?
+  6. What is Redux?
+  7. What is a HOC (High order component)?
+  8. What is a Redux Middleware?
+  9. What is redux-saga?
+  10. What is redux-thunk?
+  11. What is react-native and what is different from react?
 - [Hooks](#hooks)
   - What are React Hooks?
   - What are the advantages of using hooks?
@@ -79,11 +76,7 @@ As explained on the previous bullet, when there are changes on state or props, R
 
 Source: https://en.reactjs.org/docs/reconciliation.html
 
-<a name="redux"/>
-
-## Redux
-
-### What is Redux?
+### 6. What is Redux?
 
 - Redux is a store manager in reactJS applications. It is a structure that helps to clarify the code when your app scalates. In this structure, there is a `store` where all state variables of all the components can be stored. Then, the components can `connect` to that store and access to them. That way, when a component needs to access a state variable, there is no need to pass it as a prop from parent to child (sometimes in multiple levels) or refactor DOM structure. The component just access to the store and access to the variable.
 - Redux is also an architecture that is related to the data flow direction. The data flow is unidirectional. In a Redux app, the data flow is:
@@ -92,33 +85,27 @@ Source: https://en.reactjs.org/docs/reconciliation.html
   - The store runs the `reducer` function again with the previous state and the current action, and saves the return value as the new state.
   - The UI renders the changes based on the new `state`. So we go back to the beginning of the cycle.
 
-### What is a HOC (High order component)?
+### 7. What is a HOC (High order component)?
 
 A High Order Component (HOC) is a function that takes a component as parameter and returns another component. For example, the `connect` function in `Redux` is a HOC.
 
-### What is a Redux Middleware?
+### 8. What is a Redux Middleware?
 
 It is a tool that allows you to intercept every action sent to the reducer so you can make changes to the action or cancel the action. Middleware helps you with logging, error reporting, making asynchronous requests, among other possibilities.
 
-### What is redux-saga?
+### 9. What is redux-saga?
 
 It is a redux middleware. It is a javascript library that aims to make app side effects easier to manage, to test, to handle and more efficient. The mental model is like each saga is a separated thread only responsible for side effects. It uses ES6 generators.
 
-### What is redux-thunk?
+### 10. What is redux-thunk?
 
 It is a Redux middleware that allows to handle asynchronicity (because vanilla Redux does not handle asynchronicity).
 
 In redux-thunk it is posible to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
 
-<a name="react-native"/>
-
-## react-native
-
-### What is react-native?
+### 11. What is react-native and what is different from react?
 
 It is a JS framework for writing mobile apps for iOS and Android. It uses reactJS principes and syntax.
-
-### What is different in react-native from react?
 
 - In react-native there is no DOM. Instead, react-native uses a native API to render components.
 - react-native does not use HTML or CSS. Instead, there are native views.
