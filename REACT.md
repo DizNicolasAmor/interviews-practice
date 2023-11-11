@@ -14,8 +14,8 @@
   9. What is redux-saga?
   10. What is redux-thunk?
   11. What is react-native and what is different from react?
-- [Hooks](#hooks)
-  - What are React Hooks?
+- [Intermediate](#intermediate)
+  12. What are React Hooks?
   - What are the advantages of using hooks?
   - The useState hook
   - The useEffect hook
@@ -112,11 +112,11 @@ It is a JS framework for writing mobile apps for iOS and Android. It uses reactJ
 - The navigation: in react-native there is a stack of views and the user navigates throw those views.
 - All stuff related to hardware usage: camera, microphone, GPS, etc.
 
-<a name="hooks"/>
+<a name="intermediate"/>
 
-## Hooks
+## INTERMEDIATE
 
-### What are React Hooks?
+### 12. What are React Hooks?
 
 Hooks are the new feature introduced in the React 16.8 version. It allows you to use state and other React features without writing a class. Hooks are the functions which "hook into" React state and lifecycle features from function components. It does not work inside classes.
 
