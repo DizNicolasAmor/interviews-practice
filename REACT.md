@@ -16,16 +16,17 @@
   11. What is react-native and what is different from react?
 - [Intermediate](#intermediate)
   12. What are React Hooks?
-  - What are the advantages of using hooks?
-  - The useState hook
-  - The useEffect hook
-  - The useContext hook
-  - The useMemo hook
-  - The useCallback hook
-  - What is the difference between useMemo and useCallback?
-  - The useRef hook
-  - The useReducer hook
-- [Frameworks](#frameworks)
+  13. What are the advantages of using hooks?
+  14. The useState hook
+  15. The useEffect hook
+  16. The useContext hook
+  17. The useMemo hook
+  18. The useCallback hook
+  19. What is the difference between useMemo and useCallback?
+  20. The useRef hook
+  21. The useReducer hook
+  22. What is a ReactJS framework?
+- [Advanced](#advanced)
   - Create React App
   - NextJS
   - GatsbyJS
@@ -122,13 +123,13 @@ Hooks are the new feature introduced in the React 16.8 version. It allows you to
 
 Source: https://en.reactjs.org/docs/hooks-intro.html
 
-### What are the advantages of using hooks?
+### 13. What are the advantages of using hooks?
 
 - Cleaner code: easier to read and write.
 - Re-usability: since a hook extract stateful logic from a component, it can be tested independently and reused in other components.
 - More efficient: there are certain tools like `usememo` and `useCallback` hooks related to performance, and the `array dependency` in `useEffect` that allows to execute certain code when a specific or specific prop is updated (not like the `componentDidUpdate` in React classes that fires when any prop or state is changed).
 
-### The useState hook
+### 14. The useState hook
 
 The `useState` hook creates a piece of state for the component. Calling the hook returns the current value of that piece of state, and a method to update it, in the form of an array. This hook accepts one parameter that is the `initialValue`. If the initial value is expensive to compute, you may want to wrap it in a function. It looks like this:
 
@@ -136,7 +137,7 @@ The `useState` hook creates a piece of state for the component. Calling the hook
 const [value, setValue] = useState(initialValue);
 ```
 
-### The useEffect hook
+### 15. The useEffect hook
 
 The `useEffect` hook lets you perform side effects in function components. For example, changing the DOM, fetching some data, subscribing to things that emit events, among other effects. It serves a purpose similar to some lifecycle methods of class components: `componentDidMount`, `componentDidUpdate` or `componentWillUnmount`. It looks like this:
 
@@ -162,7 +163,7 @@ useEffect(() => {
 
 Source: https://en.reactjs.org/docs/hooks-effect.html
 
-### The useContext hook
+### 16. The useContext hook
 
 The `useContext` hook is used to create common data that can be accessed throughout the component hierarchy without passing the props down manually to each level. Context defined will be available to all the child components without involving `props`.
 
@@ -195,7 +196,7 @@ const AnotherChild = () => {
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#usecontext
 
-### The useMemo hook
+### 17. The useMemo hook
 
 The `useMemo` hook returns a memoized value (it is like caching a value so that it does not need to be recalculated). The useMemo Hook only runs when one of its dependencies update. Based on that, this tool can improve performance.
 
@@ -205,7 +206,7 @@ Example:
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#usememo
 
-### The useCallback hook
+### 18. The useCallback hook
 
 The `useCallback` hook returns a memoized callback.
 
@@ -217,13 +218,13 @@ Example:
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#usecallback
 
-### What is the difference between useMemo and useCallback?
+### 19. What is the difference between useMemo and useCallback?
 
 The main difference is that `useMemo` returns a memoized value while `useCallback` returns a memoized function.
 
 In code, `useCallback(fn, deps)` is equivalent to `useMemo(() => fn, deps).`
 
-### The useRef hook
+### 20. The useRef hook
 
 The `useRef` hook allows to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly. It returns a ref object with a `current` property that has a mutable value.
 
@@ -233,7 +234,7 @@ Example:
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#useref
 
-### The useReducer hook
+### 21. The useReducer hook
 
 The `useReducer` hook ia an alternative to `useState`. It accepts a reducer of type `(state, action) => newState`, and returns the current state paired with a dispatch method (similar to Redux concepts).
 
@@ -269,9 +270,13 @@ function Counter() {
 
 Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
 
-<a name="frameworks"/>
+### 22. What is a ReactJS framework?
 
-## Frameworks
+complete
+
+<a name="advanced"/>
+
+## Advanced
 
 ### Create React App
 
