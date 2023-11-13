@@ -272,7 +272,7 @@ Source: https://en.reactjs.org/docs/hooks-reference.html#usereducer
 
 ### 22. What is a ReactJS framework?
 
-complete
+It is the collection of technologies commonly used with React to create scalable and maintainable web applications. For example, including React Router for navigation, jest for tests and various build tools like Webpack.
 
 <a name="advanced"/>
 
