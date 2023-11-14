@@ -27,15 +27,15 @@
   21. The useReducer hook
   22. What is a ReactJS framework?
 - [Advanced](#advanced)
-  - Create React App
-  - NextJS
-  - GatsbyJS
-  - What is client-side rendering (CSR)?
-  - What is Server-side rendering (SSR)?
-  - Why SSR is better for webapps that consume dynamic data?
-  - Why the page load is faster in CSR than in SSR?
-  - When is better to use CSR Vs SSR?
-  - Comparison table of CSR Vs SSR
+  23. Create React App
+  24. NextJS
+  25. GatsbyJS
+  26. What is client-side rendering (CSR)?
+  27. What is Server-side rendering (SSR)?
+  28. Why SSR is better for webapps that consume dynamic data?
+  29. Why the page load is faster in CSR than in SSR?
+  30. When is better to use CSR Vs SSR?
+  31. Comparison table of CSR Vs SSR
 - [Patterns](#patterns)
   - Custom Hook
   - Compound Components
@@ -278,41 +278,41 @@ It is the collection of technologies commonly used with React to create scalable
 
 ## Advanced
 
-### Create React App
+### 23. Create React App
 
 It is also a development environment that brings already setup the build tools. CRA uses webpack to handle its core functionalities under the hood. It is one of the most used ReactJS frameworks and it is very recommended for beginners.
 
-### NextJS
+### 24. NextJS
 
 NextJS is an open-source JavaScript framework for developing SPAs and static content websites. It allows developers to quickly create static sites with the ability to generate dynamic routes and provides features such as server-side rendering, code splitting, and automatic routing.
 
-### GatsbyJS
+### 25. GatsbyJS
 
 GatsbyJS is a React framework for developing fast webappssites and applications. It provides features such as automatic routing, code splitting, and server-side rendering, allowing developers to quickly create modern web experiences. Additionally, GatsbyJS has a plugin system for integrating with third-party data sources and content management systems, making it easy to integrate with existing projects.
 
-### What is client-side rendering (CSR)?
+### 26. What is client-side rendering (CSR)?
 
 CSR in ReactJS is the process of displaying dynamic web content on a browser. It is done by rendering a React component to a DOM element on the browser. This is done by using ReactDOM.render() function. The main features of CSR are: the ability to create complex user interfaces, quickly render content and update it dynamically. CSR allows for a more interactive user experience than SSR.
 
-### What is Server-side rendering (SSR)?
+### 27. What is Server-side rendering (SSR)?
 
 SSR is a way of rendering React components on the server instead of the client. It allows you to use the same codebase for both server-side and client-side rendering. SSR is better for creating SEO-friendly pages and webapps that consume dynamic data.
 
-### Why SSR is better for webapps that consume dynamic data?
+### 28. Why SSR is better for webapps that consume dynamic data?
 
 SSR is better for webapps that consume dynamic data because it ensures that the page is generated before the data is sent to the client. This means that the user will always get the most up-to-date version of the page. This also ensures that all users have access to the same content, regardless of their device or browser.
 
-### Why the page load is faster in CSR than in SSR?
+### 29. Why the page load is faster in CSR than in SSR?
 
 The page load is faster in client-side rendering (CSR) than in server-side rendering (SSR) because in CSR the page is rendered directly in the browser, while in SSR the page is generated before it is sent to the client.
 
-### When is better to use CSR Vs SSR?
+### 30. When is better to use CSR Vs SSR?
 
 On the one hand, CSR is better for creating interactive UI and for faster page load times.
 
 On the another hand, SSR is better for creating SEO-friendly pages and for ensuring that all users have access to the same content, regardless of their device or browser.
 
-### Comparison table of CSR Vs SSR
+### 31. Comparison table of CSR Vs SSR
 
 |               | Client-side Rendering (CSR) | Server-side Rendering (SSR) |
 | ------------- | --------------------------- | --------------------------- |
