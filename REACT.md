@@ -36,6 +36,7 @@
   29. Why the page load is faster in CSR than in SSR?
   30. When is better to use CSR Vs SSR?
   31. Comparison table of CSR Vs SSR
+  32. How does React handle code splitting and lazy loading?
 - [Patterns](#patterns)
   - Custom Hook
   - Compound Components
@@ -322,9 +323,16 @@ On the another hand, SSR is better for creating SEO-friendly pages and for ensur
 | User interfaces | Easier to create interactive | Easier to create SEO-friendly |
 | Page content  | Rendered as soon as the user accesses the page | Rendered before the user accesses the page |
 
-<a name="patterns"/>
+### 32. How does React handle code splitting and lazy loading?
 
-## Patterns
+Code splitting and lazy loading are techniques to improve application performance (faster initial load times and improved UX).
+
+- **Code splitting** involves breaking down the bundle into smaller chunks, loading only the necessary code for initial rendering and deferring the rest until required.
+- **Lazy loading** delays the loading of components or resources until they're needed, reducing the initial load time.
+
+Strategies for optimization involve identifying code chunks that can be split, utilizing **React.lazy** and **Suspense** for component-based lazy loading, and employing tools like Webpack's dynamic import to facilitate code splitting.
+
+### 33. Patterns
 
 ### Custom Hook
 
