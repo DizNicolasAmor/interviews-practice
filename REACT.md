@@ -37,14 +37,14 @@
   30. When is better to use CSR Vs SSR?
   31. Comparison table of CSR Vs SSR
   32. How does React handle code splitting and lazy loading?
-- [Patterns](#patterns)
-  - Custom Hook
-  - Compound Components
-  - Extensible Styles
-  - Control Props
-  - Props Collection
-  - Props Getter
-  - State Initialisers
+  33. Patterns
+    - Custom Hook
+    - Compound Components
+    - Extensible Styles
+    - Control Props
+    - Props Collection
+    - Props Getter
+    - State Initialisers
 
 <a name="basic"/>
 
@@ -334,7 +334,7 @@ Strategies for optimization involve identifying code chunks that can be split, u
 
 ### 33. Patterns
 
-### Custom Hook
+#### Custom Hook
 
 This patterns consist in moving some stateful logic into a variable.
 
@@ -362,7 +362,7 @@ Example:
 
 - The library `react-use`.
 
-### Compound Components
+#### Compound Components
 
 It is a way to show an explicit parent-child relationship between components and share implicit state.
 
@@ -389,7 +389,7 @@ Example:
 
 - The library `react-bootstrap`: see Accordion, Card, Nav, Navbar among other components.
 
-### Extensible Styles
+#### Extensible Styles
 
 It is a way to allow adding or overriding styles.
 
@@ -408,7 +408,7 @@ Example:
 
 - The library `reach-ui`.
 
-### Control Props
+#### Control Props
 
 It allows users to control the internal state of the component.
 
@@ -430,7 +430,7 @@ Example:
 
 - The library `material-UI`: look at the Rating component.
 
-### Props Collection
+#### Props Collection
 
 It is related to a collection of common props your component or hook probably needs.
 
@@ -448,7 +448,7 @@ const myPropCollection = useMyHook();
 const { myProp1, myProp2, myProp3 } = useMyHook();
 ```
 
-### Props Getter
+#### Props Getter
 
 It is similar to Props Collection Pattern. The difference is that the hook returns a function. And the function returns the props collection. So there is more flexibility on the final props.
 
@@ -470,7 +470,7 @@ Example:
 
 - The library `react-table`.
 
-### State Initialisers
+#### State Initialisers
 
 It consists on giving your component's user the option to configure the `initialState` and the option to `reset` it.
 
