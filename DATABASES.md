@@ -2,7 +2,7 @@
 
 ## TABLE OF CONTENTS
 
-- [General](#general)
+- [BASIC](#basic)
   1. What is a Database (DB)?
   2. What is a Database Management System (DBMS)?
   3. What is a Relational Database Management System (RDBMS)?
@@ -17,9 +17,9 @@
   12. What is Cardinality?
   13. Mention different relationship types in a "Relational model".
 
-<a name="general" />
+<a name="basic" />
 
-## General
+## BASIC
 
 ### 1. What is a Database?
 
