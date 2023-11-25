@@ -14,6 +14,7 @@
   9. What NoSQL?
   10. What is ACID?
   11. Mention different SQL Data types.
+- [Intermediate](#intermediate)
   12. What is Cardinality?
   13. Mention different relationship types in a "Relational model".
 
@@ -94,6 +95,10 @@ It is guaranteed that all of the changes have been recorded to a durable medium 
 8. FLOAT
 9. DATE
 10. TIMESTAMP
+
+<a name="intermediate" />
+
+## INTERMEDIATE
 
 ### 12. What is Cardinality?
 
