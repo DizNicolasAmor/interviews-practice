@@ -108,9 +108,6 @@ It defines how many instances of one entity are related to instances of another 
 
 There are 3:
 
-1. One to one
-It means one entity in a table is related to just one entity in another table.
-2. One to Many
-It means one entity in a table is related to one or many entities in another table.
-3. Many to Many
-It means multiple entities in a table can be associated with more than one entity in another table.
+1. **One to one:** it means one entity in a table is related to just one entity in another table.
+2. **One to many:** it means one entity in a table is related to one or many entities in another table.
+3. **Many to many:** it means multiple entities in a table can be associated with more than one entity in another table.
