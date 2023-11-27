@@ -67,21 +67,10 @@ NoSQL is a term for a category of databases that diverge from the traditional re
 
 Is a set of properties that you would like to apply when modifying a database.
 
-1. Atomicity
-
-It means that you can guarantee that all statements inside a transaction happens, if something fail, all statements inside a transaction are discarded.
-
-2. Consistency
-
-It means that your data will be consistent; none of the constraints you have on related data will ever be violated.
-
-3. Isolation
-
-Means that one transaction cannot read data from another transaction that is not yet completed. If two transactions are executing concurrently, each one will see the world as if they were executing sequentially, and if one needs to read data that is written by another, it will have to wait until the other is finished.
-
-4. Durability
-
-It is guaranteed that all of the changes have been recorded to a durable medium (ej: Hard drive), and the fact that the transaction has been completed is likewise recorded.
+1. **Atomicity**: it means that you can guarantee that all statements inside a transaction happens, if something fail, all statements inside a transaction are discarded.
+2. **Consistency**: it means that your data will be consistent; none of the constraints you have on related data will ever be violated.
+3. **Isolation**: it means that one transaction cannot read data from another transaction that is not yet completed. If two transactions are executing concurrently, each one will see the world as if they were executing sequentially, and if one needs to read data that is written by another, it will have to wait until the other is finished.
+4. **Durability**: it is guaranteed that all of the changes have been recorded to a durable medium (ej: Hard drive), and the fact that the transaction has been completed is likewise recorded.
 
 ### 11. Mention different SQL Data types.
 
