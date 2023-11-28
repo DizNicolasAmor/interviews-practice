@@ -50,10 +50,10 @@ SQL refers to **Structured Query Language**. It is a standarized language mostly
 
 SQL consists in 4 different subgroups that build the language itself.
 
-1. DDL (Data defition language): It deals with database schemas and descriptions, of how the data should reside in the database. Some examples of different commands that conform this subgroup are: CREATE, ALTER, DROP, TRUNCATE, RENAME.
-2. DML (Data manipulation language): It deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database.
-3. DCL (Data control language): It includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
-4. TCL (Transaction control language): It deals with a transaction within a database. Some examples of different commands are: COMMIT, ROLLBACK.
+1. **DDL (Data defition language)**: It deals with database schemas and descriptions, of how the data should reside in the database. Some examples of different commands that conform this subgroup are: `CREATE`, `ALTER`, `DROP`, `TRUNCATE`, `RENAME`.
+2. **DML (Data manipulation language)**: It deals with data manipulation and includes most common SQL statements such `SELECT`, `INSERT`, `UPDATE`, `DELETE`, etc., and it is used to store, modify, retrieve, delete and update data in a database.
+3. **DCL (Data control language)**: It includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
+4. **TCL (Transaction control language)**: It deals with a transaction within a database. Some examples of different commands are: `COMMIT`, `ROLLBACK`.
 
 ### 8. What is a Relational Model?
 
