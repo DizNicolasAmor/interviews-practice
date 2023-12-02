@@ -11,12 +11,32 @@
   6. What is SQL?
   7. Define the SQL subgroups.
   8. What is a Relational Model?
-  9. What NoSQL?
+  9. What is NoSQL?
   10. What is ACID?
   11. Mention different SQL Data types.
 - [Intermediate](#intermediate)
   12. What is Cardinality?
   13. Mention different relationship types in a "Relational model".
+  14. What is database normalization?
+  15. How would you optimize a slow-performing SQL query?
+  16. What are the differences between a clustered and a non-clustered index?
+  17. What's the purpose of the GROUP BY clause in SQL?
+  18. How does the concept of a view work in databases?
+  19. What is database denormalization?
+  21. What are triggers in databases, and when would you use them?
+  22. How do you handle concurrency issues in a database?
+- [Advanced](#advanced)
+  23. Discuss the CAP theorem and its implications for distributed databases.
+  24. Explain the concept of sharding in database architecture.
+  25. Discuss various types of NoSQL databases and their use cases.
+  26. How does database indexing impact query performance?
+  27. Explain the concept of a database transaction isolation level.
+  28. Discuss ACID compliance in distributed databases.
+  29. How would you approach database schema versioning and migration in a large-scale application?
+  30. What are CTEs (Common Table Expressions), and how do they work in SQL?
+  31. Explain the differences between horizontal and vertical scaling in databases.
+  32. Discuss the role of database caching in optimizing performance.
+  33. How would you design a database to handle a high-traffic, write-intensive application?
 
 <a name="basic" />
 
