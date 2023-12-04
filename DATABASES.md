@@ -120,3 +120,35 @@ There are 3:
 1. **One to one:** it means one entity in a table is related to just one entity in another table.
 2. **One to many:** it means one entity in a table is related to one or many entities in another table.
 3. **Many to many:** it means multiple entities in a table can be associated with more than one entity in another table.
+
+### 14. What is database normalization?
+
+complete
+
+### 15. How would you optimize a slow-performing SQL query?
+
+complete
+
+### 16. What are the differences between a clustered and a non-clustered index?
+
+complete
+
+### 17. What's the purpose of the GROUP BY clause in SQL?
+
+complete
+
+### 18. How does the concept of a view work in databases?
+
+complete
+
+### 19. What is database denormalization?
+
+complete
+
+### 21. What are triggers in databases, and when would you use them?
+
+complete
+
+### 22. How do you handle concurrency issues in a database?
+
+complete
