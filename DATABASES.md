@@ -123,7 +123,9 @@ There are 3:
 
 ### 14. What is database normalization?
 
-complete
+It is a process in database design that minimizes data redundancy (it avoids duplications) by structuring data logically across tables, reducing anomalies and improving organization.
+
+It involves breaking down large tables into smaller, related tables and applying specific rules (normal forms) to structure data efficiently.
 
 ### 15. How would you optimize a slow-performing SQL query?
 
