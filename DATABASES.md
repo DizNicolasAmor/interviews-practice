@@ -136,7 +136,8 @@ It involves breaking down large tables into smaller, related tables and applying
 
 ### 16. What are the differences between a clustered and a non-clustered index?
 
-complete
+- **Clustered index**: determines the physical order of data in a table, allowing only one per table and directly impacting how data is stored.
+- **Non-clustered indexes**: don't alter the physical order, instead creating a separate structure to optimize query speed, allowing multiple indexes per table.
 
 ### 17. What's the purpose of the GROUP BY clause in SQL?
 
