@@ -129,7 +129,10 @@ It involves breaking down large tables into smaller, related tables and applying
 
 ### 15. How would you optimize a slow-performing SQL query?
 
-complete
+- Ensuring proper indexing.
+- Minimizing the use of wildcards in WHERE clauses.
+- Avoiding functions on indexed columns.
+- Rewriting the query, breaking it into smaller steps, and analyzing execution plans to identify bottlenecks for improvement.
 
 ### 16. What are the differences between a clustered and a non-clustered index?
 
