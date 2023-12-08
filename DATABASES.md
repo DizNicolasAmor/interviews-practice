@@ -16,7 +16,7 @@
   11. Mention different SQL Data types.
 - [Intermediate](#intermediate)
   12. What is Cardinality?
-  13. Mention different relationship types in a "Relational model".
+  13. Mention different relationship types of cardinality.
   14. What is database normalization?
   15. How would you optimize a slow-performing SQL query?
   16. What are the differences between a clustered and a non-clustered index?
