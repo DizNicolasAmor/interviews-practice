@@ -153,7 +153,7 @@ It is used to aggregate data based on specific columns, allowing grouping of row
 
 ### 19. What is database denormalization?
 
-complete
+It involves intentionally introducing redundancy into a database by relaxing normalization rules. It aims to optimize query performance by reducing the number of joins needed to retrieve data.
 
 ### 21. What are triggers in databases, and when would you use them?
 
