@@ -141,7 +141,7 @@ It involves breaking down large tables into smaller, related tables and applying
 
 ### 17. What's the purpose of the GROUP BY clause in SQL?
 
-complete
+It is used to aggregate data based on specific columns, allowing grouping of rows that share common values. It enables the application of aggregate functions like SUM, COUNT, AVG, etc., to perform calculations and generate summary results for each group within the dataset.
 
 ### 18. How does the concept of a view work in databases?
 
