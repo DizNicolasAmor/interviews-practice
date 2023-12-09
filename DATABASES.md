@@ -161,4 +161,4 @@ Triggers are special routines that automatically execute in response to certain 
 
 ### 22. How do you handle concurrency issues in a database?
 
-complete
+Using techniques like locking (pessimistic) or timestamp-based mechanisms (optimistic). Pessimistic locking restricts access to data during transactions to prevent conflicts, while optimistic methods allow multiple users to access data simultaneously and resolve conflicts during the update process, often using timestamps or versioning.
