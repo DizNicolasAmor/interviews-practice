@@ -157,7 +157,7 @@ It involves intentionally introducing redundancy into a database by relaxing nor
 
 ### 21. What are triggers in databases, and when would you use them?
 
-complete
+Triggers are special routines that automatically execute in response to certain events, like INSERT, UPDATE, or DELETE operations on a table. They're used to enforce business rules, maintain data integrity, log changes, or automate tasks.
 
 ### 22. How do you handle concurrency issues in a database?
 
