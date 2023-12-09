@@ -145,7 +145,11 @@ It is used to aggregate data based on specific columns, allowing grouping of row
 
 ### 18. How does the concept of a view work in databases?
 
-complete
+- It is a virtual table derived from one or multiple tables through a predefined query.
+- It doesn't store data itself but presents a tailored perspective of the underlying tables.
+- It simplifies complex queries.
+- It enhances security by restricting access to specific columns or rows.
+- It offers a consistent interface for users or applications to retrieve information.
 
 ### 19. What is database denormalization?
 
