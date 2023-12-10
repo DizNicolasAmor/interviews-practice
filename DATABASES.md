@@ -173,7 +173,7 @@ The CAP theorem states that in a distributed system, you can only achieve two ou
 
 ### 24. What is sharding?
 
-complete.
+Sharding is a database partitioning technique that horizontally divides data across multiple independent databases or shards. Each shard holds a subset of the data, allowing for improved scalability and performance in distributed systems by distributing the workload across multiple servers or nodes.
 
 ### 25. Discuss various types of NoSQL databases and their use cases.
 
