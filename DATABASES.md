@@ -162,3 +162,29 @@ Triggers are special routines that automatically execute in response to certain 
 ### 22. How do you handle concurrency issues in a database?
 
 Using techniques like locking (pessimistic) or timestamp-based mechanisms (optimistic). Pessimistic locking restricts access to data during transactions to prevent conflicts, while optimistic methods allow multiple users to access data simultaneously and resolve conflicts during the update process, often using timestamps or versioning.
+
+<a name="advanced" />
+
+## ADVANCED
+
+### 23. Discuss the CAP theorem and its implications for distributed databases.
+
+### 24. Explain the concept of sharding in database architecture.
+
+### 25. Discuss various types of NoSQL databases and their use cases.
+
+### 26. How does database indexing impact query performance?
+
+### 27. Explain the concept of a database transaction isolation level.
+
+### 28. Discuss ACID compliance in distributed databases.
+
+### 29. How would you approach database schema versioning and migration in a large-scale application?
+
+### 30. What are CTEs (Common Table Expressions), and how do they work in SQL?
+
+### 31. Explain the differences between horizontal and vertical scaling in databases.
+
+### 32. Discuss the role of database caching in optimizing performance.
+
+### 33. How would you design a database to handle a high-traffic, write-intensive application?
