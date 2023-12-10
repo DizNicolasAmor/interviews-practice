@@ -26,7 +26,7 @@
   21. What are triggers in databases, and when would you use them?
   22. How do you handle concurrency issues in a database?
 - [Advanced](#advanced)
-  23. Discuss the CAP theorem and its implications for distributed databases.
+  23. What is the CAP theorem?
   24. Explain the concept of sharding in database architecture.
   25. Discuss various types of NoSQL databases and their use cases.
   26. How does database indexing impact query performance?
@@ -167,7 +167,7 @@ Using techniques like locking (pessimistic) or timestamp-based mechanisms (optim
 
 ## ADVANCED
 
-### 23. Discuss the CAP theorem and its implications for distributed databases.
+### 23. What is the CAP theorem?
 
 The CAP theorem states that in a distributed system, you can only achieve two out of three properties: **Consistency**, **Availability**, and **Partition tolerance**. It implies that in the event of network failures (Partition tolerance), you have to trade off either Consistency or Availability. Distributed databases must balance these aspects based on their specific use cases, favoring one over the other in design and implementation.
 
