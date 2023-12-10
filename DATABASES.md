@@ -169,6 +169,8 @@ Using techniques like locking (pessimistic) or timestamp-based mechanisms (optim
 
 ### 23. Discuss the CAP theorem and its implications for distributed databases.
 
+The CAP theorem states that in a distributed system, you can only achieve two out of three properties: **Consistency**, **Availability**, and **Partition tolerance**. It implies that in the event of network failures (Partition tolerance), you have to trade off either Consistency or Availability. Distributed databases must balance these aspects based on their specific use cases, favoring one over the other in design and implementation.
+
 ### 24. Explain the concept of sharding in database architecture.
 
 ### 25. Discuss various types of NoSQL databases and their use cases.
