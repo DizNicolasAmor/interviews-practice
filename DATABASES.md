@@ -29,7 +29,7 @@
   23. What is the CAP theorem?
   24. What is sharding?
   25. What types of NoSQL DB are there?
-  26. How does database indexing impact query performance?
+  26. How does indexing impact query performance?
   27. Explain the concept of a database transaction isolation level.
   28. Discuss ACID compliance in distributed databases.
   29. How would you approach database schema versioning and migration in a large-scale application?
@@ -184,7 +184,7 @@ There are four primary types of NoSQL databases:
 - Column-family stores: Organize data into columns instead of rows (e.g., Cassandra).
 - Graph databases: Focus on relationships between data entities (e.g., Neo4j).
 
-### 26. How does database indexing impact query performance?
+### 26. How does indexing impact query performance?
 
 ### 27. Explain the concept of a database transaction isolation level.
 
