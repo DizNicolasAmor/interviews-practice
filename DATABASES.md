@@ -186,6 +186,8 @@ There are four primary types of NoSQL databases:
 
 ### 26. How does indexing impact query performance?
 
+It improves query performance by creating a structured reference to data, reducing the number of records to scan. It accelerates data retrieval by creating a roadmap that allows the database engine to quickly locate and access specific information, minimizing the need for full-table scans.
+
 ### 27. Explain the concept of a database transaction isolation level.
 
 ### 28. Discuss ACID compliance in distributed databases.
