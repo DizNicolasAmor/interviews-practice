@@ -28,7 +28,7 @@
 - [Advanced](#advanced)
   23. What is the CAP theorem?
   24. What is sharding?
-  25. Discuss various types of NoSQL databases and their use cases.
+  25. What types of NoSQL DB are there?
   26. How does database indexing impact query performance?
   27. Explain the concept of a database transaction isolation level.
   28. Discuss ACID compliance in distributed databases.
@@ -175,7 +175,7 @@ The CAP theorem states that in a distributed system, you can only achieve two ou
 
 Sharding is a database partitioning technique that horizontally divides data across multiple independent databases or shards. Each shard holds a subset of the data, allowing for improved scalability and performance in distributed systems by distributing the workload across multiple servers or nodes.
 
-### 25. Discuss various types of NoSQL databases and their use cases.
+### 25. What types of NoSQL DB are there?
 
 ### 26. How does database indexing impact query performance?
 
