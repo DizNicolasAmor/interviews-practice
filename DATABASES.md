@@ -177,6 +177,13 @@ Sharding is a database partitioning technique that horizontally divides data acr
 
 ### 25. What types of NoSQL DB are there?
 
+There are four primary types of NoSQL databases:
+
+- Document-based: Store data in flexible, JSON-like documents (e.g., MongoDB).
+- Key-value stores: Simple key-value pairs for fast retrieval (e.g., Redis).
+- Column-family stores: Organize data into columns instead of rows (e.g., Cassandra).
+- Graph databases: Focus on relationships between data entities (e.g., Neo4j).
+
 ### 26. How does database indexing impact query performance?
 
 ### 27. Explain the concept of a database transaction isolation level.
