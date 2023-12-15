@@ -190,7 +190,7 @@ It improves query performance by creating a structured reference to data, reduci
 
 ### 27. What is transaction isolation level?
 
-complete.
+It is a classification to determinate how concurrent transactions are isolated from each other. Isolation levels include Read Uncommitted, Read Committed, Repeatable Read, Serializable, and Read Snapshot. Each level provides different guarantees of data consistency and concurrency.
 
 ### 28. Discuss ACID compliance in distributed databases.
 
