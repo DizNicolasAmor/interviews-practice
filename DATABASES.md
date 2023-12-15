@@ -194,7 +194,12 @@ It is a classification to determinate how concurrent transactions are isolated f
 
 ### 28. How to handle ACID compliance in distributed databases?
 
-complete.
+Achieving ACID compliance in distributed databases involves techniques like:
+
+**Replication**: duplication of data across nodes for fault tolerance (*Atomicity*).
+**Consensus protocols**: implementing algorithms like Paxos or Raft for consistent decision-making (*Consistency*).
+**Isolation levels**: using techniques to manage concurrent transactions (*Isolation*).
+**Distributed commit protocols**: coordinating distributed transactions to ensure all-or-nothing outcomes (*Durability*).
 
 ### 29. How would you approach database schema versioning and migration in a large-scale application?
 
