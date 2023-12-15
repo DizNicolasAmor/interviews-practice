@@ -31,7 +31,7 @@
   25. What types of NoSQL DB are there?
   26. How does indexing impact query performance?
   27. What is transaction isolation level?
-  28. Discuss ACID compliance in distributed databases.
+  28. How to handle ACID compliance in distributed databases?
   29. How would you approach database schema versioning and migration in a large-scale application?
   30. What are CTEs (Common Table Expressions), and how do they work in SQL?
   31. What are the differences between horizontal and vertical scaling?
@@ -192,7 +192,7 @@ It improves query performance by creating a structured reference to data, reduci
 
 It is a classification to determinate how concurrent transactions are isolated from each other. Isolation levels include Read Uncommitted, Read Committed, Repeatable Read, Serializable, and Read Snapshot. Each level provides different guarantees of data consistency and concurrency.
 
-### 28. Discuss ACID compliance in distributed databases.
+### 28. How to handle ACID compliance in distributed databases?
 
 complete.
 
