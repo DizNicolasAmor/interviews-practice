@@ -34,7 +34,7 @@
   28. Discuss ACID compliance in distributed databases.
   29. How would you approach database schema versioning and migration in a large-scale application?
   30. What are CTEs (Common Table Expressions), and how do they work in SQL?
-  31. Explain the differences between horizontal and vertical scaling in databases.
+  31. What are the differences between horizontal and vertical scaling?
   32. Discuss the role of database caching in optimizing performance.
   33. How would you design a database to handle a high-traffic, write-intensive application?
 
@@ -204,7 +204,7 @@ complete.
 
 complete.
 
-### 31. Explain the differences between horizontal and vertical scaling in databases.
+### 31. What are the differences between horizontal and vertical scaling?
 
 complete.
 
