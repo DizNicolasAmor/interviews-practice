@@ -30,7 +30,7 @@
   24. What is sharding?
   25. What types of NoSQL DB are there?
   26. How does indexing impact query performance?
-  27. Explain the concept of a database transaction isolation level.
+  27. What is transaction isolation level?
   28. Discuss ACID compliance in distributed databases.
   29. How would you approach database schema versioning and migration in a large-scale application?
   30. What are CTEs (Common Table Expressions), and how do they work in SQL?
@@ -188,7 +188,7 @@ There are four primary types of NoSQL databases:
 
 It improves query performance by creating a structured reference to data, reducing the number of records to scan. It accelerates data retrieval by creating a roadmap that allows the database engine to quickly locate and access specific information, minimizing the need for full-table scans.
 
-### 27. Explain the concept of a database transaction isolation level.
+### 27. What is transaction isolation level?
 
 complete.
 
