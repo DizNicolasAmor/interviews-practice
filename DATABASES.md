@@ -207,7 +207,7 @@ complete.
 
 ### 30. What are CTEs and how do they work in SQL?
 
-complete.
+CTEs (Common Table Expressions) are temporary result sets in SQL used to simplify complex queries by defining them as named temporary tables within a query. They work by allowing you to create a named query that can be referenced within the main query, enhancing readability and maintainability of SQL code without the need for creating permanent views or temporary tables.
 
 ### 31. What are the differences between horizontal and vertical scaling?
 
