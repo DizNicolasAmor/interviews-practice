@@ -35,7 +35,7 @@
   29. How would you approach database schema versioning and migration in a large-scale application?
   30. What are CTEs and how do they work in SQL?
   31. What are the differences between horizontal and vertical scaling?
-  32. Discuss the role of database caching in optimizing performance.
+  32. What is the role of caching in optimizing performance?
   33. How would you design a database to handle a high-traffic, write-intensive application?
 
 <a name="basic" />
@@ -213,7 +213,7 @@ CTEs (Common Table Expressions) are temporary result sets in SQL used to simplif
 
 complete.
 
-### 32. Discuss the role of database caching in optimizing performance.
+### 32. What is the role of caching in optimizing performance?
 
 complete.
 
