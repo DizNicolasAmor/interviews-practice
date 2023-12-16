@@ -211,7 +211,8 @@ CTEs (Common Table Expressions) are temporary result sets in SQL used to simplif
 
 ### 31. What are the differences between horizontal and vertical scaling?
 
-complete.
+- Horizontal scaling involves adding more machines or nodes to a database system to distribute the data across multiple servers. It increases capacity by handling more load and provides better fault tolerance.
+- Vertical scaling involves increasing the resources (like CPU, RAM) of a single machine to enhance performance, but it has limitations in terms of scalability compared to horizontal scaling.
 
 ### 32. What is the role of caching in optimizing performance?
 
