@@ -203,7 +203,10 @@ Achieving ACID compliance in distributed databases involves techniques like:
 
 ### 29. How to approach schema versioning and migration?
 
-complete.
+- Version control: Use tools like Git to track changes in schema scripts.
+- Script management: Create upgrade and rollback scripts for each version change.
+- Testing: Validate migrations in a separate environment before applying them to production.
+- Automate: Employ migration tools or frameworks to automate the process and ensure consistency across environments.
 
 ### 30. What are CTEs and how do they work in SQL?
 
