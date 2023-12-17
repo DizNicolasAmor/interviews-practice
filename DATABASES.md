@@ -36,7 +36,7 @@
   30. What are CTEs and how do they work in SQL?
   31. What are the differences between horizontal and vertical scaling?
   32. What is the role of caching in optimizing performance?
-  33. How would you design a database to handle a high-traffic, write-intensive application?
+  33. How to handle a high-traffic, write-intensive application?
 
 <a name="basic" />
 
@@ -218,6 +218,6 @@ CTEs (Common Table Expressions) are temporary result sets in SQL used to simplif
 
 Yes, caching in databases operates by storing frequently accessed query results or data in memory or a separate cache layer. It speeds up access to information, reducing the need to retrieve data from disk or the database, thereby enhancing overall system performance.
 
-### 33. How would you design a database to handle a high-traffic, write-intensive application?
+### 33. How to handle a high-traffic, write-intensive application?
 
 complete.
