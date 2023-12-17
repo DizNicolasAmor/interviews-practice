@@ -32,7 +32,7 @@
   26. How does indexing impact query performance?
   27. What is transaction isolation level?
   28. How to handle ACID compliance in distributed databases?
-  29. How would you approach database schema versioning and migration in a large-scale application?
+  29. How to approach schema versioning and migration?
   30. What are CTEs and how do they work in SQL?
   31. What are the differences between horizontal and vertical scaling?
   32. What is the role of caching in optimizing performance?
@@ -201,7 +201,7 @@ Achieving ACID compliance in distributed databases involves techniques like:
 **Isolation levels**: using techniques to manage concurrent transactions (*Isolation*).
 **Distributed commit protocols**: coordinating distributed transactions to ensure all-or-nothing outcomes (*Durability*).
 
-### 29. How would you approach database schema versioning and migration in a large-scale application?
+### 29. How to approach schema versioning and migration?
 
 complete.
 
