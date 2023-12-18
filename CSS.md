@@ -14,7 +14,7 @@
   9. What is the "inline-block" box model?
   10. What is the "flex" and "inline-flex" box model?
   11. What is the "grid" box model?
-- [Selectors](#selectors)
+- [INTERMEDIATE](#intermediate)
   - Universal Selector
   - Element Type Selector
   - ID Selector
@@ -145,15 +145,17 @@ Syntax: `.main-container { display: inline-flex; }`
 
 It is a CSS property that offers a grid-based layout system, with rows and columns, making it easier to design web pages without floats and positioning. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
 
-### What is the difference between flexbox and grid?
+<a name="intermediate"/>
+
+## INTERMEDIATE
+
+### 12. What is the difference between flexbox and grid?
 
 1. **Dimension**: Flexbox si one-dimensional (it only deals with either columns or rows) while Grid is two-dimensional (it allows flexible widths as a unit of length).
 2. **Features**: Flexbox can push content element to extreme alignment while Grid can flex combination of items through space-occupying.
 3. **Support Type**: Flexbox is "Content First" while Grid is "Layout First".
 
-<a name="frameworks"/>
-
-## Selectors
+### SELECTORS
 
 A CSS selector is the part of a CSS ruleset that actually selects the content you want to style.
 
