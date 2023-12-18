@@ -101,19 +101,15 @@ The Box model is used to define the design and layout of CSS elements. The web b
 - **Padding**: it is the space around the content area and within the border box. It is transparent.
 - **Content**: it represents the content like text, images or other media content.
 
-<a name="boxmodels"/>
-
-## Box Models
-
-### Block
+### 7. What is the "block" box model?
 
 The `display: block` elements make a whole new box to work on. It breaks the flow of the elements and will take up as much space as it can. This model is vertically biased.
 
-### Inline
+### 8. What is the "inline" box model?
 
 The `display: inline` elements stay inline with its neghboring content. Things like a span would render imperceptable to the user because it stays within the content. This model is horizontally biased.
 
-### Inline-Block
+### 9. What is the "inline-block" box model?
 
 This property takes the benefits of both block and inline-level elements.
 
@@ -122,7 +118,9 @@ Syntax: `.box { display: inline-block; }`
 - You will be able to apply `width` and `height` to elements, which we cannot do with inline elements.
 - You can also place those elements side by side, which we cannot do with block-level elements.
 
-### Flex
+### 10. What is the "flex" and "inline-flex" box model?
+
+**Flex**
 
 It is also called a `flexible box model`. It is a layout model that provides an easy and clean way to arrange items within a container. Flexbox was created for small-scale layouts. It is responsive and mobile-friendly.
 
@@ -137,13 +135,13 @@ Flex Properties:
 - align-items
 - align-content
 
-### Inline-Flex
+**Inline-Flex**
 
 This property makes the flex container as an inline-level flex element. The container takes the necessary space as large as its children.
 
 Syntax: `.main-container { display: inline-flex; }`
 
-### Grid
+### 11. What is the "grid" box model?
 
 It is a CSS property that offers a grid-based layout system, with rows and columns, making it easier to design web pages without floats and positioning. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.
 
