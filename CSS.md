@@ -48,19 +48,19 @@
 
 <a name="basic"/>
 
-## Concepts
+## BASIC
 
-### What is CSS?
+### 1. What is CSS?
 
 **Cascading Style Sheets** (CSS) is a simply designed language that allows to apply styles to web pages. It enables to do this independent of the HTML that makes up each web page.
 
-### What are the advantages of using CSS?
+### 2. What are the advantages of using CSS?
 
 - Separation of content from presentation: in this sense it contributes to a cleaner code, faster development, and flexibility for presenting the same content in multiple formats in mobile, desktop or laptop.
 - Simplicity of web development and maintainance: it has a simple syntax that could make a huge impact, and also new changes could be atomic (in the sense that adding or removing a selector could be done without refactoring previous code).
 - Improvement of bandwidth: the style sheets will be stored in the browser cache and they can be used on multiple pages, without having to download again.
 
-### What are the limitations of CSS?
+### 3. What are the limitations of CSS?
 
 - Browser Compatibility: some style selectors are supported and some are not. See: https://caniuse.com
 - Cross Browser issue: some selectors behave differently in a different browser (IE and Opera support CSS as different logic). I remember having problems with the outline (for the focus ring), floating elements, or the transform property.
@@ -69,7 +69,7 @@
 - Pseudo-class not controlled by dynamic behavior.
 - Rules, styles, targeting specific text not possible.
 
-### How to add CSS to a HTML file?
+### 4. How to add CSS to a HTML file?
 
 There are three ways:
 
@@ -88,13 +88,13 @@ There are three ways:
    <link rel="stylesheet" type="text/css" href="./myCssFile.css">
    ```
 
-### Which type of CSS addition has the highest priority?
+### 5. Which type of CSS addition has the highest priority?
 
 - **Inline has the highest priority**. It overrides the other styles.
 - **Internal or Embedded stands second** in the priority list and overrides the styles in the external style sheet.
 - **External style sheets have the least priority**. If there are no styles defined either in the inline or internal style sheet then external style sheet rules are applied for the HTML tags.
 
-### What is the Box model?
+### 6. What is the Box model?
 
 The Box model is used to define the design and layout of CSS elements. The web browser renders every element as a rectangular box according to the CSS box model. Its elements are:
 
