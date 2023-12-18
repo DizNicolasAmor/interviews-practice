@@ -9,13 +9,11 @@
   4. How to add CSS to a HTML file?
   5. Which type of CSS addition has the highest priority?
   6. What is the Box model?
-- [Box Models](#boxmodels)
-  - Block
-  - Inline
-  - Inline-Block
-  - Flex
-  - Inline-Flex
-  - Grid
+  7. What is the "block" box model?
+  8. What is the "inline" box model?
+  9. What is the "inline-block" box model?
+  10. What is the "flex" and "inline-flex" box model?
+  11. What is the "grid" box model?
 - [Selectors](#selectors)
   - Universal Selector
   - Element Type Selector
