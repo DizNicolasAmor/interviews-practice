@@ -2,13 +2,13 @@
 
 ## TABLE OF CONTENTS
 
-- [Concepts](#concepts)
-  - What is CSS?
-  - What are the advantages of using CSS?
-  - What are the limitations of CSS?
-  - How to add CSS to a HTML file?
-  - Which type of CSS addition has the highest priority?
-  - What is the Box model?
+- [BASIC](#basic)
+  1. What is CSS?
+  2. What are the advantages of using CSS?
+  3. What are the limitations of CSS?
+  4. How to add CSS to a HTML file?
+  5. Which type of CSS addition has the highest priority?
+  6. What is the Box model?
 - [Box Models](#boxmodels)
   - Block
   - Inline
@@ -46,7 +46,7 @@
   - Position
   - Font-Size
 
-<a name="concepts"/>
+<a name="basic"/>
 
 ## Concepts
 
