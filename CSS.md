@@ -3,29 +3,29 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#basic)
-  1. What is CSS?
-  2. What are the advantages of using CSS?
-  3. What are the limitations of CSS?
-  4. How to add CSS to a HTML file?
-  5. Which type of CSS addition has the highest priority?
-  6. What is the Box model?
-  7. What is the "block" box model?
-  8. What is the "inline" box model?
-  9. What is the "inline-block" box model?
-  10. What is the "flex" and "inline-flex" box model?
-  11. What is the "grid" box model?
+  - 1. What is CSS?
+  - 2. What are the advantages of using CSS?
+  - 3. What are the limitations of CSS?
+  - 4. How to add CSS to a HTML file?
+  - 5. Which type of CSS addition has the highest priority?
+  - 6. What is the Box model?
+  - 7. What is the "block" box model?
+  - 8. What is the "inline" box model?
+  - 9. What is the "inline-block" box model?
+  - 10. What is the "flex" and "inline-flex" box model?
+  - 11. What is the "grid" box model?
 - [INTERMEDIATE](#intermediate)
-  12. What is the difference between flexbox and grid?
-  13. What is a CSS selector?
-  14. What is the Universal Selector?
-  15. What is the Element Type Selector?
-  - ID Selector
-  - Class Selector
-  - Descendant Combinator
-  - Child combinator
-  - General Sibling Combinator
-  - Adjacent Sibling Combinator
-  - Attribute Selector
+  - 12. What is the difference between flexbox and grid?
+  - 13. What is a CSS selector?
+  - 14. What is the Universal Selector?
+  - 15. What is the Element Type Selector?
+  - 16. What is the ID Selector?
+  - 17. What is the Class Selector?
+  - 18. What is the Descendant Combinator?
+  - 19. What is the Child combinator?
+  - 20. What is the General Sibling Combinator?
+  - 21. What is the Adjacent Sibling Combinator?
+  - 22. What is the Attribute Selector?
 - [Frameworks](#frameworks)
   - What is a CSS framework?
   - Name some CSS frameworks
@@ -175,129 +175,130 @@ The universal selector works like a wildcard character, selecting all elements o
 
 This selector matches one or more HTML elements of the same name. Syntax:
 
-```
-ul {
-  background: #FFF;
-}
-```
+  ```
+  ul {
+    background: #FFF;
+  }
+  ```
 
-### ID Selector
+### 16. What is the ID Selector?
 
 This selector matches any HTML element that has an ID attribute with the same value as that of the selector. Syntax:
 
-```
-// CSS
-#container {
-  width: 960px;
-  margin: 0 auto;
-}
+  ```
+  // CSS
+  #container {
+    width: 960px;
+    margin: 0 auto;
+  }
 
-// HTML
-<div id="container"></div>
-```
+  // HTML
+  <div id="container"></div>
+  ```
 
-### Class Selector
+### 17. What is the Class Selector?
 
 The class selector also matches all elements on the page that have their class attribute set to the same value as the class. Syntax:
 
-```
-// CSS
-.box {
-  padding: 10px;
-  margin: 10px;
-  width: 240px;
-}
+  ```
+  // CSS
+  .box {
+    padding: 10px;
+    margin: 10px;
+    width: 240px;
+  }
 
-// HTML
-<div class="box"></div>
-```
+  // HTML
+  <div class="box"></div>
+  ```
 
-### Descendant Combinator
+### 18. What is the Descendant Combinator?
 
 The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.
 
-```
-#container .box {
-	color: blue;
-}
+  ```
+  #container .box {
+    color: blue;
+  }
 
-<div id="container">
-	<div class="box"></div>
-	<div class="box-2"></div>
-</div>
-```
+  <div id="container">
+    <div class="box"></div>
+    <div class="box-2"></div>
+  </div>
+  ```
 
 This declaration block will apply to all elements that have a class of box that is inside an element with an ID of the container.
 
-### Child Combinator
+### 19. What is the Child combinator?
 
 It only targets immediate child elements.
 
-```
-#container> .box {
-	color: blue;
-}
+  ```
+  #container > .box {
+    color: blue;
+  }
 
-<div id="container">
-	<div class="box">It is affected.</div>
-	
-	<div>
-		<div class="box">It is not affected.</div>
-	</div>
-</div>
-```
+  <div id="container">
+    <div class="box">It is affected.</div>
 
-### General Sibling Combinator
+    <div>
+      <div class="box">It is not affected.</div>
+    </div>
+  </div>
+  ```
+
+### 20. What is the General Sibling Combinator?
 
 It matches elements based on sibling relationships. The selected elements are beside each other in the HTML.
 
-```
-h2 ~ p {
-	margin-bottom: 20px;
-}
+  ```
+  h2 ~ p {
+    margin-bottom: 20px;
+  }
 
-<h2>Title</h2>
-<p>Paragraph example.</p>
-<p>Paragraph example.</p>
-<p>Paragraph example.</p>
-<div class=”box”>
-	<p>Paragraph example.</p>
-</div>
-```
+  <h2>Title</h2>
+  <p>Paragraph example.</p>
+  <p>Paragraph example.</p>
+  <p>Paragraph example.</p>
+  <div class=”box”>
+    <p>Paragraph example.</p>
+  </div>
+  ```
 
 In this example, all paragraph elements `(<p>)` will be styled with the specified rules, but only if they are siblings of `<h2>` elements. There could be other elements in between the `<h2>` and `<p>`, and the styles would still apply.
 
-### Adjacent Sibling Combinator
+### 21. What is the Adjacent Sibling Combinator?
 
 It uses the plus symbol `(+)`, and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling.
 
-```
-p + p {
-	background: red;
-}
+  ```
+  p + p {
+    background: red;
+  }
 
-<h2>Title</h2>
-<p>Not styled.</p>
-<p>Styled.</p>
-<p>Styled.</p>
+  <h2>Title</h2>
+  <p>Not styled.</p>
+  <p>Styled.</p>
+  <p>Styled.</p>
 
-<div class=”box”>
-	<p>Not styled.</p>
-	<p>Styled.</p>
-</div>
-```
+  <div class=”box”>
+    <p>Not styled.</p>
+    <p>Styled.</p>
+  </div>
+  ```
 
-### Attribute Selector
+### 22. What is the Attribute Selector?
 
 It targets elements based on the presence or value of HTML attributes, and is declared using square brackets.
 
-```
-input[type="text"] {
-	outline: 1px solid blue;
-}
+  ```
+  input[type="text"] {
+    outline: 1px solid blue;
+  }
 
-<input type="text">
-```
+  <input type="text">
+  ```
+  - 16. What is the ID Selector?
 
 <a name="frameworks"/>
 
