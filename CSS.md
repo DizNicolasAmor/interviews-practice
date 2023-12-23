@@ -297,11 +297,11 @@ It targets elements based on the presence or value of HTML attributes, and is de
 
 ## ADVANCED
 
-### What is a CSS framework?
+### 23. What is a CSS framework?
 
 It is a preplanned library that contains several CSS stylesheets ready for use by web developers and designers.
 
-### Name some CSS frameworks
+### 24. Name some CSS frameworks
 
 The frequently used CSS frameworks are:
 
@@ -312,7 +312,7 @@ The frequently used CSS frameworks are:
 - Tailwind
 - Ulkit
 
-### Why use CSS frameworks?
+### 25. Why use CSS frameworks?
 
 - Speeds up the development.
 - Enables cross-browser functionality.
@@ -320,111 +320,101 @@ The frequently used CSS frameworks are:
 - Gives clean and symmetrical layouts.
 - Make a styling workflow productive, clean, and maintainable.
 
-### Bootstrap
+### 26. Bootstrap, Bulma, Foundation and Materialize
 
-Pros:
-- Responsiveness.
-- Consistent & Flexible.
-- HTML, CSS, and JS framework.
-- Customizable.
-- Large Community.
-- Excellent Documentation.
-- MIT License, therefore it is free to use and free to distribute.
+**Bootstrap**
 
-Cons:
-- Javascript is tied to jQuery.
+- Pros:
+  - Responsiveness.
+  - Consistent & Flexible.
+  - HTML, CSS, and JS framework.
+  - Customizable.
+  - Large Community.
+  - Excellent Documentation.
+  - MIT License, therefore it is free to use and free to distribute.
+- Cons:
+  - Javascript is tied to jQuery.
+- Ideal for:
+  - CSS beginners.
+  - A developer with little JS knowledge can use Bootstrap components without writing a line in JS.
 
-Ideal for:
-- CSS beginners.
-- A developer with little JS knowledge can use Bootstrap components without writing a line in JS.
+**Bulma**
 
-### Bulma
+- Pros:
+  - Lightweight.
+  - Easy to Use.
+  - Responsive Design.
+  - Based on Flexbox.
+  - Highly customizable and modularizable.
+  - Simple syntax.
+- Cons:
+  - Community support is limited.
+  - Less documentation.
+  - Less flexibility.
+  - Limited browser support.
+- Ideal For:
+  - From beginner to pro, any developer can use it due to its simplicity.
 
-Pros:
-- Lightweight.
-- Easy to Use.
-- Responsive Design.
-- Based on Flexbox.
-- Highly customizable and modularizable.
-- Simple syntax.
+**Foundation**
 
-Cons:
-- Community support is limited.
-- Less documentation.
-- Less flexibility.
-- Limited browser support.
+- Pros:
+  - Device agnostic.
+  - Responsive.
+  - Easy to use.
+  - Modern Look.
+  - Customizable.
+  - Good Documentation.
+- Cons:
+  - Limited browser support.
+  - Heavy/large.
+- Ideal For:
+  - Professional, highly skilled developers and designers whose aim is to create a unique website and who wants to customize the framework.
 
-Ideal For:
-- From beginner to pro, any developer can use it due to its simplicity.
+**Materialize**
 
-### Foundation
+- Pros:
+  - Flexible Grids.
+  - Offers the finest of the customization abilities.
+  - Possess a robust grid system.
+  - Supports the rapid development of projects.
+  - Contains a set of templates and readily available codes.
+  - Offers services for sites as well as emails.
+  - JS & jQuery both version available.
+- Cons:
+  - Community support is limited.
+  - Complexity in customization.
+  - Modification of code is tough.
+- Ideal For:
+  - It is accessible to everyone and easy to pick up quickly.
 
-Pros:
-- Device agnostic.
-- Responsive.
-- Easy to use.
-- Modern Look.
-- Customizable.
-- Good Documentation.
-
-Cons:
-- Limited browser support.
-- Heavy/large.
-
-Ideal For:
-- Professional, highly skilled developers and designers whose aim is to create a unique website and who wants to customize the framework.
-
-### Materialize
-
-Pros:
-- Flexible Grids.
-- Offers the finest of the customization abilities.
-- Possess a robust grid system.
-- Supports the rapid development of projects.
-- Contains a set of templates and readily available codes.
-- Offers services for sites as well as emails.
-- JS & jQuery both version available.
-
-Cons:
-- Community support is limited.
-- Complexity in customization.
-- Modification of code is tough.
-
-Ideal For:
-- It is accessible to everyone and easy to pick up quickly.
-
-<a name="preprocessors"/>
-
-## Preprocessors
-
-### What is a CSS Preprocessor?
+### 27. What is a CSS Preprocessor?
 
 It is a tool that extends the functionality of vanilla CSS through its own scripting language. It helps us to use complex logical syntax like variables, functions, mixins, code nesting, and inheritance, among others.
 
-### Sass
+### 28. Sass
 
 "Syntactically Awesome Style Sheets" can be written in two different syntaxes using SASS or SCSS.
 
-### Sass VS Scss
+### 29. Sass VS Scss
 
 - **Syntax**: "SCSS" is the first syntax, and it uses the extension of `.scss`. "SASS" is the other syntax, and it uses the extension of `.sass`.
 - **CSS compatibility**: SCSS is fully CSS compatible. It provides CSS-friendly syntax to closing the gap between SASS and CSS. SCSS is called Sassy CSS. You can covert the valid CSS document into SASS by simply changing the extension from `.css` to `.scss`.
 
-### Less
+### 30. Less
 
 **Leaner Style Sheet** is dynamic in nature and efficiently enables customization and reusability. It supports cross-browser friendly. It is JavaScript-based and has very precise error reporting along with indicating the exact location of the error.
 
-### Sass VS Less
+### 31. Sass VS Less
 
 - **Syntax**: little differences.
 - **Features**: similar behavior since both allow to use complex logic in CSS via variables, mixins, and so on.
 - **Error log**: *Less* is more precise about error reporting with an indication of the location of the error.
 
-### Stylus
+### 32. Stylus
 
 It was launched in 2010 by former Node JS developer TJ Holowaychuk, nearly 4 years after the release of Sass and 1 year after the release of LESS. The stylus is written Node JS and fits perfectly with JS stack. The idea is to have **the logical power of Sass and the simplicity of Less**.
 
-### Sass VS Less VS Stylus
+### 33. Sass VS Less VS Stylus
 
 All three CSS pre-processors considered in this article are mostly capable of the same things at their core and really just go about implementation and syntax differently.
 
