@@ -15,8 +15,10 @@
   10. What is the "flex" and "inline-flex" box model?
   11. What is the "grid" box model?
 - [INTERMEDIATE](#intermediate)
-  - Universal Selector
-  - Element Type Selector
+  12. What is the difference between flexbox and grid?
+  13. What is a CSS selector?
+  14. What is the Universal Selector?
+  15. What is the Element Type Selector?
   - ID Selector
   - Class Selector
   - Descendant Combinator
@@ -155,11 +157,11 @@ It is a CSS property that offers a grid-based layout system, with rows and colum
 2. **Features**: Flexbox can push content element to extreme alignment while Grid can flex combination of items through space-occupying.
 3. **Support Type**: Flexbox is "Content First" while Grid is "Layout First".
 
-### SELECTORS
+### 13. What is a CSS selector?
 
 A CSS selector is the part of a CSS ruleset that actually selects the content you want to style.
 
-### Universal Selector
+### 14. What is the Universal Selector?
 
 The universal selector works like a wildcard character, selecting all elements on a page. Syntax:
 
@@ -169,7 +171,7 @@ The universal selector works like a wildcard character, selecting all elements o
 }
 ```
 
-### Element Type Selector
+### 15. What is the Element Type Selector?
 
 This selector matches one or more HTML elements of the same name. Syntax:
 
