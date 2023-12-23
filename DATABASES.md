@@ -3,40 +3,40 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#basic)
-  1. What is a Database (DB)?
-  2. What is a Database Management System (DBMS)?
-  3. What is a Relational Database Management System (RDBMS)?
-  4. Mention different DBMS.
-  5. Mention some RDBMS.
-  6. What is SQL?
-  7. Define the SQL subgroups.
-  8. What is a Relational Model?
-  9. What is NoSQL?
-  10. What is ACID?
-  11. Mention different SQL Data types.
+  - 1 What is a Database (DB)?
+  - 2 What is a Database Management System (DBMS)?
+  - 3 What is a Relational Database Management System (RDBMS)?
+  - 4 Mention different DBMS.
+  - 5 Mention some RDBMS.
+  - 6 What is SQL?
+  - 7 Define the SQL subgroups.
+  - 8 What is a Relational Model?
+  - 9 What is NoSQL?
+  - 10 What is ACID?
+  - 11 Mention different SQL Data types.
 - [Intermediate](#intermediate)
-  12. What is Cardinality?
-  13. Mention different relationship types of cardinality.
-  14. What is database normalization?
-  15. How would you optimize a slow-performing SQL query?
-  16. What are the differences between a clustered and a non-clustered index?
-  17. What's the purpose of the GROUP BY clause in SQL?
-  18. How does the concept of a view work in databases?
-  19. What is database denormalization?
-  21. What are triggers in databases, and when would you use them?
-  22. How do you handle concurrency issues in a database?
+  - 12 What is Cardinality?
+  - 13 Mention different relationship types of cardinality.
+  - 14 What is database normalization?
+  - 15 How would you optimize a slow-performing SQL query?
+  - 16 What are the differences between a clustered and a non-clustered index?
+  - 17 What's the purpose of the GROUP BY clause in SQL?
+  - 18 How does the concept of a view work in databases?
+  - 19 What is database denormalization?
+  - 21 What are triggers in databases, and when would you use them?
+  - 22 How do you handle concurrency issues in a database?
 - [Advanced](#advanced)
-  23. What is the CAP theorem?
-  24. What is sharding?
-  25. What types of NoSQL DB are there?
-  26. How does indexing impact query performance?
-  27. What is transaction isolation level?
-  28. How to handle ACID compliance in distributed databases?
-  29. How to approach schema versioning and migration?
-  30. What are CTEs and how do they work in SQL?
-  31. What are the differences between horizontal and vertical scaling?
-  32. What is the role of caching in optimizing performance?
-  33. How to handle a high-traffic, write-intensive application?
+  - 23 What is the CAP theorem?
+  - 24 What is sharding?
+  - 25 What types of NoSQL DB are there?
+  - 26 How does indexing impact query performance?
+  - 27 What is transaction isolation level?
+  - 28 How to handle ACID compliance in distributed databases?
+  - 29 How to approach schema versioning and migration?
+  - 30 What are CTEs and how do they work in SQL?
+  - 31 What are the differences between horizontal and vertical scaling?
+  - 32 What is the role of caching in optimizing performance?
+  - 33 How to handle a high-traffic, write-intensive application?
 
 <a name="basic" />
 
