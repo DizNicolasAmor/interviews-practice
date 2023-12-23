@@ -3,48 +3,41 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#basic)
-  - 1. What is CSS?
-  - 2. What are the advantages of using CSS?
-  - 3. What are the limitations of CSS?
-  - 4. How to add CSS to a HTML file?
-  - 5. Which type of CSS addition has the highest priority?
-  - 6. What is the Box model?
-  - 7. What is the "block" box model?
-  - 8. What is the "inline" box model?
-  - 9. What is the "inline-block" box model?
-  - 10. What is the "flex" and "inline-flex" box model?
-  - 11. What is the "grid" box model?
+  - 1 What is CSS?
+  - 2 What are the advantages of using CSS?
+  - 3 What are the limitations of CSS?
+  - 4 How to add CSS to a HTML file?
+  - 5 Which type of CSS addition has the highest priority?
+  - 6 What is the Box model?
+  - 7 What is the "block" box model?
+  - 8 What is the "inline" box model?
+  - 9 What is the "inline-block" box model?
+  - 10 What is the "flex" and "inline-flex" box model?
+  - 11 What is the "grid" box model?
 - [INTERMEDIATE](#intermediate)
-  - 12. What is the difference between flexbox and grid?
-  - 13. What is a CSS selector?
-  - 14. What is the Universal Selector?
-  - 15. What is the Element Type Selector?
-  - 16. What is the ID Selector?
-  - 17. What is the Class Selector?
-  - 18. What is the Descendant Combinator?
-  - 19. What is the Child combinator?
-  - 20. What is the General Sibling Combinator?
-  - 21. What is the Adjacent Sibling Combinator?
-  - 22. What is the Attribute Selector?
-- [Frameworks](#frameworks)
-  - What is a CSS framework?
-  - Name some CSS frameworks
-  - Why use CSS frameworks?
-  - Bootstrap
-  - Bulma
-  - Foundation
-  - Materialize
-- [Preprocessors](#preprocessors)
-  - What is a CSS Preprocessor?
-  - Sass
-  - Sass VS Scss
-  - Less
-  - Sass VS Less
-  - Stylus
-  - Sass VS Less VS Stylus
-- [Properties](#properties)
-  - Position
-  - Font-Size
+  - 12 What is the difference between flexbox and grid?
+  - 13 What is a CSS selector?
+  - 14 What is the Universal Selector?
+  - 15 What is the Element Type Selector?
+  - 16 What is the ID Selector?
+  - 17 What is the Class Selector?
+  - 18 What is the Descendant Combinator?
+  - 19 What is the Child combinator?
+  - 20 What is the General Sibling Combinator?
+  - 21 What is the Adjacent Sibling Combinator?
+  - 22 What is the Attribute Selector?
+- [ADVANCED](#advanced)
+  - 23 What is a CSS framework?
+  - 24 Name some CSS frameworks
+  - 25 Why use CSS frameworks?
+  - 26 Bootstrap, Bulma, Foundation and Materialize
+  - 27 What is a CSS Preprocessor?
+  - 28 Sass
+  - 29 Sass VS Scss
+  - 30 Less
+  - 31 Sass VS Less
+  - 32 Stylus
+  - 33 Sass VS Less VS Stylus
 
 <a name="basic"/>
 
@@ -300,9 +293,9 @@ It targets elements based on the presence or value of HTML attributes, and is de
   ```
   - 16. What is the ID Selector?
 
-<a name="frameworks"/>
+<a name="advanced"/>
 
-## Frameworks
+## ADVANCED
 
 ### What is a CSS framework?
 
@@ -438,40 +431,3 @@ All three CSS pre-processors considered in this article are mostly capable of th
 - **Sass** permit advanced logic and algorithms and allow us to write custom functions. It also has the largest adoption and an active community.
 - **Less** has the fewest features and logic-based functionality, but it compiles very easily on the front-end hence it thrives on serverless architectures. It has a flexible syntax and more adoption than Stylus.
 - **Stylus** has a highly concise and flexible syntax and easily integrates with Node projects. Another advantage is its powerful built-in functions and is capable of handling heavy computing.
-
-<a name="properties"/>
-
-## Properties
-
-### Position
-
-It tells about the method of positioning for an HTML element. There are five different types of position. Some of them react to the *top*, *right*, *bottom*, *left* and *z-index* properties.
-
-1. **Fixed**: the HTML element will be positioned relative to the viewport. An element with fixed positioning allows it to remain at the same position even as we scroll the page.
-2. **Static**: this is the default value. Here, the *top*, *right*, *bottom* and *left* will not have any control over the element. The element will be positioned with the normal flow of the page.
-3. **Relative**: the element will remain in the natural flow of the page. It also makes the element positioned: it will act as an anchor point for the absolutely positioned child. Also, it will react to the other positioning properties.
-4. **Absolute**: the element will be positioned with respect to its parent that contains `position: relative`.
-5. **Sticky**: an element with `position: sticky` and `top: 0` plays a role between fixed & relative based on the position where it is placed: if it is placed in the middle of the document and the user scrolls, the sticky element starts scrolling until it touches the top and then it will be fixed at that place in spite of further scrolling. We can stick the element at the bottom, with the bottom property.
-
-### Font-Size
-
-It defines the size of the text.
-
-Values:
-
-- **Default** value is `font-size: medium;`.
-- In **pixels**: this unity of measure is not scalable and it is an absolute unit. Syntax: `font-size: 20px;`.
-- In **em**: the value is relative to the parent's font-size. As a result, the value will cascade if used on child elements. Syntax: `font-size: 1.2em;`.
-- In **rem**: the value is relative to the **root** element's font-size, which is the `<html>` element. As a result, the value will not vary depending on the depth of the element in the HTML hierarchy, and will reamin context independent. Syntax: `font-size: 1.2rem;`.
-- In **percentage**: the values act like em values. The value is relative to the parent's font-size. As a result, the value will cascade if used on child elements. Syntax: `font-size: 90%;`.
-- In **relative keywords**: the value is relative to the parent. The following are available:
-  -  larger
-  -  smaller
-- In **absolute keywords**: the value is relative to the root element `<html>`. The following are available:
-  -  xx-small
-  -  x-small
-  -  small
-  -  medium
-  -  large
-  -  x-large
-  -  xx-large
