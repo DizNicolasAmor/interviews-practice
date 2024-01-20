@@ -3,41 +3,41 @@
 ## TABLE OF CONTENTS
 
 - [BASICS](#basics)
-  1. What is Web Performance?
-  2. Why is web performance important?
-  3. What are the main factors that affect web performance?
-  4. What is the Perceived Performance?
-  5. What is the Perceived Performance related to?
-  6. How could be Perceived Performance improved?
-  7. Loading Performance VS Render Performance
-  8. What tools do you use to measure web performance?
-  9. How do you optimize images for the web?
-  10. How do you reduce the size of CSS and JavaScript files?
-  11. How do you handle browser caching?
+  - 1 What is Web Performance?
+  - 2 Why is web performance important?
+  - 3 What are the main factors that affect web performance?
+  - 4 What is the Perceived Performance?
+  - 5 What is the Perceived Performance related to?
+  - 6 How could be Perceived Performance improved?
+  - 7 Loading Performance VS Render Performance
+  - 8 What tools do you use to measure web performance?
+  - 9 How do you optimize images for the web?
+  - 10 How do you reduce the size of CSS and JavaScript files?
+  - 11 How do you handle browser caching?
 - [INTERMEDIATE](#intermediate)
-  12. What is minification and how it can improve web performance?
-  13. What is the impact of HTTP requests on web performance?
-  14. What is the impact of using third-party scripts on web performance?
-  15. Can you explain the concept of lazy loading?
-  16. What is the difference between client-side and server-side caching?
-  17. What is the role of a Content Delivery Network (CDN) in web performance?
-  18. What are the benefits of using a front-end framework for web performance?
-  19. How do you handle web page optimization for mobile devices?
-  20. What is the role of website analytics in web performance optimization?
-  21. What is the role of browser rendering and how does it affect web performance?
-  22. What are the best practices for optimizing server-side performance?
+  - 12 What is minification and how it can improve web performance?
+  - 13 What is the impact of HTTP requests on web performance?
+  - 14 What is the impact of using third-party scripts on web performance?
+  - 15 Can you explain the concept of lazy loading?
+  - 16 What is the difference between client-side and server-side caching?
+  - 17 What is the role of a Content Delivery Network (CDN) in web performance?
+  - 18 What are the benefits of using a front-end framework for web performance?
+  - 19 How do you handle web page optimization for mobile devices?
+  - 20 What is the role of website analytics in web performance optimization?
+  - 21 What is the role of browser rendering and how does it affect web performance?
+  - 22 What are the best practices for optimizing server-side performance?
 - [ADVANCED](#advanced)
-  23. How do you diagnose and fix slow load times or high network latency?
-  24. What is the difference between performance and scalability?
-  25. How to optimize database performance in a web application?
-  26. How to leverage serverless architectures to improve web performance?
-  27. What is critical CSS?
-  28. What are the benefits and drawbacks of using a microservices architecture?
-  29. How to use browser dev tools to improve web performance?
-  30. How to use A/B testing to improve web performance?
-  31. What is predictive performance?
-  32. How to optimize web performance in a multi-lingual or multi-regional website?
-  33. How to use machine learning algorithms to optimize web performance?
+  - 23 How do you diagnose and fix slow load times or high network latency?
+  - 24 What is the difference between performance and scalability?
+  - 25 How to optimize database performance in a web application?
+  - 26 How to leverage serverless architectures to improve web performance?
+  - 27 What is critical CSS?
+  - 28 What are the benefits and drawbacks of using a microservices architecture?
+  - 29 How to use browser dev tools to improve web performance?
+  - 30 How to use A/B testing to improve web performance?
+  - 31 What is predictive performance?
+  - 32 How to optimize web performance in a multi-lingual or multi-regional website?
+  - 33 How to use machine learning algorithms to optimize web performance?
 
 <a name="basics"/>
 
