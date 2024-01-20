@@ -3,41 +3,41 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#basic)
-  - 1. What is React?
-  - 2. What is COP (component oriented programming)?
-  - 3. What is Immutability and why it is important in React?
-  - 4. What is the Virtual DOM?
-  - 5. What is the Reconciliation in React?
-  - 6. What is Redux?
-  - 7. What is a HOC (High order component)?
-  - 8. What is a Redux Middleware?
-  - 9. What is redux-saga?
-  - 10. What is redux-thunk?
-  - 11. What is react-native and what is different from react?
+  - 1 What is React?
+  - 2 What is COP (component oriented programming)?
+  - 3 What is Immutability and why it is important in React?
+  - 4 What is the Virtual DOM?
+  - 5 What is the Reconciliation in React?
+  - 6 What is Redux?
+  - 7 What is a HOC (High order component)?
+  - 8 What is a Redux Middleware?
+  - 9 What is redux-saga?
+  - 10 What is redux-thunk?
+  - 11 What is react-native and what is different from react?
 - [Intermediate](#intermediate)
-  - 12. What are React Hooks?
-  - 13. What are the advantages of using hooks?
-  - 14. The useState hook
-  - 15. The useEffect hook
-  - 16. The useContext hook
-  - 17. The useMemo hook
-  - 18. The useCallback hook
-  - 19. What is the difference between useMemo and useCallback?
-  - 20. The useRef hook
-  - 21. The useReducer hook
-  - 22. What is a ReactJS framework?
+  - 12 What are React Hooks?
+  - 13 What are the advantages of using hooks?
+  - 14 The useState hook
+  - 15 The useEffect hook
+  - 16 The useContext hook
+  - 17 The useMemo hook
+  - 18 The useCallback hook
+  - 19 What is the difference between useMemo and useCallback?
+  - 20 The useRef hook
+  - 21 The useReducer hook
+  - 22 What is a ReactJS framework?
 - [Advanced](#advanced)
-  - 23. Create React App
-  - 24. NextJS
-  - 25. GatsbyJS
-  - 26. What is client-side rendering (CSR)?
-  - 27. What is Server-side rendering (SSR)?
-  - 28. Why SSR is better for webapps that consume dynamic data?
-  - 29. Why the page load is faster in CSR than in SSR?
-  - 30. When is better to use CSR Vs SSR?
-  - 31. Comparison table of CSR Vs SSR
-  - 32. How does React handle code splitting and lazy loading?
-  - 33. Patterns
+  - 23 Create React App
+  - 24 NextJS
+  - 25 GatsbyJS
+  - 26 What is client-side rendering (CSR)?
+  - 27 What is Server-side rendering (SSR)?
+  - 28 Why SSR is better for webapps that consume dynamic data?
+  - 29 Why the page load is faster in CSR than in SSR?
+  - 30 When is better to use CSR Vs SSR?
+  - 31 Comparison table of CSR Vs SSR
+  - 32 How does React handle code splitting and lazy loading?
+  - 33 Patterns
     - Custom Hook
     - Compound Components
     - Extensible Styles
