@@ -3,41 +3,41 @@
 ## TABLE OF CONTENTS
 
 - [Basics](#basics)
-  1. What is HTML5?
-  2. What are the differences between HTML and HTML5?
-  3. What are tags in HTML5?
-  4. What are elements in HTML5?
-  5. What are attributes in HTML5?
-  6. Relationship between CSS and HTML5
-  7. What are most important HTML5 structure elements?
-  8. What are input elements?
-  9. What is meant by web storage in HTML5?
-  10. How do you link to another web page using HTML5?
-  11. What are the three types of lists in HTML5?
+  - 1 What is HTML5?
+  - 2 What are the differences between HTML and HTML5?
+  - 3 What are tags in HTML5?
+  - 4 What are elements in HTML5?
+  - 5 What are attributes in HTML5?
+  - 6 Relationship between CSS and HTML5
+  - 7 What are most important HTML5 structure elements?
+  - 8 What are input elements?
+  - 9 What is meant by web storage in HTML5?
+  - 10 How do you link to another web page using HTML5?
+  - 11 What are the three types of lists in HTML5?
 - [Intermediate](#intermediate)
-  12. What is Semantic HTML?
-  13. What are the key benefits of HTML5?
-  14. What is the role of formatting tags in HTML5?
-  15. What types of graphics are supported by HTML5?
-  16. What is new about the relationship between header and heading tags?
-  17. What are some of the new input types in HTML5?
-  18. What are image maps in HTML5?
-  19. What are the most important APIs in HTML5?
-  20. What is the role of DOCTYPE in HTML5?
-  21. What are the different types of storage in HTML5?
-  22. What is metadata in HTML5 and how is it specified?
+  - 12 What is Semantic HTML?
+  - 13 What are the key benefits of HTML5?
+  - 14 What is the role of formatting tags in HTML5?
+  - 15 What types of graphics are supported by HTML5?
+  - 16 What is new about the relationship between header and heading tags?
+  - 17 What are some of the new input types in HTML5?
+  - 18 What are image maps in HTML5?
+  - 19 What are the most important APIs in HTML5?
+  - 20 What is the role of DOCTYPE in HTML5?
+  - 21 What are the different types of storage in HTML5?
+  - 22 What is metadata in HTML5 and how is it specified?
 - [Advanced](#advanced)
-  23. What are the new tags for multimedia in HTML5?
-  24. What is microdata?
-  25. How is the Geolocation API implemented?
-  26. What are global attributes?
-  27. What is the role of the WebSocket API?
-  28. When should `<div>` tags be used?
-  29. What is the role of the Web Workers API?
-  30. How can the performance of an HTML5 web page be measured?
-  31. How can HTML5 web pages be optimized?
-  32. Explain the concept of "shadow DOM" in the context of web components.
-  33. How does shadow DOM encapsulation work?
+  - 23 What are the new tags for multimedia in HTML5?
+  - 24 What is microdata?
+  - 25 How is the Geolocation API implemented?
+  - 26 What are global attributes?
+  - 27 What is the role of the WebSocket API?
+  - 28 When should `<div>` tags be used?
+  - 29 What is the role of the Web Workers API?
+  - 30 How can the performance of an HTML5 web page be measured?
+  - 31 How can HTML5 web pages be optimized?
+  - 32 Explain the concept of "shadow DOM" in the context of web components.
+  - 33 How does shadow DOM encapsulation work?
 
 <a name="basics"/>
 
