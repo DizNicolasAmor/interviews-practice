@@ -3,14 +3,14 @@
 ## TABLE OF CONTENTS
 
 - [BASICS](#basics)
-  1. What is Software Testing?
-  2. What are the benefits of software testing?
-  3. What are the principles of software testing?
+  - 1 What is Software Testing?
+  - 2 What are the benefits of software testing?
+  - 3 What are the principles of software testing?
 - [TYPES OF SOFTWARE TESTING](#types_of_software_testing)
-  4. Manual VS Automated
-  5. Functional VS Non Functional
-  6. Functional Testing
-  7. Non Functional Testing
+  - 4 Manual VS Automated
+  - 5 Functional VS Non Functional
+  - 6 Functional Testing
+  - 7 Non Functional Testing
 
 <a name="basics"/>
 
