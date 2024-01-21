@@ -6,11 +6,11 @@
   - 1 What is Software Testing?
   - 2 What are the benefits of software testing?
   - 3 What are the principles of software testing?
-- [TYPES OF SOFTWARE TESTING](#types_of_software_testing)
-  - 4 Manual VS Automated
-  - 5 Functional VS Non Functional
-  - 6 Functional Testing
-  - 7 Non Functional Testing
+  - 4 What are the types of software testing?
+  - 5 Manual VS Automated
+  - 6 Functional VS Non Functional
+  - 7 Functional Testing
+  - 8 Non Functional Testing
 
 <a name="basics"/>
 
@@ -41,23 +41,21 @@ It can be said that testing enhances the quality of the product by preventing bu
 6. **Early testing**: in the early stages of development, defects will be detected more easily and at a lower cost.
 7. **Testing is context-dependent**: software needs to be tested differently depending on its type.
 
-<a name="types_of_software_testing"/>
-
-## TYPES OF SOFTWARE TESTING
+### 4. What are the types of software testing?
 
 There are different ways to clasify the types of software testing. One clasification could be **Manual VS Automated** that is based on how the test is done, and another clasification could be **Functional VS Non Functional** that is based on what is the focus of the test.
 
-### 4. Manual VS Automated
+### 5. Manual VS Automated
 
 - **Manual**: a team or individual will manually operate a software product and ensure it behaves as expected.
 - **Automated**: many different tools checks to simulating a full human-driven manual testing experience.
 
-### 5. Functional VS Non Functional
+### 6. Functional VS Non Functional
 
 - **Functional**: it has the goal to validate software **actions**. For example, checking the login functionality of an app.
 - **Automated**: has the goal to validate the **performance** of the software. For example, checking that the dashboard should load in 2 seconds.
 
-### 6. Functional Testing
+### 7. Functional Testing
 
 1. **Unit Testing**
 
@@ -86,7 +84,7 @@ Acceptance testing is a type of testing where the client test the software with 
 - b) **Beta Testing**. It is performed in the Real Environment before releasing the product to the market for the actual end-users. It is carried out to ensure that there are no major failures in the software or product, and it satisfies the business requirements from an end-user perspective.
 - c) **Operational acceptance testing (OAT)**. It is performed by operations or system administration staff in the production environment. The purpose of operational acceptance testing is to make sure that the system administrators can keep the system working properly for the users in a real-time environment. For example, it tests: backup and restore, installing, uninstalling, upgrading software, maintenance of the software.
 
-### 7. Non Functional Testing
+### 8. Non Functional Testing
 
 1. **Security Testing**
 
