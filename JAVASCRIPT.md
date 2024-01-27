@@ -3,32 +3,32 @@
 ## TABLE OF CONTENTS
 
 - [Paradigm](#paradigm)
-  1. What is Javascript?
-  2. What is OOP?
-  3. Is JS OOP or Prototype oriented?
-  4. Class-based OOP VS Prototype-based OOP
+  - 1 What is Javascript?
+  - 2 What is OOP?
+  - 3 Is JS OOP or Prototype oriented?
+  - 4 Class-based OOP VS Prototype-based OOP
 - [Concepts](#concepts)
-  5. What does "data type" mean and how many data types are in JS?
-  6. What is hoisting?
-  7. What is Scope?
-  8. What is Closure?
-  9. What is a Javascript Hosting Environment?
-  10. What is the Event loop?
-  11. How does the Event loop work in Javascript?
-  12. Microtask and Macrotask
-  13. Explain Apply, Bind and Call functions
-  14. What is Immutability?
-  15. How to copy an object?
-  16. What is a HOF (high order function)?
-  17. What is the difference between map, reduce and forEach functions?
-  18. What is a Promise?
-  19. How a Promise can be consumed?
+  - 5 What does "data type" mean and how many data types are in JS?
+  - 6 What is hoisting?
+  - 7 What is Scope?
+  - 8 What is Closure?
+  - 9 What is a Javascript Hosting Environment?
+  - 10 What is the Event loop?
+  - 11 How does the Event loop work in Javascript?
+  - 12 Microtask and Macrotask
+  - 13 Explain Apply, Bind and Call functions
+  - 14 What is Immutability?
+  - 15 How to copy an object?
+  - 16 What is a HOF (high order function)?
+  - 17 What is the difference between map, reduce and forEach functions?
+  - 18 What is a Promise?
+  - 19 How a Promise can be consumed?
 - [ECMAScript](#ecmascript)
-  20. What is ECMAScript?
-  21. Mention some of the new features in ES6 (ES 2015)
-  22. Mention some of the new features in ES11 (ES 2020)
-  23. What are the differences between var, let and const?
-  24. What are the difference between an arrow function and a regular function?
+  - 20 What is ECMAScript?
+  - 21 Mention some of the new features in ES6 (ES 2015)
+  - 22 Mention some of the new features in ES11 (ES 2020)
+  - 23 What are the differences between var, let and const?
+  - 24 What are the difference between an arrow function and a regular function?
 
 <a name="paradigm"/>
 
