@@ -7,7 +7,6 @@
   - 2 What is OOP?
   - 3 Is JS OOP or Prototype oriented?
   - 4 Class-based OOP VS Prototype-based OOP
-- [Concepts](#concepts)
   - 5 What does "data type" mean and how many data types are in JS?
   - 6 What is hoisting?
   - 7 What is Scope?
@@ -74,10 +73,6 @@ Here is how this two styles approach the OOP main principles:
   | When we try to read or write something on an object JS engine will firstly look for that property in the object. If found then the search will stop and will return the property. Else it will go to the object’s prototype will search among its properties if not found then will go to prototype’s prototype and so on… until it reaches to null if found anywhere it will stop there and return the property, if not found till the end it will return *undefined*.
 
   - In class-based style there are other types of polymorphism: runtime, overloading, compile-time and casting.
-
-<a name="concepts"/>
-
-## Concepts
 
 ### 5 What does "data type" mean and how many data types are in JS?
 
