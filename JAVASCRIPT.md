@@ -23,10 +23,10 @@
   - 17 What is the difference between map, reduce and forEach functions?
   - 18 What is a Promise?
   - 19 How a Promise can be consumed?
-- [ECMAScript](#ecmascript)
   - 20 What is ECMAScript?
   - 21 Mention some of the new features in ES6 (ES 2015)
   - 22 Mention some of the new features in ES11 (ES 2020)
+- [ADVANCED](#advanced)
   - 23 What are the differences between var, let and const?
   - 24 What are the difference between an arrow function and a regular function?
 
@@ -226,10 +226,6 @@ A promise is a function that will return data in some future.
 - Using `async / await`: declare an `async` function and inside of it you can use the `await` keyword before your promise.
 - Using a generator: you can declare a generator function and consume the promise inside of it, with the yield keyword.
 
-<a name="ecmascript"/>
-
-## ECMAScript
-
 ### 20 What is ECMAScript?
 
 Ecmascript (European Computer Manufacturer's Association) is a standard for scripting languages.
@@ -247,6 +243,10 @@ Ecmascript (European Computer Manufacturer's Association) is a standard for scri
 2. Dynamic imports
 3. Promise.allSettled
 4. Global this.
+
+<a name="advanced" />
+
+## ADVANCED
 
 ### 23 What are the differences between var, let and const?
 
