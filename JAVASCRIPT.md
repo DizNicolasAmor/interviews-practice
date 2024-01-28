@@ -14,6 +14,7 @@
   - 9 What is a Javascript Hosting Environment?
   - 10 What is the Event loop?
   - 11 How does the Event loop work in Javascript?
+- [INTERMEDIATE](#intermediate)
   - 12 Microtask and Macrotask
   - 13 Explain Apply, Bind and Call functions
   - 14 What is Immutability?
@@ -131,6 +132,10 @@ The Callback Queue is another place in which function calls are placed to be pro
 In example:
 
 `setTimeout` will put a callback function at the end of the Callback Queue once the timeout value is reached. Once the `setTimeout` callback is added into the Callback Queue, the event loop will wait until the CallStack is empty, when it happens, the event loop will move the `setTimeout` callback from the Callback Queue to the CallStack to be processed by the Javascript Engine.
+
+<a name="intermediate" />
+
+## INTERMEDIATE
 
 ### 12 Microtask and Macrotask
 
