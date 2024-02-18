@@ -2,18 +2,30 @@
 
 ## TABLE OF CONTENTS
 
-- [General](#general)
-  - Array
-  - Stack
-  - Queue
-  - Priority Queue
-  - Set
-  - Map
-  - Linked List
+- [BASIC](#basic)
+  - 1 What is a data structure?
+  - 2 What is the concept of time complexity?
+  - 3 What is an Array?
+  - 4 What is a Stack?
+  - 5 What is a Queue?
+  - 6 What is a Priority Queue?
+  - 7 What is a Set?
+  - 8 What is a Map?
+  - 9 What is a Linked List?
+  - 10 What is a Graph?
+  - 11 What is a Hash Table?
 
-<a name="general" />
+/* TODO: other questions
+  - What are the main operations performed on a binary tree?
+  - How would you implement a simple sorting algorithm?
+  - What is the difference between a Hash Table and an Array?
+  - Can you describe the basic principles of recursion?
+  - How would you implement a Stack using an Array or a Linked List?
+*/
 
-## General
+<a name="basic" />
+
+## BASIC
 
 A *Data Structure* is a way of organizing data so it can be used effectively.
 
