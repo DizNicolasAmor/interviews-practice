@@ -37,7 +37,7 @@ An *Abstract Data Structure* is an abstraction of the DS which provides only its
 
 complete
 
-### Array
+### 3 What is an Array?
 
 **Static Array**: it is a fixed length container of indexable elements that starts from index zero. Each index could be referenced with a number.
 
