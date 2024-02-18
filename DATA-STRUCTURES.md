@@ -33,6 +33,10 @@ A *Data Structure* is a way of organizing data so it can be used effectively.
 
 An *Abstract Data Structure* is an abstraction of the DS which provides only its interface, that is without the details of the implementation. Examples: Stack, Queue, List, Tree, Graph, Map, Set, Multiset, Container, Array.
 
+### 2 What is the concept of time complexity?
+
+complete
+
 ### Array
 
 **Static Array**: it is a fixed length container of indexable elements that starts from index zero. Each index could be referenced with a number.
