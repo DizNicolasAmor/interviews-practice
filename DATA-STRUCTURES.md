@@ -27,6 +27,8 @@
 
 ## BASIC
 
+### 1 What is a data structure?
+
 A *Data Structure* is a way of organizing data so it can be used effectively.
 
 An *Abstract Data Structure* is an abstraction of the DS which provides only its interface, that is without the details of the implementation. Examples: Stack, Queue, List, Tree, Graph, Map, Set, Multiset, Container, Array.
