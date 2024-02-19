@@ -197,3 +197,11 @@ A linked list is a linear data structure, in which the elements are not stored a
 | Remove from head | 0 (1)      | 0 (1)      |
 | Remove from tail | 0 (n)      | 0 (1)      |
 | Remove in middle | 0 (n)      | 0 (n)      |
+
+### 10 What is a Graph?
+
+compelte
+
+### 11 What is a Hash Table?
+
+complete
