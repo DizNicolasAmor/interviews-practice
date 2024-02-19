@@ -53,7 +53,7 @@ complete
 | Append    | N / A        | 0 (1)         |
 | Remove    | N / A        | 0 (n)         |
 
-### Stack
+### 4 What is a Stack?
 
 It is a linear data structure that models a real world stack. It follows the principle of Last in First Out (LIFO): that means the last element inserted is the one that is be removed first. You can think it as a pile of plates on top of another.
 
@@ -81,7 +81,7 @@ It is a linear data structure that models a real world stack. It follows the pri
 | Search    | 0 (n)      |
 | Size      | 0 (1)      |
 
-### Queue
+### 5 What is a Queue?
 
 It is a linear data structure that models a real world queue. It follows the Fist in First Out (FIFO) principle. Elements added to the queue are pushed to the end, and only the element at the front of the queue is allowed to be removed. Those operations are called `enqueue` and `dequeue`.
 
@@ -100,7 +100,7 @@ It is a linear data structure that models a real world queue. It follows the Fis
 | Remove    | 0 (n)      |
 | Size      | 0 (1)      |
 
-### Priority Queue
+### 6 What is a Priority Queue?
 
 It is similar to a Queue, except that each element has a certain priority. The priority determines the order in which elements are served. If in any case the elements have same priority, they are served in the same way as a normal Queue.
 
