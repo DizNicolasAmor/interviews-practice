@@ -161,15 +161,15 @@ The relation is `Math.floor(index/2)`.
 const myArray = [9, 8, 5, 7, 2, 3, 4]
 ```
 
-### Set
+### 7 What is a Set?
 
 A set is a data structure that can store any number of unique values in any order you wish.
 
-### Map
+### 8 What is a Map?
 
 Are data structures that store key-value pairs.
 
-### Linked list
+### 9 What is a Linked List?
 
 A linked list is a linear data structure, in which the elements are not stored at contigous memory locations. The elements in a linked list are linked using pointers. Each element is called "Node", and each "Node" contains a data field and a reference (link) to the next node.
 
