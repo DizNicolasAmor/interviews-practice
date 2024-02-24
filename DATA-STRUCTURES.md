@@ -14,11 +14,26 @@
   - 9 What is a Linked List?
   - 10 What is a Graph?
   - 11 What is a Hash Table?
+- [INTERMEDIATE](#INTERMEDIATE)
+  - 12 How does a Hash Table hashing help in data retrieval?
+  - 13 What is depth-first search (DFS) algorithm?
+  - 14 When would you use DFS?
+  - 15 What is breadth-first search (BFS) algorithm?
+  - 16 When would you use BFS?
+  - 17 How to implement a stack using an array?
+  - 18 How to implement a stack using a linked list?
+  - 19 What is a heap?
+  - 20 What is a trie data structure, and how is it used in string manipulation and search operations?
+  - 21 What is dynamic programming?
+  - 22 What is the difference between a Hash Table and an Array?
+
+  - How do you detect cycles in a directed graph?
+  - What is a balanced binary search tree?
+  - What are the principles of divide and conquer algorithms?
 
 /* TODO: other questions
   - What are the main operations performed on a binary tree?
   - How would you implement a simple sorting algorithm?
-  - What is the difference between a Hash Table and an Array?
   - Can you describe the basic principles of recursion?
   - How would you implement a Stack using an Array or a Linked List?
 */
