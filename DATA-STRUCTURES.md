@@ -207,4 +207,4 @@ It is a data structure composed of nodes (vertices) and edges that connect pairs
 
 ### 11 What is a Hash Table?
 
-complete
+It is a data structure that stores key-value pairs, allowing for efficient lookup, insertion, and deletion operations. It uses a hash function to map keys to indices in an array, enabling constant-time access to values associated with keys.
