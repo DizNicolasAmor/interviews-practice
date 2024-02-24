@@ -26,17 +26,12 @@
   - 20 What is a trie data structure, and how is it used in string manipulation and search operations?
   - 21 What is dynamic programming?
   - 22 What is the difference between a Hash Table and an Array?
-
-  - How do you detect cycles in a directed graph?
-  - What is a balanced binary search tree?
-  - What are the principles of divide and conquer algorithms?
-
-/* TODO: other questions
-  - What are the main operations performed on a binary tree?
-  - How would you implement a simple sorting algorithm?
-  - Can you describe the basic principles of recursion?
-  - How would you implement a Stack using an Array or a Linked List?
-*/
+- [ADVANCED](#ADVANCED)
+  - 23 How would you implement a simple sorting algorithm?
+  - 24 Can you describe the basic principles of recursion?
+  - 25 How do you detect cycles in a directed graph?
+  - 26 What is a balanced binary search tree?
+  - 27 What are the principles of divide and conquer algorithms?
 
 <a name="basic" />
 
