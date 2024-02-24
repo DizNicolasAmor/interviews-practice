@@ -35,7 +35,10 @@ An *Abstract Data Structure* is an abstraction of the DS which provides only its
 
 ### 2 What is the concept of time complexity?
 
-complete
+- It refers to the measure of the amount of time an algorithm takes to complete as a function of the size of its input.
+- It quantifies the efficiency of an algorithm by analyzing how its runtime scales with increasing input size.
+- It is typically expressed using `Big O notation`.
+- It helps in comparing algorithms and predicting their performance under different scenarios.
 
 ### 3 What is an Array?
 
