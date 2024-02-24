@@ -203,7 +203,7 @@ A linked list is a linear data structure, in which the elements are not stored a
 
 ### 10 What is a Graph?
 
-compelte
+It is a data structure composed of nodes (vertices) and edges that connect pairs of nodes. Graphs are used to represent relationships or connections between objects, with nodes representing entities and edges representing the relationships between them.
 
 ### 11 What is a Hash Table?
 
