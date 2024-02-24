@@ -2,7 +2,7 @@
 
 ## TABLE OF CONTENTS
 
-- [BASIC](#basic)
+- [BASIC](#BASIC)
   - 1 What is a data structure?
   - 2 What is the concept of time complexity?
   - 3 What is an Array?
@@ -33,7 +33,7 @@
   - 26 What is a balanced binary search tree?
   - 27 What are the principles of divide and conquer algorithms?
 
-<a name="basic" />
+<a name="BASIC" />
 
 ## BASIC
 
@@ -218,3 +218,11 @@ It is a data structure composed of nodes (vertices) and edges that connect pairs
 ### 11 What is a Hash Table?
 
 It is a data structure that stores key-value pairs, allowing for efficient lookup, insertion, and deletion operations. It uses a hash function to map keys to indices in an array, enabling constant-time access to values associated with keys.
+
+<a name="INTERMEDIATE" />
+
+## INTERMEDIATE
+
+<a name="ADVANCED" />
+
+## ADVANCED
