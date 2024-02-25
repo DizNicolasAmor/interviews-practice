@@ -223,6 +223,50 @@ It is a data structure that stores key-value pairs, allowing for efficient looku
 
 ## INTERMEDIATE
 
+### 12 How does a Hash Table hashing help in data retrieval?
+
+complete
+
+### 13 What is depth-first search (DFS) algorithm?
+
+complete
+
+### 14 When would you use DFS?
+
+complete
+
+### 15 What is breadth-first search (BFS) algorithm?
+
+complete
+
+### 16 When would you use BFS?
+
+complete
+
+### 17 How to implement a stack using an array?
+
+complete
+
+### 18 How to implement a stack using a linked list?
+
+complete
+
+### 19 What is a heap?
+
+complete
+
+### 20 What is a trie data structure, and how is it used in string manipulation and search operations?
+
+complete
+
+### 21 What is dynamic programming?
+
+complete
+
+### 22 What is the difference between a Hash Table and an Array?
+
+complete
+
 <a name="ADVANCED" />
 
 ## ADVANCED
