@@ -270,3 +270,23 @@ complete
 <a name="ADVANCED" />
 
 ## ADVANCED
+
+### 23 How would you implement a simple sorting algorithm?
+
+complete
+
+### 24 Can you describe the basic principles of recursion?
+
+complete
+
+### 25 How do you detect cycles in a directed graph?
+
+complete
+
+### 26 What is a balanced binary search tree?
+
+complete
+
+### 27 What are the principles of divide and conquer algorithms?
+
+complete
