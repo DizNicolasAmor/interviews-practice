@@ -32,6 +32,12 @@
   - 25 How do you detect cycles in a directed graph?
   - 26 What is a balanced binary search tree?
   - 27 What are the principles of divide and conquer algorithms?
+  - 28 What are persistent data structures?
+  - 29 What is a suffix tree?
+  - 30 What is a segment tree and its applications?
+  - 31 How do you implement a trie data structure efficiently?
+  - 32 What are bloom filters and how do they work?
+  - 33 What is a disjoint-set data structure?
 
 <a name="BASIC" />
 
