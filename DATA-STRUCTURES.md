@@ -296,3 +296,27 @@ complete
 ### 27 What are the principles of divide and conquer algorithms?
 
 complete
+
+### 28 What are persistent data structures?
+
+complete
+
+### 29 What is a suffix tree?
+
+complete
+
+### 30 What is a segment tree and its applications?
+
+complete
+
+### 31 How do you implement a trie data structure efficiently?
+
+complete
+
+### 32 What are bloom filters and how do they work?
+
+complete
+
+### 33 What is a disjoint-set data structure?
+
+complete
