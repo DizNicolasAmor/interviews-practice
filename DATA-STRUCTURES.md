@@ -319,4 +319,4 @@ complete
 
 ### 33 What is a disjoint-set data structure?
 
-complete
+A disjoint-set data structure, also known as a union-find data structure, is used to maintain a collection of disjoint sets. It supports two main operations: union, which merges two sets into one, and find, which determines which set a particular element belongs to. They are often used in algorithms for graph connectivity problems, such as determining whether two nodes are connected in a graph or finding minimum spanning trees.
