@@ -315,7 +315,7 @@ complete
 
 ### 32 What are bloom filters and how do they work?
 
-complete
+Bloom filters are probabilistic data structures used to test whether an element is a member of a set. They work by hashing elements into a bit array of fixed size, typically setting multiple bits per element. When checking for membership, the filter hashes the element and checks if the corresponding bits are set. False positives are possible, but false negatives are not. Bloom filters are space-efficient and offer constant-time lookups, making them useful for applications like spell checking, caching, and network routing.
 
 ### 33 What is a disjoint-set data structure?
 
