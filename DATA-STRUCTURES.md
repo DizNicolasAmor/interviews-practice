@@ -239,7 +239,11 @@ Depth-first search (DFS) is an algorithm used to traverse or search tree or grap
 
 ### 14 When would you use DFS?
 
-complete
+- Graph Traversal.
+- Path Finding: searching for a path between two nodes in a graph.
+- Topological Sorting: using it on a directed acyclic graph (DAG).
+- Maze Solving: exploring all possible paths until you find a solution.
+- Detecting Cycles: detecting cycles in a graph, which is essential in tasks like deadlock detection or cycle detection in resource allocation systems.
 
 ### 15 What is breadth-first search (BFS) algorithm?
 
