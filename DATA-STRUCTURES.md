@@ -235,7 +235,7 @@ Hash tables use hashing to map keys to indices in an array, providing constant-t
 
 ### 13 What is depth-first search (DFS) algorithm?
 
-complete
+Depth-first search (DFS) is an algorithm used to traverse or search tree or graph data structures. It starts at a designated node and explores as far as possible along each branch before backtracking. This approach can be implemented recursively or iteratively using a stack. DFS is often used in maze solving, topological sorting, and graph traversal problems.
 
 ### 14 When would you use DFS?
 
