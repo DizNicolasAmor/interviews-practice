@@ -231,7 +231,7 @@ It is a data structure that stores key-value pairs, allowing for efficient looku
 
 ### 12 How does a Hash Table hashing help in data retrieval?
 
-complete
+Hash tables use hashing to map keys to indices in an array, providing constant-time access to values associated with keys. The hash function converts the key into a hash code, which determines the index where the value is stored. This enables efficient data retrieval as it eliminates the need for sequential search and allows direct access to stored values based on their keys. However, collisions can occur when two keys hash to the same index, which must be resolved using collision resolution techniques such as chaining or open addressing.
 
 ### 13 What is depth-first search (DFS) algorithm?
 
