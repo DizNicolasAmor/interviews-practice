@@ -247,11 +247,11 @@ Depth-first search (DFS) is an algorithm used to traverse or search tree or grap
 
 ### 15 What is breadth-first search (BFS) algorithm?
 
-It is an algorithm used to traverse or search tree or graph data structures. It starts at a designated node and explores all neighbor nodes at the current depth before moving to the next depth level. This approach is implemented using a queue data structure and ensures that nodes are visited in increasing order of distance from the starting node. BFS is often used in finding the shortest path, network analysis, and puzzle-solving problems.
+It is an algorithm used to traverse or search tree or graph data structures. It starts at a designated node and explores all neighbor nodes at the current depth before moving to the next depth level. This approach is implemented using a queue data structure and ensures that nodes are visited in increasing order of distance from the starting node.
 
 ### 16 When would you use BFS?
 
-complete
+BFS is often used in finding the shortest path, network analysis, and puzzle-solving problems.
 
 ### 17 How to implement a stack using an array?
 
