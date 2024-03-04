@@ -255,7 +255,11 @@ BFS is often used in finding the shortest path, network analysis, and puzzle-sol
 
 ### 17 How to implement a stack using an array?
 
-complete
+- Maintaining a pointer to the top of the stack.
+- Using array indices to represent stack elements.
+- "Push" operations involve incrementing the pointer and placing the new element at the top of the stack.
+- "Pop" operations decrement the pointer to remove the top element.
+- "Stack overflow" and "Stack underflow" should be considered by checking the stack size and pointer position.
 
 ### 18 How to implement a stack using a linked list?
 
