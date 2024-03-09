@@ -263,7 +263,10 @@ BFS is often used in finding the shortest path, network analysis, and puzzle-sol
 
 ### 18 How to implement a stack using a linked list?
 
-complete
+- Define a Node structure containing the data and a pointer to the next node.
+- Maintain a pointer to the top of the stack, which initially points to NULL.
+- Push operations involve creating a new node with the given data, setting its next pointer to point to the current top node, and updating the top pointer to the new node.
+- Pop operations remove the top node by updating the top pointer to point to the next node in the list.
 
 ### 19 What is a heap?
 
