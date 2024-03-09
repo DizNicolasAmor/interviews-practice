@@ -270,7 +270,7 @@ BFS is often used in finding the shortest path, network analysis, and puzzle-sol
 
 ### 19 What is a heap?
 
-complete
+A heap is a specialized binary tree-based data structure that satisfies the heap property. In a min-heap, every parent node has a value less than or equal to its children, while in a max-heap, every parent node has a value greater than or equal to its children. Heaps are commonly used to implement priority queues, where the highest (or lowest) priority element can be efficiently retrieved. Heaps support efficient insertion, deletion, and retrieval of the highest (or lowest) priority element, typically in logarithmic time complexity.
 
 ### 20 What is a trie data structure, and how is it used in string manipulation and search operations?
 
