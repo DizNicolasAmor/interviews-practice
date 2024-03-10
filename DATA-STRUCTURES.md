@@ -278,7 +278,7 @@ A trie (pronounced "try") is a tree-like data structure used for storing a dynam
 
 ### 21 What is dynamic programming?
 
-complete
+It is a method used to solve problems by breaking them down into smaller ones and solving each subproblem only once. It involves storing the solutions to subproblems in a table to avoid redundant calculations, allowing for efficient computation of the overall solution.
 
 ### 22 What is the difference between a Hash Table and an Array?
 
