@@ -274,7 +274,7 @@ A heap is a specialized binary tree-based data structure that satisfies the heap
 
 ### 20 What is a trie data structure, and how is it used in string manipulation and search operations?
 
-complete
+A trie (pronounced "try") is a tree-like data structure used for storing a dynamic set of strings. Each node in the trie represents a single character, and paths from the root to leaf nodes form words. Tries are commonly used in string manipulation and search operations, such as autocomplete, spell checking, and prefix matching. By storing prefixes of words efficiently, tries enable fast retrieval and manipulation of strings, making them suitable for applications that involve extensive string processing and search tasks.
 
 ### 21 What is dynamic programming?
 
