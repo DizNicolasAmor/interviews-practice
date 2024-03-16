@@ -282,7 +282,11 @@ It is a method used to solve problems by breaking them down into smaller ones an
 
 ### 22 What is the difference between a Hash Table and an Array?
 
-complete
+- Organization: while the array is a linear data structure, the Hash Table is a data structure that stores key-value pairs.
+- Access Time: in an array is O(1), while in a Hash Table it can be constant on average O(1), but it can degrade to O(n) in the worst case if many keys hash to the same index, causing collisions.
+- Search Time: in an array is O(n) while  in the Hash Table can be done in constant time on average O(1). However, in the worst case, it can degrade to O(n) if many collisions occur.
+- Memory Usage: while arrays typically require contiguous memory allocation, Hash tables can be more memory-efficient than arrays because they dynamically allocate memory only for the key-value pairs they store.
+- Insertion and Deletion: in an array can be less efficient.
 
 <a name="ADVANCED" />
 
