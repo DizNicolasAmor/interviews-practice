@@ -294,8 +294,30 @@ It is a method used to solve problems by breaking them down into smaller ones an
 
 ### 23 How would you implement a simple sorting algorithm?
 
-complete
+One simple sorting algorithm is the Bubble Sort. It works by repeatedly swapping adjacent elements if they are in the wrong order. This process continues until the entire array is sorted. Although not the most efficient, it's straightforward to implement.
 
+  ```
+  function bubbleSort(array) {
+      const n = array.length;
+      let swapped = true;
+
+      while (swapped) {
+          swapped = false;
+          for (let i = 0; i < n - 1; i++) {
+              if (array[i] > array[i + 1]) {
+                  // Swap elements
+                  let temp = array[i];
+                  array[i] = array[i + 1];
+                  array[i + 1] = temp;
+                  swapped = true;
+              }
+          }
+      }
+
+      return array;
+  }
+  ```
+`
 ### 24 Can you describe the basic principles of recursion?
 
 complete
