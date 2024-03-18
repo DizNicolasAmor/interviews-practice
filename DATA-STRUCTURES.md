@@ -317,10 +317,10 @@ One simple sorting algorithm is the Bubble Sort. It works by repeatedly swapping
       return array;
   }
   ```
-`
+
 ### 24 Can you describe the basic principles of recursion?
 
-complete
+Recursion is a programming technique where a function calls itself to solve a problem. It consists of two fundamental principles: base case(s), which define the terminating condition to prevent infinite recursion, and recursive case(s), where the function calls itself with modified inputs to approach the base case(s).
 
 ### 25 How do you detect cycles in a directed graph?
 
