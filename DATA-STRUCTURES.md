@@ -324,7 +324,8 @@ Recursion is a programming technique where a function calls itself to solve a pr
 
 ### 25 How do you detect cycles in a directed graph?
 
-complete
+- You can use **depth-first search (DFS)**. During the traversal, maintain a visited set to keep track of nodes visited on the current path. If a node is visited again while still being explored, a cycle is detected.
+- Alternatively, you can use a technique like **Tarjan's algorithm**, which utilizes back edges to identify cycles efficiently. These approaches leverage graph traversal to detect cycles by identifying nodes visited more than once within the same path.
 
 ### 26 What is a balanced binary search tree?
 
