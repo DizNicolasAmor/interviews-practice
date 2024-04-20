@@ -333,7 +333,11 @@ A balanced binary search tree is a binary tree data structure where the heights 
 
 ### 27 What are the principles of divide and conquer algorithms?
 
-complete
+Divide and conquer algorithms follow three key principles:
+
+- Divide: Break the problem into smaller subproblems of the same type.
+- Conquer: Solve each subproblem recursively.
+- Combine: Merge the solutions of subproblems to solve the original problem.
 
 ### 28 What are persistent data structures?
 
