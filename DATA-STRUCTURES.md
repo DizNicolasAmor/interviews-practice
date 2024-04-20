@@ -341,7 +341,7 @@ Divide and conquer algorithms follow three key principles:
 
 ### 28 What are persistent data structures?
 
-complete
+Persistent data structures are those that preserve previous versions of themselves even after undergoing modifications. When a persistent data structure is updated, it creates a new version while retaining the old one. This allows for efficient access to both the current and past states of the data structure, facilitating tasks like undo operations or time-travel queries. Examples include persistent linked lists, trees, and hash maps.
 
 ### 29 What is a suffix tree?
 
