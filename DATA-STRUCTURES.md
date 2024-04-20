@@ -329,7 +329,7 @@ Recursion is a programming technique where a function calls itself to solve a pr
 
 ### 26 What is a balanced binary search tree?
 
-complete
+A balanced binary search tree is a binary tree data structure where the heights of the left and right subtrees of any node differ by at most one. This balance ensures that operations such as insertion, deletion, and search have logarithmic time complexity, making the tree efficient for storing and retrieving data. Common types include AVL trees, red-black trees, and splay trees.
 
 ### 27 What are the principles of divide and conquer algorithms?
 
