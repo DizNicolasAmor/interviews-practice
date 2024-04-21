@@ -357,7 +357,10 @@ Segment trees are commonly used in applications such as range queries (e.g., fin
 
 ### 31 How do you implement a trie data structure efficiently?
 
-complete
+1. Use a node-based structure where each node represents a character in the trie.
+2. Use an array or hash map to store child nodes, enabling quick lookup.
+3. Implement methods for insertion, search, and deletion by traversing the trie based on input characters, creating nodes as needed.
+4. Optimize memory usage by compressing branches with a single child into a single node (e.g., using a map instead of an array for child nodes). This reduces the trie's memory footprint while maintaining its functionality.
 
 ### 32 What are bloom filters and how do they work?
 
