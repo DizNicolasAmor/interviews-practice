@@ -345,7 +345,9 @@ Persistent data structures are those that preserve previous versions of themselv
 
 ### 29 What is a suffix tree?
 
-complete
+It is a data structure used to efficiently store and search for substrings within a given string. It represents all suffixes of the string as paths from the root to leaf nodes, with each path corresponding to a unique suffix.
+
+Suffix trees are commonly used in string algorithms, such as substring search, pattern matching, and sequence analysis, due to their compact representation and fast query times.
 
 ### 30 What is a segment tree and its applications?
 
