@@ -351,7 +351,9 @@ Suffix trees are commonly used in string algorithms, such as substring search, p
 
 ### 30 What is a segment tree and its applications?
 
-complete
+It is a tree data structure used for storing intervals or segments of data. Each node in the tree represents a segment of the original data, and the tree's structure allows for efficient querying and updating of segments.
+
+Segment trees are commonly used in applications such as range queries (e.g., finding minimum, maximum, or sum within a given range), interval overlap detection, and dynamic programming optimizations for problems involving intervals or ranges.
 
 ### 31 How do you implement a trie data structure efficiently?
 
