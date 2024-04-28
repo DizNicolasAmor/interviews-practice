@@ -1,0 +1,45 @@
+# SEO
+
+## TABLE OF CONTENTS
+
+- [BASIC](#BASIC)
+  - 1 What is SEO
+  - 2 Why is it important for websites?
+  - 3 What are the primary components of on-page SEO?
+  - 4 What is the difference between on-page and off-page SEO?
+  - 5 What is keyword research?
+  - 6 What are meta tags, and how do they impact SEO?
+  - 7 What is the importance of title tags and meta descriptions?
+  - 8 What is search engine indexing?
+  - 9 What is the purpose of XML sitemaps in SEO?
+  - 10 How does website speed affect SEO?
+  - What is the difference between HTTP and HTTPS?
+
+- [INTERMEDIATE](#INTERMEDIATE)
+  - 12
+- [ADVANCED](#ADVANCED)
+  - 23
+
+<a name="BASIC" />
+
+## BASIC
+
+### 1
+
+complete
+
+<a name="INTERMEDIATE" />
+
+## INTERMEDIATE
+
+### 12
+
+complete.
+
+<a name="ADVANCED" />
+
+## ADVANCED
+
+### 23
+
+complete
