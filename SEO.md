@@ -17,6 +17,18 @@
 
 - [INTERMEDIATE](#INTERMEDIATE)
   - 12
+  What is mobile-first indexing, and how does it affect SEO?
+  Explain the concept of backlinking and its significance for SEO.
+  How do you evaluate the quality of a backlink?
+  What are anchor texts, and how do they influence SEO?
+  How does social media activity impact SEO?
+  What is Google PageRank, and how does it influence search engine rankings?
+  How do you optimize images for SEO?
+  Explain the concept of duplicate content and its impact on SEO.
+  What are canonical tags, and when should they be used?
+  What is the importance of user experience (UX) in SEO?
+  How do you optimize a website for local SEO?
+
 - [ADVANCED](#ADVANCED)
   - 23
 
