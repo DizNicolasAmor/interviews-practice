@@ -13,8 +13,7 @@
   - 8 What is search engine indexing?
   - 9 What is the purpose of XML sitemaps in SEO?
   - 10 How does website speed affect SEO?
-  - What is the difference between HTTP and HTTPS?
-
+  - 11 What is the difference between HTTP and HTTPS?
 - [INTERMEDIATE](#INTERMEDIATE)
   - 12 What is mobile-first indexing?
   - 13 What is backlinking?
