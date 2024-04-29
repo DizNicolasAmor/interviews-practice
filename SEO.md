@@ -21,13 +21,12 @@
   - 14 How to evaluate the quality of a backlink?
   - 15 What are anchor texts, and how do they influence SEO?
   - 16 How does social media activity impact SEO?
-  What is Google PageRank, and how does it influence search engine rankings?
-  How do you optimize images for SEO?
-  Explain the concept of duplicate content and its impact on SEO.
-  What are canonical tags, and when should they be used?
-  What is the importance of user experience (UX) in SEO?
-  How do you optimize a website for local SEO?
-
+  - 17 What is Google PageRank?
+  - 18 How do you optimize images for SEO?
+  - 19 How duplicated content impacts on SEO?
+  - 20 What are canonical tags, and when should they be used?
+  - 21 What is the importance of user experience (UX) in SEO?
+  - 22 How do you optimize a website for local SEO?
 - [ADVANCED](#ADVANCED)
   - 23
 
