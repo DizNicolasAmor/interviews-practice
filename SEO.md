@@ -16,12 +16,11 @@
   - What is the difference between HTTP and HTTPS?
 
 - [INTERMEDIATE](#INTERMEDIATE)
-  - 12
-  What is mobile-first indexing, and how does it affect SEO?
-  Explain the concept of backlinking and its significance for SEO.
-  How do you evaluate the quality of a backlink?
-  What are anchor texts, and how do they influence SEO?
-  How does social media activity impact SEO?
+  - 12 What is mobile-first indexing?
+  - 13 What is backlinking?
+  - 14 How to evaluate the quality of a backlink?
+  - 15 What are anchor texts, and how do they influence SEO?
+  - 16 How does social media activity impact SEO?
   What is Google PageRank, and how does it influence search engine rankings?
   How do you optimize images for SEO?
   Explain the concept of duplicate content and its impact on SEO.
