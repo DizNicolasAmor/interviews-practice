@@ -33,7 +33,47 @@
 
 ## BASIC
 
-### 1
+### 1 What is SEO
+
+complete
+
+### 2 Why is it important for websites?
+
+complete
+
+### 3 What are the primary components of on-page SEO?
+
+complete
+
+### 4 What is the difference between on-page and off-page SEO?
+
+complete
+
+### 5 What is keyword research?
+
+complete
+
+### 6 What are meta tags, and how do they impact SEO?
+
+complete
+
+### 7 What is the importance of title tags and meta descriptions?
+
+complete
+
+### 8 What is search engine indexing?
+
+complete
+
+### 9 What is the purpose of XML sitemaps in SEO?
+
+complete
+
+### 10 How does website speed affect SEO?
+
+complete
+
+### 11 What is the difference between HTTP and HTTPS?
 
 complete
 
