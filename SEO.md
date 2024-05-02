@@ -82,16 +82,48 @@ complete
 ## INTERMEDIATE
 
 ### 12 What is mobile-first indexing?
+
+complete
+
 ### 13 What is backlinking?
+
+complete
+
 ### 14 How to evaluate the quality of a backlink?
+
+complete
+
 ### 15 What are anchor texts, and how do they influence SEO?
+
+complete
+
 ### 16 How does social media activity impact SEO?
+
+complete
+
 ### 17 What is Google PageRank?
+
+complete
+
 ### 18 How do you optimize images for SEO?
+
+complete
+
 ### 19 How duplicated content impacts on SEO?
+
+complete
+
 ### 20 What are canonical tags, and when should they be used?
+
+complete
+
 ### 21 What is the importance of user experience (UX) in SEO?
+
+complete
+
 ### 22 How do you optimize a website for local SEO?
+
+complete
 
 <a name="ADVANCED" />
 
