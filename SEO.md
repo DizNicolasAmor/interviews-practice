@@ -28,6 +28,16 @@
   - 22 How do you optimize a website for local SEO?
 - [ADVANCED](#ADVANCED)
   - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
 
 <a name="BASIC" />
 
