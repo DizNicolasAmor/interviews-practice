@@ -35,9 +35,9 @@
   - 28 What is user-generated content (UGC) and community engagement on SEO?
   - 29 What strategies use for managing and leveraging UGC effectively?
   - 30 What are user signals, such as click-through rate (CTR), bounce rate, and dwell time?
-  - 31
-  - 32
-  - 33
+  - 31 What is semantic search?
+  - 32 How semantic search related to machine learning and natural language processing (NLP)?
+  - 33 Do you know a semantic search optimization strategy?
 
 <a name="BASIC" />
 
