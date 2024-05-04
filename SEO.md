@@ -27,9 +27,9 @@
   - 21 What is the importance of user experience (UX) in SEO?
   - 22 How do you optimize a website for local SEO?
 - [ADVANCED](#ADVANCED)
-  - 23
-  - 24
-  - 25
+  - 23 How do you conduct a comprehensive SEO audit for a large website?
+  - 24 How to implement hreflang tags for multilingual websites?
+  - 25 What is search intent?
   - 26
   - 27
   - 28
