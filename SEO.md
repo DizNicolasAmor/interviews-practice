@@ -3,7 +3,7 @@
 ## TABLE OF CONTENTS
 
 - [BASIC](#BASIC)
-  - 1 What is SEO
+  - 1 What is SEO?
   - 2 Why is it important for websites?
   - 3 What are the primary components of on-page SEO?
   - 4 What is the difference between on-page and off-page SEO?
@@ -43,7 +43,7 @@
 
 ## BASIC
 
-### 1 What is SEO
+### 1 What is SEO?
 
 complete
 
