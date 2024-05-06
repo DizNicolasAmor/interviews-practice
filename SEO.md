@@ -45,7 +45,7 @@
 
 ### 1 What is SEO?
 
-complete
+SEO, or Search Engine Optimization, refers to the practice of optimizing web content to improve its visibility and ranking in search engine results pages (SERPs). This involves various techniques such as keyword research, on-page optimization, link building, and technical optimization to increase organic traffic from search engines.
 
 ### 2 Why is it important for websites?
 
