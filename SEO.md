@@ -53,7 +53,10 @@ Because it helps them attract organic traffic from search engines, which are oft
 
 ### 3 What are the primary components of on-page SEO?
 
-complete
+- **Content optimization**: Creating high-quality, relevant, and valuable content that targets specific keywords and provides answers to users' queries.
+- **Meta tags optimization**: Optimizing meta titles, descriptions, and headers with relevant keywords to improve click-through rates and search engine visibility.
+- **URL structure optimization**: Creating clean, descriptive URLs that include target keywords and provide clear information about the page's content.
+- **Internal linking**: Building a logical and organized internal linking structure to help search engines crawl and index pages effectively, while also improving user navigation and engagement on the website.
 
 ### 4 What is the difference between on-page and off-page SEO?
 
