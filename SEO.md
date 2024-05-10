@@ -65,7 +65,9 @@ Because it helps them attract organic traffic from search engines, which are oft
 
 ### 5 What is keyword research?
 
-complete
+Keyword research is the process of identifying and analyzing the specific words and phrases that users type into search engines. It involves researching relevant keywords and phrases, assessing their search volume, competition, and relevance to the website's content, and selecting the most appropriate ones to target in on-page optimization efforts.
+
+Effective keyword research helps websites attract targeted traffic, improve search engine rankings, and align their content with the interests and needs of their target audience.
 
 ### 6 What are meta tags, and how do they impact SEO?
 
