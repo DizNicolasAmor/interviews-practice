@@ -60,7 +60,8 @@ Because it helps them attract organic traffic from search engines, which are oft
 
 ### 4 What is the difference between on-page and off-page SEO?
 
-complete
+- On-page SEO refers to optimization efforts made directly on a website to improve its search engine visibility and ranking. This includes optimizing content, meta tags, URL structure, and internal linking.
+- Off-page SEO, on the other hand, involves strategies implemented outside of the website, such as link building, social media marketing, and online reputation management.
 
 ### 5 What is keyword research?
 
