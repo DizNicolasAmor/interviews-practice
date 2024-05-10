@@ -71,7 +71,7 @@ Effective keyword research helps websites attract targeted traffic, improve sear
 
 ### 6 What are meta tags, and how do they impact SEO?
 
-complete
+Meta tags are HTML elements that provide information about a web page's content to search engines and website visitors. Common meta tags include meta titles, meta descriptions, and meta keywords. These tags impact SEO by influencing how search engines index and display a website in search results. Well-optimized meta tags can improve click-through rates, keyword relevance, and overall search engine visibility, ultimately helping websites attract more organic traffic and improve their rankings in search results pages.
 
 ### 7 What is the importance of title tags and meta descriptions?
 
