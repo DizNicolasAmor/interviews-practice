@@ -75,7 +75,7 @@ Meta tags are HTML elements that provide information about a web page's content 
 
 ### 7 What is the importance of title tags and meta descriptions?
 
-complete
+They directly impact a website's search engine visibility and click-through rates. Title tags appear as the clickable headline in search engine results pages (SERPs) and help users understand the content of a web page at a glance. Meta descriptions provide a brief summary of the page's content below the title tag, influencing users' decision to click through to the website.
 
 ### 8 What is search engine indexing?
 
