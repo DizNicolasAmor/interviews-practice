@@ -79,7 +79,7 @@ They directly impact a website's search engine visibility and click-through rate
 
 ### 8 What is search engine indexing?
 
-complete
+It is the process by which search engines crawl and analyze web pages to categorize and store them in their databases or indexes. During indexing, search engine bots, also known as crawlers or spiders, systematically visit and analyze web pages, following links from one page to another and extracting information about the content, structure, and relevance of each page. This information is then used to create an index of web pages.
 
 ### 9 What is the purpose of XML sitemaps in SEO?
 
