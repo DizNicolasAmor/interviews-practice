@@ -83,7 +83,7 @@ It is the process by which search engines crawl and analyze web pages to categor
 
 ### 9 What is the purpose of XML sitemaps?
 
-complete
+XML sitemaps serve as a blueprint of a website's structure and content for search engines. They list all the URLs of a website, along with additional metadata such as the last modified date and priority of each page. XML sitemaps help search engines crawl and index a website more efficiently by providing a comprehensive list of URLs and indicating which pages are most important or have been updated recently.
 
 ### 10 How does website speed affect SEO?
 
