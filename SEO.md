@@ -87,7 +87,7 @@ XML sitemaps serve as a blueprint of a website's structure and content for searc
 
 ### 10 How does website speed affect SEO?
 
-complete
+It directly influences user experience and search engine rankings. Search engines prioritize websites with faster loading times in their rankings, as they aim to deliver the best possible user experience to their users.
 
 ### 11 What is the difference between HTTP and HTTPS?
 
