@@ -91,7 +91,8 @@ It directly influences user experience and search engine rankings. Search engine
 
 ### 11 What is the difference between HTTP and HTTPS?
 
-complete
+- HTTP (Hypertext Transfer Protocol) is the standard protocol used for transmitting data between a web server and a web browser. It operates over plain text and lacks encryption, making it susceptible to interception and manipulation by attackers.
+- HTTPS (Hypertext Transfer Protocol Secure) is a secure version of HTTP that uses SSL/TLS encryption to secure data transmitted between the server and the client, ensuring privacy, integrity, and authenticity. Unlike HTTP, HTTPS provides a secure and encrypted connection, which is essential for protecting sensitive information such as passwords, credit card details, and personal data exchanged between users and websites.
 
 <a name="INTERMEDIATE" />
 
