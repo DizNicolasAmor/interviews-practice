@@ -104,7 +104,7 @@ Mobile-first indexing is a practice adopted by search engines where the mobile v
 
 ### 13 What is backlinking?
 
-complete
+It is the practice of obtaining links from external websites to your own website. Backlinks serve as votes of confidence or endorsements from other sites, indicating to search engines that your website is credible and authoritative. High-quality backlinks from reputable websites can improve your website's search engine rankings and visibility, as search engines consider backlinks as a signal of a website's relevance, trustworthiness, and popularity. Therefore, backlinking is an essential aspect of off-page SEO strategy for improving organic search traffic and building domain authority.
 
 ### 14 How to evaluate the quality of a backlink?
 
