@@ -100,7 +100,7 @@ It directly influences user experience and search engine rankings. Search engine
 
 ### 12 What is mobile-first indexing?
 
-complete
+Mobile-first indexing is a practice adopted by search engines where the mobile version of a website becomes the primary version for indexing and ranking in search results. This approach reflects the increasing importance of mobile devices in internet usage and ensures that mobile-friendly websites are prioritized in search results, leading to better user experience for mobile users.
 
 ### 13 What is backlinking?
 
