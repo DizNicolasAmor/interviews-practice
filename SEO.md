@@ -124,7 +124,7 @@ Social media activity can impact SEO indirectly by increasing brand visibility, 
 
 ### 17 What is Google PageRank?
 
-complete
+Google PageRank is an algorithm used by Google Search to rank web pages in their search engine results. It evaluates the quantity and quality of links to a page to determine its relative importance and authority. The basic idea is that a page is considered more important if it is linked to by many other pages, particularly if those linking pages themselves have high PageRank.
 
 ### 18 How do you optimize images for SEO?
 
