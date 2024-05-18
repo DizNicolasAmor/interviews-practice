@@ -120,7 +120,7 @@ Anchor texts are the clickable words or phrases in a hyperlink that direct users
 
 ### 16 How does social media activity impact SEO?
 
-complete
+Social media activity can impact SEO indirectly by increasing brand visibility, driving traffic to your website, and generating backlinks. When content is shared and engaged with on social media, it can attract more visitors, which enhances your site's authority and relevance.
 
 ### 17 What is Google PageRank?
 
