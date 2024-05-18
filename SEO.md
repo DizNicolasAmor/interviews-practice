@@ -116,7 +116,7 @@ It is the practice of obtaining links from external websites to your own website
 
 ### 15 What are anchor texts, and how do they influence SEO?
 
-complete
+Anchor texts are the clickable words or phrases in a hyperlink that direct users to another webpage. They influence SEO by providing context to search engines about the content of the linked page. Relevant and descriptive anchor texts help search engines understand the topic of the destination page, potentially improving its ranking for related keywords. Proper use of anchor texts can enhance user experience and contribute to better search engine visibility.
 
 ### 16 How does social media activity impact SEO?
 
