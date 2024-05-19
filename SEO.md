@@ -140,7 +140,13 @@ Duplicated content negatively impacts SEO because search engines may struggle to
 
 ### 20 What are canonical tags, and when should they be used?
 
-complete
+Canonical tags are HTML elements used to indicate the preferred version of a web page when multiple pages have similar or duplicate content. By specifying a canonical URL, webmasters signal to search engines which version should be indexed and considered the authoritative source. Canonical tags should be used when:
+
+- You have duplicate or similar content across different URLs.
+- You want to consolidate link equity to a single URL.
+- You need to manage URL parameters that create duplicate content.
+- You're dealing with syndicated content that appears on multiple sites.
+- Proper use of canonical tags helps prevent duplicate content issues and improves SEO by consolidating ranking signals.
 
 ### 21 What is the importance of user experience (UX) in SEO?
 
