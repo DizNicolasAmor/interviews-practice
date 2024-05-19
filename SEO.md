@@ -128,7 +128,11 @@ Google PageRank is an algorithm used by Google Search to rank web pages in their
 
 ### 18 How do you optimize images for SEO?
 
-complete
+- Use descriptive, keyword-rich file names to help search engines understand the image content.
+- Compress images to reduce file size and improve page load times without compromising quality.
+- Add alt text with relevant keywords to provide context for search engines and improve accessibility.
+- Use appropriate image formats (e.g., JPEG for photos, PNG for graphics) for better quality and performance.
+- Implement responsive images using srcset to ensure optimal display on different devices and screen sizes.
 
 ### 19 How duplicated content impacts on SEO?
 
