@@ -136,7 +136,7 @@ Google PageRank is an algorithm used by Google Search to rank web pages in their
 
 ### 19 How duplicated content impacts on SEO?
 
-complete
+Duplicated content negatively impacts SEO because search engines may struggle to determine which version of the content is the original or most relevant, leading to potential ranking issues. It can dilute link equity, as inbound links may be spread across multiple versions of the same content. Additionally, search engines may penalize websites for having significant amounts of duplicate content, resulting in lower rankings or exclusion from search results altogether.
 
 ### 20 What are canonical tags, and when should they be used?
 
