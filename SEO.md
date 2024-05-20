@@ -154,7 +154,11 @@ Search engines prioritize sites that offer a positive UX. Features like fast loa
 
 ### 22 How do you optimize a website for local SEO?
 
-complete
+- Claim and optimize your Google My Business listing with accurate information and relevant keywords.
+- Include your business's name, address, and phone number (NAP) consistently across your website and other online directories.
+- Use local keywords and create location-specific content to attract local search traffic.
+- Encourage and manage customer reviews to enhance your local reputation.
+- Build local backlinks from reputable local websites and organizations to boost local search visibility.
 
 <a name="ADVANCED" />
 
