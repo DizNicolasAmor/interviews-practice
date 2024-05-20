@@ -150,7 +150,7 @@ Canonical tags are HTML elements used to indicate the preferred version of a web
 
 ### 21 What is the importance of user experience (UX) in SEO?
 
-complete
+Search engines prioritize sites that offer a positive UX. Features like fast loading times, mobile-friendliness, intuitive navigation, and high-quality content contribute to better UX, ultimately improving a site's search engine rankings and driving more organic traffic.
 
 ### 22 How do you optimize a website for local SEO?
 
