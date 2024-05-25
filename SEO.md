@@ -174,7 +174,11 @@ Assess backlink profile and identify opportunities for high-quality link buildin
 
 ###  24 How to implement hreflang tags for multilingual websites?
 
-complete
+```
+<link rel="alternate" href="https://example.com/en/" hreflang="en" />
+<link rel="alternate" href="https://example.com/es/" hreflang="es" />
+<link rel="alternate" href="https://example.com/fr/" hreflang="fr" />
+```
 
 ###  25 What is search intent?
 
