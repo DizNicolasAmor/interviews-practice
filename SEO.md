@@ -182,7 +182,12 @@ Assess backlink profile and identify opportunities for high-quality link buildin
 
 ###  25 What is search intent?
 
-complete
+It refers to the underlying goal that a user has when entering a query into a search engine. Understanding search intent is crucial for optimizing content to meet users' needs and improving search engine rankings. Search intent can be categorized into four main types:
+
+- Informational Intent: Users are looking for information or answers to specific questions (e.g., "How to bake a cake").
+- Navigational Intent: Users want to find a particular website or page (e.g., "Facebook login").
+- Transactional Intent: Users are looking to make a purchase or complete a transaction (e.g., "buy running shoes online").
+- Commercial Investigation: Users are researching products or services before making a purchase decision (e.g., "best smartphones 2024").
 
 ###  26 How do you identify and recover from Google penalties, such as Panda and Penguin?
 
