@@ -166,7 +166,11 @@ Search engines prioritize sites that offer a positive UX. Features like fast loa
 
 ###  23 How do you conduct a comprehensive SEO audit for a large website?
 
-complete
+- Use tools like Google Analytics, Google Search Console, and specialized SEO software (e.g., SEMrush, Ahrefs) to gather data.
+- Evaluate site structure, URL hierarchy, and internal linking for optimal crawlability and indexation.
+- Analyze on-page elements such as title tags, meta descriptions, headers, and content quality.
+- Check for technical issues like broken links, page speed, mobile-friendliness, and schema markup.
+Assess backlink profile and identify opportunities for high-quality link building.
 
 ###  24 How to implement hreflang tags for multilingual websites?
 
