@@ -198,7 +198,12 @@ It refers to the underlying goal that a user has when entering a query into a se
 
 ###  27 What preventive measures can be taken to avoid them?
 
-complete
+- High-Quality Content.
+- Ethical Link Building.
+- Good User Experience.
+- Technical SEO.
+- Monitor SEO Performance.
+- Adhere to Google's Guidelines.
 
 ###  28 What is user-generated content (UGC) and community engagement on SEO?
 
