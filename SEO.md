@@ -235,7 +235,7 @@ User signals are behavioral metrics that search engines use to gauge user intera
 
 ###  31 What is semantic search?
 
-complete
+Semantic search improves search accuracy by understanding the context, intent, and meaning behind user queries using natural language processing and machine learning. It interprets relationships between words and concepts, delivering more relevant results. This approach enhances the search experience by providing precise answers.
 
 ###  32 How semantic search related to machine learning and natural language processing (NLP)?
 
