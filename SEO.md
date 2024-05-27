@@ -227,7 +227,11 @@ Impact on SEO:
 
 ###  30 What are user signals, such as click-through rate (CTR), bounce rate, and dwell time?
 
-complete
+User signals are behavioral metrics that search engines use to gauge user interaction and satisfaction with web content. Key user signals include:
+
+- Click-Through Rate (CTR): The percentage of users who click on a link in the search engine results page (SERP) to visit a website.
+- Bounce Rate: The percentage of visitors who leave a website after viewing only one page.
+- Dwell Time: The amount of time a user spends on a webpage before returning to the SERP.
 
 ###  31 What is semantic search?
 
