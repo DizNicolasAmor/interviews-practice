@@ -18,3 +18,5 @@
   - [TESTING](./TESTING.md)
   - [WEB_PERFORMANCE](./WEB_PERFORMANCE.md)
 - [DATABASES](./DATABASES.md)
+- **SEO**
+  - [SEO](./SEO.md)
