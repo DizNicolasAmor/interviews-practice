@@ -3,6 +3,7 @@
 ## TABLE OF CONTENTS
 
 - **BACKEND**
+  - [DATABASES](./DATABASES.md)
   - [DATA STRUCTURES](./DATA-STRUCTURES.md)
   - [OOP](./OOP.md)
   - [RUST](./RUST.md)
@@ -17,6 +18,5 @@
   - [REACT](./REACT.md)
   - [TESTING](./TESTING.md)
   - [WEB_PERFORMANCE](./WEB_PERFORMANCE.md)
-- [DATABASES](./DATABASES.md)
 - **SEO**
   - [SEO](./SEO.md)
